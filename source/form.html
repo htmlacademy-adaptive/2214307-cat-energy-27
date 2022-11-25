@@ -33,7 +33,7 @@
       <section>
         <h1>Подбор программы</h1>
         <p>Заполните анкету, и мы подберем программу питания для вашего кота</p>
-        <form action="">
+        <form action="" method="get">
           <fieldset>
             <ul>
               <li>
@@ -79,14 +79,58 @@
             </ul>
           </fieldset>
           <fieldset>
-            <h2>Контактные данные (владельца кота)</h2>
+            <legend>Контактные данные (владельца кота)</legend>
             <label for="">
               e-mail:*
               <input type="text" id="" placeholder="введите email" value="kuklachev@gmail.com">
             </label>
+            <label for="">
+              телефон:*
+              <input type="text" id="" placeholder="введите email" value="8 (960) 900-60-90">
+            </label>
           </fieldset>
-
+          <fieldset>
+            <legend>Комментарий</legend>
+            <input type="text" id="" placeholder="расскажите обо всех повадках кота">
+          </fieldset>
+          <fieldset>
+            <legend>Дополнительно</legend>
+            <ul>
+              <li>
+                <label for="">
+                  <input type="checkbox" name="" value="" checked>
+                  сахарозаменитель
+                </label>
+              </li>
+              <li>
+                <label for="">
+                  <input type="checkbox" name="" value="">
+                  питьевая вода
+                </label>
+              </li>
+              <li>
+                <label for="">
+                  <input type="checkbox" name="" value="">
+                  молоко
+                </label>
+              </li>
+              <li>
+                <label for="">
+                  <input type="checkbox" name="" value="">
+                  витамины
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <button type="submit" value="">отправить заявку</button>
+          </fieldset>
         </form>
+        <p class="stats__legend">
+          <small>
+            * — Обязательные поля
+          </small>
+        </p>
       </section>
     </main>
 
