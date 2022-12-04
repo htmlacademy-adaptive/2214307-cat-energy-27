@@ -1,0 +1,27 @@
+.cat {
+  background-color: #eaeaea;
+}
+
+.cat-story__title {
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.cat-story__description {
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.cat__title {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}

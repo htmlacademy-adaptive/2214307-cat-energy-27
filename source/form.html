@@ -42,20 +42,21 @@
         <form class="program__form" action="" method="get">
           <fieldset class="general">
             <ul class="general__list">
+              <!-- как выровнить формы как в макете? -->
               <li class="general__item text-forms">
-                <label for="cat-name">
+                <label class="text-forms__label" for="cat-name">
                   имя:*
                   <input class="text-forms__field" type="text" id="cat-name" placeholder="введите имя" value="Барсик">
                 </label>
               </li>
               <li class="general__item text-forms">
-                <label for="kg">
+                <label class="text-forms__label" for="kg">
                   вес (кг):*
                   <input class="text-forms__field" type="text" id="kg" placeholder="введите имя" value="7">
                 </label>
               </li>
               <li class="general__item text-forms">
-                <label for="year">
+                <label class="text-forms__label" for="year">
                   возраст (лет):
                   <input class="text-forms__field" type="text" id="year" placeholder="введите имя" value="7">
                 </label>
@@ -88,11 +89,11 @@
 
           <fieldset class="contacts">
             <legend class="contacts__title">Контактные данные (владельца кота)</legend>
-            <label for="email">
+            <label class="contacts__description" for="email">
               e-mail:*
               <input class="contacts__field" type="text" id="email" placeholder="введите email" value="kuklachev@gmail.com">
             </label>
-            <label for="phone">
+            <label class="contacts__description" for="phone">
               телефон:*
               <input class="contacts__field" type="text" id="phone" placeholder="введите email" value="8 (960) 900-60-90">
             </label>
@@ -105,30 +106,30 @@
           </label>
           </fieldset>
 
-          <fieldset class="additional">
-            <legend class="additional__title">Дополнительно</legend>
-            <ul class="additional__list ">
-              <li class="additional__item ">
+          <fieldset class="additional-form">
+            <legend class="additional-form__title">Дополнительно</legend>
+            <ul class="additional-form__list ">
+              <li class="additional-form__item ">
                 <label for="sugar">
-                  <input class="additional__button" type="checkbox" id="sugar" name="sweetener" value="сахарозаменитель" checked>
+                  <input class="additional-form__button" type="checkbox" id="sugar" name="sweetener" value="сахарозаменитель" checked>
                   сахарозаменитель
                 </label>
               </li>
-              <li class="additional__item ">
+              <li class="additional-form__item ">
                 <label for="water">
-                  <input class="additional__button" type="checkbox" id="water" name="h2o" value="питьевая вода">
+                  <input class="additional-form__button" type="checkbox" id="water" name="h2o" value="питьевая вода">
                   питьевая вода
                 </label>
               </li>
-              <li class="additional__item ">
+              <li class="additional-form__item ">
                 <label for="milk">
-                  <input class="additional__button" type="checkbox" name="milky" value="молоко">
+                  <input class="additional-form__button" type="checkbox" name="milky" value="молоко">
                   молоко
                 </label>
               </li>
-              <li class="additional__item ">
+              <li class="additional-form__item ">
                 <label for="vitamin">
-                  <input class="additional__button" type="checkbox" name="vitamins" value="витамины">
+                  <input class="additional-form__button" type="checkbox" name="vitamins" value="витамины">
                   витамины
                 </label>
               </li>
@@ -136,7 +137,7 @@
           </fieldset>
 
           <fieldset class="posting">
-            <a class="posting__link" href="#">отправить заявку</a>
+            <a class="posting__link button button--green" href="#">отправить заявку</a>
           </fieldset>
         </form>
         <p class="stats__legend">
@@ -151,9 +152,11 @@
 
     <section class="inviting">
       <div class="container">
+        <div class="adress">
         <h2 class="inviting__title">приглашаем к сотрудничеству дилеров!</h2>
         <p class="inviting___description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
       </div>
+    </div>
     </section>
     <section class="map">
       <span>тут будет карта</span>
@@ -163,13 +166,12 @@
       <div class="container">
         <div class="main-footer__social">
           <span>тут будет лого</span>
-          <ul>
-            <li><a href="">vk</a></li>
-            <li><a href="">ytb</a></li>
-            <li><a href="">tg</a></li>
+          <ul class="social__list social">
+            <li class="social__item"><a href="">vk</a></li>
+            <li class="social__item"><a href="">ytb</a></li>
+            <li class="social__item"><a href="">tg</a></li>
           </ul>
           <a href="">HTML Academy</a>
-
         </div>
       </div>
     </footer>

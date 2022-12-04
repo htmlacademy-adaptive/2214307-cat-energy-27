@@ -1,0 +1,28 @@
+.inviting {
+  margin: 0 auto;
+  background-color: #F2F2F2;
+  padding: 26px 20px;
+}
+
+.adress {
+  display: flex;
+}
+
+.inviting__title {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.inviting___description {
+  font-family: $ff-lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
