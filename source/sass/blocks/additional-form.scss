@@ -1,0 +1,45 @@
+.additional-form {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  margin-top: 22.75px;
+}
+
+.additional-form__title {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.additional-form__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.additional-form__button {
+  margin: 0;
+}
+
+.additional-form__description {
+  margin-left: 16px;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.additional-form__item {
+  display: flex;
+  align-items: center;
+}

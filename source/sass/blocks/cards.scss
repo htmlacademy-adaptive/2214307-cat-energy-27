@@ -1,0 +1,39 @@
+.cards {
+  margin: 19px 0;
+}
+
+.cards__button {
+  padding: 10px 109px;
+  margin: 13px 20px 14px;
+}
+
+.cards__title--show {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.cards__description {
+  font-family: $ff-lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+}
+
+.cards--show {
+  margin: 0;
+  margin-top: 89px;
+}
+
+.cards__wrapper {
+  display: flex;
+  align-items: center;
+  }

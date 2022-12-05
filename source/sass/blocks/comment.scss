@@ -1,16 +1,11 @@
-.contacts {
-  border: 0 none;
+.comment {
   padding: 0;
   margin: 0;
+  border: 0 none;
   margin-top: 26px;
-
 }
 
-.contacts__title {
-  margin: 0;
-  padding: 0;
-  margin-left: 20px;
-  margin-bottom: 35px;
+.comment__title {
   font-family: $main-font;
   font-style: normal;
   font-weight: 400;
@@ -19,14 +14,7 @@
   color: #000000;
 }
 
-.contacts__wrraper {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 14.12px;
-  align-items: center;
-}
-
-.contacts__description {
+.comment__form {
   font-family: $main-font;
   font-style: normal;
   font-weight: 400;
@@ -34,10 +22,11 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #444444;
+  margin-top: 37.73px;
 }
 
-.contacts__field {
-  font-family: $main-font;
+.comment__form::placeholder{
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
