@@ -8,131 +8,114 @@
   <base href="https://htmlacademy-adaptive.github.io/2214307-cat-energy-27/4/">
 </head>
 
-  <body class="page__body">
-    <header class="main-header">
-      <nav class="main-nav">
-        <a class="main-header__logo" href="#">
-          <img class="main-header-logo" src="../img/logo-mobile.svg" width="33.32" height="37.61"
-            alt="логотип">
-        </a>
+<body class="page__body">
+  <header class="main-header">
+    <nav class="main-nav">
+      <a class="main-header__logo" href="#">
+        <img class="main-header-logo" src="../img/logo-mobile.svg" width="34" height="38" alt="логотип">
+      </a>
 
-        <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a class="site-list__link" href="index.html">главная</a>
-            </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="catalog.html">каталог продукции</a>
-            </li>
-            <li class="site-list__item">
-              <a class="site-list__link" href="form.html">подбор программы</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a class="site-list__link" href="index.html">главная</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="catalog.html">каталог продукции</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="form.html">подбор программы</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <main class="main-form">
-      <section class="program main-form__prog">
-        <div class="container">
+  <main class="main-form">
+    <section class="program main-form__prog">
+      <div class="container">
         <h1 class="program__title">Подбор программы</h1>
         <p class="program__description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
-        <form class="program__form" action="" method="get">
+        <form class="program__form" action="#" method="get">
           <fieldset class="general">
             <ul class="general__list">
               <!-- как выровнить формы как в макете? -->
               <li class="general__item text-forms">
-                <label class="text-forms__label" for="cat-name">
-                  имя:*
-                  <input class="text-forms__field" type="text" id="cat-name" placeholder="введите имя" value="Барсик">
-                </label>
+                <label class="text-forms__label" for="cat-name">имя:*</label>
+                <input class="text-forms__field" type="text" id="cat-name" placeholder="введите имя" value="Барсик">
               </li>
               <li class="general__item text-forms">
-                <label class="text-forms__label" for="kg">
-                  вес (кг):*
-                  <input class="text-forms__field" type="text" id="kg" placeholder="введите имя" value="7">
-                </label>
+                <label class="text-forms__label" for="kg">вес (кг):*</label>
+                <input class="text-forms__field" type="text" id="kg" placeholder="введите имя" value="7">
               </li>
               <li class="general__item text-forms">
-                <label class="text-forms__label" for="year">
-                  возраст (лет):
-                  <input class="text-forms__field" type="text" id="year" placeholder="введите имя" value="7">
-                </label>
+                <label class="text-forms__label" for="year">возраст (лет):</label>
+                <input class="text-forms__field" type="text" id="year" placeholder="введите имя" value="7">
               </li>
             </ul>
           </fieldset>
 
           <fieldset class="effect">
-              <ul class="effect__list">
+            <ul class="effect__list">
               <li class="effect__item chose">
-                <label for="loss">
-                  <input class="chose__button" type="radio" id="loss" name="weight-down" value="похудение" checked>
-                  похудение
-                </label>
+                <input class="choose__button" type="radio" id="loss" name="weight-down" value="похудение" checked>
+                <label class="choose__description" for="loss">похудение</label>
               </li>
               <li>
-                <label for="up">
-                  <input class="chose__button" type="radio" id="up" name="weight-up" value="набор массы">
-                  набор массы
-                </label>
+                <input class="choose__button" type="radio" id="up" name="weight-up" value="набор массы">
+                <label class="choose__description" for="up"> набор массы </label>
               </li>
               <li class="effect__item chose">
-                <label for="nothing">
-                  <input class="chose__button" type="radio" id="nothing" name="dont know" value="не знаю (Нужен ваш совет)">
-                  не знаю (Нужен ваш совет)
-                </label>
+                <input class="choose__button" type="radio" id="nothing" name="dont know"
+                  value="не знаю (Нужен ваш совет)">
+                <label class="choose__description" for="nothing"> не знаю (Нужен ваш совет)</label>
               </li>
             </ul>
           </fieldset>
 
           <fieldset class="contacts">
             <legend class="contacts__title">Контактные данные (владельца кота)</legend>
-            <label class="contacts__description" for="email">
-              e-mail:*
-              <input class="contacts__field" type="text" id="email" placeholder="введите email" value="kuklachev@gmail.com">
-            </label>
-            <label class="contacts__description" for="phone">
-              телефон:*
-              <input class="contacts__field" type="text" id="phone" placeholder="введите email" value="8 (960) 900-60-90">
-            </label>
+            <div class="contacts__wrraper">
+              <label class="contacts__description" for="email">e-mail:*</label>
+              <input class="contacts__field" type="text" id="email" placeholder="введите email"
+                value="kuklachev@gmail.com">
+            </div>
+            <div class="contacts__wrraper">
+              <label class="contacts__description" for="phone">телефон:* </label>
+              <input class="contacts__field" type="text" id="phone" placeholder="введите email"
+                value="8 (960) 900-60-90">
+            </div>
           </fieldset>
 
           <fieldset class="comment">
             <legend class="comment__title">Комментарий</legend>
             <label for="habits">
-            <input class="comment__form" type="text" id="habits" placeholder="расскажите обо всех повадках кота">
-          </label>
+              <input class="comment__form" type="text" id="habits" placeholder="расскажите обо всех повадках кота">
+            </label>
           </fieldset>
 
           <fieldset class="additional-form">
             <legend class="additional-form__title">Дополнительно</legend>
             <ul class="additional-form__list ">
               <li class="additional-form__item ">
-                <label for="sugar">
-                  <input class="additional-form__button" type="checkbox" id="sugar" name="sweetener" value="сахарозаменитель" checked>
-                  сахарозаменитель
-                </label>
+                <input class="additional-form__button" type="checkbox" id="sugar" name="sweetener"
+                  value="сахарозаменитель" checked>
+                <label class="additional-form__description" for="sugar">сахарозаменитель</label>
               </li>
               <li class="additional-form__item ">
-                <label for="water">
-                  <input class="additional-form__button" type="checkbox" id="water" name="h2o" value="питьевая вода">
-                  питьевая вода
-                </label>
+                <input class="additional-form__button" type="checkbox" id="water" name="h2o" value="питьевая вода">
+                <label class="additional-form__description" for="water">питьевая вода</label>
               </li>
               <li class="additional-form__item ">
-                <label for="milk">
-                  <input class="additional-form__button" type="checkbox" name="milky" value="молоко">
-                  молоко
-                </label>
+                <input class="additional-form__button" type="checkbox" id="milk" name="milky" value="молоко">
+                <label class="additional-form__description" for="milk">молоко</label>
               </li>
               <li class="additional-form__item ">
-                <label for="vitamin">
-                  <input class="additional-form__button" type="checkbox" name="vitamins" value="витамины">
-                  витамины
-                </label>
+                <input class="additional-form__button" type="checkbox" id="vitamin" name="vitamins" value="витамины">
+                <label class="additional-form__description" for="vitamin">витамины</label>
               </li>
             </ul>
           </fieldset>
@@ -141,41 +124,42 @@
             <a class="posting__link button button--green" href="#">отправить заявку</a>
           </fieldset>
         </form>
-        <p class="stats__legend">
-          <small>
+        <p class="legend">
+          <small class="legend__text">
             * — Обязательные поля
           </small>
         </p>
       </div>
-      </section>
-    </main>
+    </section>
+  </main>
 
 
-    <section class="inviting">
-      <div class="container">
-        <div class="adress">
+  <section class="inviting">
+    <div class="container">
+      <div class="inviting__adress">
         <h2 class="inviting__title">приглашаем к сотрудничеству дилеров!</h2>
         <p class="inviting___description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
       </div>
     </div>
-    </section>
-    <section class="map">
-      <span>тут будет карта</span>
-    </section>
+  </section>
+  <section class="map">
+    <h2 class="visually-hidden">карта</h2>
+    <span>тут будет карта</span>
+  </section>
 
-    <footer class="main-footer">
-      <div class="container">
-        <div class="main-footer__social">
-          <span>тут будет лого</span>
-          <ul class="social__list social">
-            <li class="social__item"><a href="">vk</a></li>
-            <li class="social__item"><a href="">ytb</a></li>
-            <li class="social__item"><a href="">tg</a></li>
-          </ul>
-          <a href="">HTML Academy</a>
-        </div>
+  <footer class="main-footer">
+    <div class="container">
+      <div class="main-footer__social">
+        <span>тут будет лого</span>
+        <ul class="social__list social">
+          <li class="social__item"><a href="">vk</a></li>
+          <li class="social__item"><a href="">ytb</a></li>
+          <li class="social__item"><a href="">tg</a></li>
+        </ul>
+        <a href="">HTML Academy</a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
 
-  </html>
+</html>
