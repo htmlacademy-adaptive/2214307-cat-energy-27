@@ -1,0 +1,53 @@
+.program__form {
+  margin-top: 39px;
+}
+
+.program__title {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+  padding: 0;
+  margin: 27px 41px 0 20px;
+  text-align: center;
+}
+
+.program__description {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  margin-top: 37px;
+  text-align: center;
+}
+
+.text-forms__label {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.text-forms__field {
+  font-family: $main-font ;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.text-forms__field::placeholder {
+  opacity: 0, 3;
+}

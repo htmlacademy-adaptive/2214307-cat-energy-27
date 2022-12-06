@@ -1,0 +1,30 @@
+.descriptions__title {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.descriptions__list {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  margin-bottom: 4px;
+
+
+}
+
+.descriptions__item {
+  font-family: $ff-lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+  margin: 0;
+
+}

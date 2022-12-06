@@ -1,0 +1,23 @@
+.button {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button--grey {
+  background-color: #F2F2F2;
+  margin: 21px 20px 25px 21px;
+}
+
+.button--green {
+  background: #68b738;
+}

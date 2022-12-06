@@ -1,0 +1,27 @@
+.header-image {
+  background-color: #68b738;
+}
+
+.header-image__title {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-image__description {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.header-image__button {
+  padding: 8px 44px;
+}
