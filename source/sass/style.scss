@@ -1,12 +1,15 @@
 // global
 @import "global/variables.scss";
 @import "global/fonts.scss";
-@import "global/body.scss";
+@import "global/page.scss";
+@import "global/global.scss";
 //blocks
+@import "blocks/container.scss";
 @import "blocks/additional-form.scss";
 @import "blocks/additional.scss";
 @import "blocks/advantages.scss";
 @import "blocks/button.scss";
+@import "blocks/advertising.scss";
 @import "blocks/cards.scss";
 @import "blocks/cat-description.scss";
 @import "blocks/cat-slider.scss";
@@ -19,12 +22,11 @@
 @import "blocks/descriptions.scss";
 @import "blocks/effect.scss";
 @import "blocks/general.scss";
-@import "blocks/header.scss";
-@import "blocks/hidden.scss";
 @import "blocks/header-image.scss";
-@import "blocks/inviting.scss";
 @import "blocks/legend.scss";
 @import "blocks/main-footer.scss";
+@import "blocks/main-header.scss";
+@import "blocks/main-nav.scss";
 @import "blocks/main.scss";
 @import "blocks/map.scss";
 @import "blocks/posting.scss";
@@ -32,7 +34,10 @@
 @import "blocks/product.scss";
 @import "blocks/program.scss";
 @import "blocks/results.scss";
+@import "blocks/site-list.scss";
 @import "blocks/social.scss";
 @import "blocks/weight-loss.scss";
 @import "blocks/weight-up.scss";
+@import "blocks/weight-working.scss";
 @import "blocks/working.scss";
+@import "blocks/inviting.scss";

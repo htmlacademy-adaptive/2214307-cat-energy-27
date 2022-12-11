@@ -1,18 +1,24 @@
-.cat {
+.cat__wrapper {
   background-color: #eaeaea;
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 35px;
+  padding: 25px 20px 20px 0px;
 }
 
 .cat-story__title {
   font-size: 36px;
   line-height: 40px;
-  text-align: center;
   color: #000000;
+  width: 230px;
 }
 
 .cat-story__description {
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+  width: 280px;
+  margin-top: 40px;
 }
 
 .cat__title {
@@ -25,3 +31,44 @@
   text-transform: uppercase;
   color: #000000;
 }
+
+.food-costs {
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .cat__wrapper {
+    width: 708px;
+    background-color: #ffffff;
+  }
+
+  .cat-story__description {
+    width: 708px;
+    margin-top: 63px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cat__wasted {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .food-costs {
+    text-align: right;
+    width: 180px;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  .cat-story__title {
+    font-size: 60px;
+    line-height: 60px;
+    width: 390px;
+  }
+
+}
+
+@media (min-width: $desktop-width) {}

@@ -1,11 +1,14 @@
 .inviting {
   margin: 0 auto;
-  background-color: #F2F2F2;
-  padding: 26px 20px;
+  margin-top: 26px;
+  background-color: #ffffff;
 }
 
 .inviting__adress {
   display: flex;
+  width: 320px;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .inviting__title {
@@ -26,3 +29,8 @@
   line-height: 20px;
   color: #444444;
 }
+
+@media (min-width: $tablet-width) { }
+
+
+@media (min-width: $desktop-width) {}

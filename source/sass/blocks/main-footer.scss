@@ -7,4 +7,26 @@
 
 .main-footer {
   background-color: #F2F2F2;
+  margin: 0 auto;
+  padding: 39px 0 22px 0;
+  flex-shrink: 0;
+  width: 280px;
 }
+
+@media (min-width: $tablet-width) {
+  .main-footer {
+    background-color: #ffffff;
+    width: 768px;
+    padding: 0;
+  }
+
+  .main-footer__social {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+}
+
+
+@media (min-width: $desktop-width) {}
