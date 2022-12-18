@@ -1,0 +1,24 @@
+@media (min-width: $tablet-width) {
+  .catalog-list {
+    grid-template-columns: 324px 324px;
+    display: grid;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 708px;
+    gap: 60px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog-list {
+    display: grid;
+    grid-template-columns: 245px 245px 245px 245px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 245px;
+    grid-row-gap: 63px;
+    grid-column-gap: 80px;
+  }
+}

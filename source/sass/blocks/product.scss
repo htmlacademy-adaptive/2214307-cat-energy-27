@@ -23,3 +23,23 @@
   color: #222222;
   margin: 0;
 }
+
+
+@media (min-width: $tablet-width) {
+  .product__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 632px;
+  }
+
+  .product__title {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product {
+    margin: 0;
+  }
+}

@@ -10,8 +10,10 @@
   line-height: 36px;
   color: #000000;
   padding: 0;
-  margin: 27px 41px 0 20px;
+  margin: 0;
+  margin-top: 44.39px;
   text-align: center;
+  width: 260px;
 }
 
 .program__description {
@@ -25,7 +27,8 @@
   padding: 0;
   margin: 0;
   margin-top: 37px;
-  text-align: center;
+  text-align: left;
+  width: 226px;
 }
 
 .text-forms__label {
@@ -36,6 +39,7 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #444444;
+  white-space: nowrap;
 }
 
 .text-forms__field {
@@ -46,8 +50,38 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #444444;
+  width: 100%;
 }
 
 .text-forms__field::placeholder {
   opacity: 0, 3;
 }
+
+@media (min-width: $tablet-width) {
+  .program__title {
+    font-size: 60px;
+    line-height: 60px;
+    width: 433px;
+  }
+
+  .program__description {
+    width: 323px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 54px;
+  }
+
+  .text-forms__field {
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .text-forms__label {
+    white-space: nowrap;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {}

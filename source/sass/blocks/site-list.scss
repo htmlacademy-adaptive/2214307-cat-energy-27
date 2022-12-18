@@ -18,3 +18,14 @@
     line-height: 24px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .site-list__link {
+    text-align: right;
+    line-height: 30px;
+  }
+
+  .site-list__item {
+    margin: 0;
+  }
+}

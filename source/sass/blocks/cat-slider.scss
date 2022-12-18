@@ -1,5 +1,13 @@
 .cat-slider__wrapper {
-  margin: 0 auto;
+  margin: 0;
   margin-top: 20px;
   width: 280px;
+}
+
+@media (min-width: $tablet-width) {
+  .cat-slider__wrapper {
+    width: 768px;
+    min-height: 462px;
+    background-color: #EAEAEA;
+  }
 }

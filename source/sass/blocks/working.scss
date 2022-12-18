@@ -1,8 +1,7 @@
 .working__wrapper {
   background-color: #ffffff;
-  margin: 0 auto;
+  margin: 0;
   margin-top: 20px;
-  width: 279px;
 }
 
 .working__title {
@@ -11,4 +10,20 @@
   color: black;
   width: 260px;
   text-align: left;
+}
+
+@media (min-width: $tablet-width) {
+  .working__title {
+    font-size: 60px;
+    line-height: 60px;
+    width: 430px;
+  }
+
+}
+
+
+@media (min-width: $desktop-width) {
+  .working__title {
+    margin-top: 71px;
+  }
 }

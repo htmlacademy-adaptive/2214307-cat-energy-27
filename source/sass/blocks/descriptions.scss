@@ -26,5 +26,15 @@
   text-align: center;
   color: #444444;
   margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .descriptions {
+    margin-top: 34px;
+  }
+
+  .descriptions__title {
+    margin-bottom: 21px;
+  }
 
 }

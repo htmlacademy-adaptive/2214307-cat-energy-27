@@ -1,16 +1,14 @@
 .advertising__button {
   padding: 7px 44px;
   width: 192px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .advertising__image {
-  background-image: url("..//img/bigfood.png");
-  min-width: 280px;
   min-height: 270px;
-  background-repeat: no-repeat;
-  background-position: center;
+
 }
+
 
 @media (min-width: $tablet-width) {
   .advertising__button {
@@ -22,7 +20,6 @@
   }
 
   .advertising__image {
-    background-image: url("..//img/giantfood.png");
     min-width: 709px;
     min-height: 609px;
   }
@@ -32,6 +29,15 @@
   .advertising__button {
     padding: 14px 26px;
     width: 192px;
-    margin: 0 auto;
+    margin: 0;
+    position: absolute;
+    left: 100px;
+    top: 342px;
+  }
+
+  .advertising__image {
+    width: 552px;
+    height: 499px;
+
   }
 }

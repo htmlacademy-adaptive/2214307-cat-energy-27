@@ -1,14 +1,14 @@
 .inviting {
-  margin: 0 auto;
+  margin: 0;
   margin-top: 26px;
   background-color: #ffffff;
 }
 
 .inviting__adress {
   display: flex;
-  width: 320px;
+  width: 280px;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .inviting__title {
@@ -28,9 +28,31 @@
   font-size: 14px;
   line-height: 20px;
   color: #444444;
+  text-align: left;
 }
 
-@media (min-width: $tablet-width) { }
+@media (min-width: $tablet-width) {
+  .inviting__adress {
+    width: 728px;
+  }
+
+  .inviting__title {
+    width: 171.82px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .inviting___description {
+    width: 159.76px;
+    text-align: right;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .inviting___description--town {
+    margin-top: 20px;
+  }
+}
 
 
 @media (min-width: $desktop-width) {}

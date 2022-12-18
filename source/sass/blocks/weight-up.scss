@@ -53,3 +53,10 @@
     margin: 0;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .weight-up__description {
+    width: 457px;
+
+  }
+}

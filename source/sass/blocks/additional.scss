@@ -18,4 +18,56 @@
   text-align: center;
   color: #000000;
   margin: 0;
+  width: 226px;
+}
+
+.additional__button {
+  padding: 10px 109px;
+  width: 47px;
+}
+
+@media (min-width: $tablet-width) {
+  .additional__title {
+    width: 338px;
+    margin-left: 37px;
+  }
+
+  .additional__list {
+    margin-top: 68px;
+  }
+
+  .additional__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 708px;
+    margin: 0;
+  }
+
+  .additional__button {
+    padding: 8px 220px;
+    width: 193px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .additional__wrapper {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .additional__list {
+    margin: 0;
+    width: 896px;
+  }
+
+  .additional__item {
+    margin: 0;
+    flex-direction: row;
+    width: 896px;
+    padding: 15px 0;
+  }
 }

@@ -17,6 +17,7 @@
     display: flex;
     height: 36px;
     width: 565px;
+
   }
 
   .main-nav__list {
@@ -29,16 +30,14 @@
 
 
 @media (min-width: $desktop-width) {
-  .main-nav {
-    display: block;
-    height: 40px;
-    width: 478px;
-  }
-
   .main-nav__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 8px;
+    gap: 33px;
+  }
+
+  .main-nav {
+    margin-top: 69px;
   }
 }

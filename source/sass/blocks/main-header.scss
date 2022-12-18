@@ -6,7 +6,8 @@
 }
 
 .main-header__wrapper {
-  margin: 0 auto;
+  margin: 0;
+  margin-top: 11px;
   width: 280px;
 }
 
@@ -53,13 +54,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1200px;
   }
 
   .main-header__container {
+    background-image: url("..//img/logosun.png");
     height: 59px;
     display: flex;
     justify-content: space-between;
     width: 202px;
+    margin-top: 53px;
 
   }
 
