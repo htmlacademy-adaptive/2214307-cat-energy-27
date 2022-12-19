@@ -127,3 +127,7 @@
     margin: 0;
   }
 }
+
+@media (min-width:$desktop-wodth) {
+  padding: 10px 92px;
+}
