@@ -42,4 +42,32 @@
 .additional-form__item {
   display: flex;
   align-items: center;
+  width: 160px;
+}
+
+@media (min-width: $tablet-width) {
+  .additional-form__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 533px;
+  }
+
+  .additional-form__list {
+    display: grid;
+    grid-template-columns: 280px 280px;
+    gap: 32px 64px;
+  }
+
+  .additional-form__description {
+    font-size: 20px;
+    line-height: 30px;
+    width: 161px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .additional-form__list {
+    grid-template-columns: 221px 221px 221px 221px;
+
+  }
 }

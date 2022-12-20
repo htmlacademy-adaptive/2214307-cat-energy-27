@@ -1,0 +1,31 @@
+.site-list__link {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media (min-width: $tablet-width) {
+  .site-list__item {
+    width: 154px;
+    text-align: right;
+    margin-right: 34px;
+  }
+
+  .site-list__link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list__link {
+    text-align: right;
+    line-height: 30px;
+  }
+
+  .site-list__item {
+    margin: 0;
+  }
+}

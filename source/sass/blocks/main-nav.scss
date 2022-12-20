@@ -1,0 +1,43 @@
+.main-nav__list {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 500;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav {
+  height: 38px;
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    display: flex;
+    height: 36px;
+    width: 565px;
+
+  }
+
+  .main-nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .main-nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+  }
+
+  .main-nav {
+    margin-top: 69px;
+  }
+}

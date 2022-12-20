@@ -1,7 +1,27 @@
-.present {
+.present__container {
+  background-image: url("..//img/catsecond.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: rgba(104, 183, 56, 0.85);
   margin-top: 35.12px;
+  width: 280px;
+  min-height: 289.88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
 }
+
+.present__container::before {
+  background-image: url("../img/gift.svg");
+  background-repeat: no-repeat;
+  content: "";
+  width: 78px;
+  height: 80px;
+}
+
 
 .present__description {
   font-family: $ff-lato;
@@ -11,4 +31,25 @@
   line-height: 20px;
   color: #ffffff;
   text-align: center;
+  width: 161px;
+}
+
+@media (min-width: $tablet-width) {
+  .present__container {
+    width: 707px;
+    min-height: 200px;
+    background-size: cover;
+    flex-direction: row;
+    gap: 265px;
+  }
+
+}
+
+@media (min-width: $desktop-width) {
+  .present__container {
+    width: 245.02px;
+    min-height: 288.9px;
+    flex-direction: column;
+    gap: 46.41px;
+  }
 }

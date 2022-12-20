@@ -23,9 +23,11 @@
   text-transform: uppercase;
   color: #444444;
   margin-top: 37.73px;
+  width: 280px;
+  min-height: 150.52px;
 }
 
-.comment__form::placeholder{
+.comment__form::placeholder {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -33,4 +35,25 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #444444;
+}
+
+
+@media (min-width: $tablet-width) {
+  .comment__title {
+    font-size: 36px;
+    line-height: 36px;
+    width: 182px;
+  }
+
+  .comment__form {
+    width: 631px;
+    min-height: 174px;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .comment__form {
+    width: 1220px;
+  }
 }

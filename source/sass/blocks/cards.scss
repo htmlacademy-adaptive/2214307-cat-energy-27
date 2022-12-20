@@ -4,7 +4,8 @@
 
 .cards__button {
   padding: 10px 109px;
-  margin: 13px 20px 14px;
+  margin: 13px 0 14px 0;
+  width: 62px;
 }
 
 .cards__title--show {
@@ -28,12 +29,107 @@
   color: #444444;
 }
 
-.cards--show {
-  margin: 0;
-  margin-top: 89px;
-}
-
 .cards__wrapper {
   display: flex;
   align-items: center;
+}
+
+.cards__img--chicken500 {
+  background-image: url("..//img/chicken500.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 68px;
+  height: 86px;
+  margin-top: 22px;
+}
+
+.cards__img--chicken1000 {
+  background-image: url("..//img/chicken1000.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 84px;
+  height: 100px;
+  margin-top: 8px;
+}
+
+.cards__img--fish500 {
+  background-image: url("..//img/fish500.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 68px;
+  height: 86px;
+  margin-top: 22px;
+}
+
+.cards__img--fish1000 {
+  background-image: url("..//img/fish1000.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 84px;
+  height: 100px;
+  margin-top: 8px;
+}
+
+.cards__img--grecha500 {
+  background-image: url("..//img/grecha500.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 68px;
+  height: 86px;
+  margin-top: 22px;
+}
+
+.cards__img--grecha1000 {
+  background-image: url("..//img/grecha1000.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 84px;
+  height: 100px;
+  margin-top: 8px;
+}
+
+.cards__img--rise500 {
+  background-image: url("..//img/rise500.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 72px;
+  height: 86px;
+  margin-top: 22px;
+}
+
+.cards__img--plus {
+  width: 30px;
+  height: 30px;
+  fill: #D3D3D3;
+  margin-top: 120px;
+}
+
+.cards--show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  margin-top: 36px;
+  width: 280px;
+}
+
+
+@media (min-width: $tablet-width) {
+  .cards__wrapper {
+    flex-direction: column;
   }
+
+  .cards {
+    margin: 0;
+  }
+
+  .cards__button {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .cards__button {
+    padding: 10px 92px;
+  }
+}
