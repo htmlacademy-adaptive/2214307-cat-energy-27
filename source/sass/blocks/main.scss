@@ -8,6 +8,9 @@
   .main-container__wrapper {
     display: flex;
     flex-wrap: nowrap;
+  }
 
+  .main-container__wrapper--logo {
+    position: relative;
   }
 }

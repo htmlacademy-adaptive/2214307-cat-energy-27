@@ -11,13 +11,50 @@
   width: 280px;
 }
 
+.main-header__nav {
+  display: none;
+}
+
 .main-header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 38px;
   width: 280px;
+  background-image: url("../img/logomob.svg");
+  background-repeat: no-repeat;
+  background-position: left;
 }
+
+.main-header__toggle {
+  display: block;
+  width: 24px;
+  height: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.main-header--closed .main-header__toggle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background-color: #000000;
+  box-shadow: 0 8px 0 0 #000000, 0 16px 0 0 #000000;
+}
+
+.main-header--opened .main-header__toggle {
+  display: none;
+}
+
+.main-header--opened .main-header__nav {
+  display: block;
+}
+
 
 @media (min-width: $tablet-width) {
   .main-header__wrapper {
@@ -25,6 +62,10 @@
     justify-content: space-between;
     align-items: center;
     width: 754px;
+  }
+
+  .main-header__toggle::before {
+    display: none;
   }
 
   .main-header__container {
@@ -60,8 +101,6 @@
   .main-header__container {
     background-image: url("..//img/logosun.png");
     height: 59px;
-    display: flex;
-    justify-content: space-between;
     width: 202px;
     margin-top: 53px;
 
