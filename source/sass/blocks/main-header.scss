@@ -3,16 +3,13 @@
   flex-direction: column;
   color: #000000;
   background-color: #ffffff;
+  position: relative;
 }
 
 .main-header__wrapper {
   margin: 0;
   margin-top: 11px;
   width: 280px;
-}
-
-.main-header__nav {
-  display: none;
 }
 
 .main-header__container {
@@ -36,6 +33,10 @@
   position: relative;
 }
 
+.main-header--nojs .main-header__toggle {
+  display: none;
+}
+
 .main-header--closed .main-header__toggle::before {
   content: "";
   position: absolute;
@@ -51,10 +52,13 @@
   display: none;
 }
 
-.main-header--opened .main-header__nav {
+.main-header--opened .site-list {
   display: block;
 }
 
+.main-header--closed .site-list {
+  display: none;
+}
 
 @media (min-width: $tablet-width) {
   .main-header__wrapper {
