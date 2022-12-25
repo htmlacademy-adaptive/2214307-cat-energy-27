@@ -33,10 +33,6 @@
   position: relative;
 }
 
-.main-header--nojs .main-header__toggle {
-  display: none;
-}
-
 .main-header--closed .main-header__toggle::before {
   content: "";
   position: absolute;
@@ -60,7 +56,16 @@
   display: none;
 }
 
+
+.main-header--nojs .main-header__toggle {
+  display: none;
+}
+
 @media (min-width: $tablet-width) {
+  .main-header--closed .site-list {
+    display: flex;
+  }
+
   .main-header__wrapper {
     display: flex;
     justify-content: space-between;
@@ -76,7 +81,7 @@
     height: 51.68px;
     display: block;
     width: 174px;
-    background-image: url("..//img/logo-tablet.png");
+    background-image: url("../img/logo-tablet.png");
     background-repeat: no-repeat;
     background-position: left;
   }
