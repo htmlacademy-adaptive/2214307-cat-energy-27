@@ -19,7 +19,7 @@
   .main-nav {
     display: flex;
     height: 36px;
-    width: 565px;
+    width: 527px;
     align-items: center;
   }
 
@@ -41,9 +41,36 @@
     align-items: center;
     gap: 33px;
     width: 587px;
+    background: none;
   }
 
   .main-nav {
     margin-top: 69px;
+    width: 590px;
+    position: relative;
+  }
+
+  .main-nav::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 694px;
+    width: 720px;
+    background-color: rgba(104, 183, 56, 0.85);
+    z-index: -1;
+  }
+
+  .main-nav::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 694px;
+    width: 720px;
+    background-image: url("../img/catright.png");
+    z-index: -2;
   }
 }

@@ -70,7 +70,7 @@
 
   .weight-up::before {
     position: absolute;
-    background-image:url("../img/cat_fat.svg") ;
+    background-image: url("../img/cat_fat.svg");
     background-repeat: no-repeat;
     content: "";
     width: 268px;
@@ -83,6 +83,14 @@
 @media (min-width: $desktop-width) {
   .weight-up__description {
     width: 457px;
+    margin: 73px 52px 48px 0;
+  }
 
+  .weight-up::before {
+    width: 134px;
+    height: 100px;
+    left: 337px;
+    top: 65px;
+    background-size: contain;
   }
 }

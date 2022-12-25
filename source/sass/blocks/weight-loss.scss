@@ -93,7 +93,7 @@
     font-size: 16px;
     line-height: 24px;
     width: 457px;
-    margin: 24px 52px 48px 0;
+    margin: 73px 52px 48px 0;
   }
 
   .weight-loss__link {
@@ -101,5 +101,13 @@
     line-height: 30px;
     width: 165px;
     margin: 0;
+  }
+
+  .weight-loss::before {
+    width: 100px;
+    height: 106px;
+    left: 40px;
+    top: 46px;
+    background-size: contain;
   }
 }

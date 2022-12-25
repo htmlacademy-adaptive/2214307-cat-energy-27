@@ -70,6 +70,25 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 31px;
+    background-position-x: 130px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .advantages--vitamins {
+    background-image: url("../img/1.png");
+  }
+
+  .advantages--water {
+    background-image: url("../img/2.png");
+  }
+
+  .advantages--food {
+    background-image: url("../img/3.png");
+  }
+
+  .advantages--changes {
+    background-image: url("../img/4.png");
   }
 
   .advantages__wrapper {
@@ -91,7 +110,7 @@
     margin: 0;
     // margin-right: 94px;
     margin-top: 32px;
-    width: 324px;
+    width: 309px;
     min-height: 280px;
   }
 
