@@ -7,3 +7,17 @@
   color: #000000;
 }
 
+@media (min-width: $tablet-width) {
+  .catalog-items__title {
+    margin-bottom: 82px;
+    margin-top: 65px;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .catalog-items__title {
+    margin-bottom: 84px;
+    margin-top: 74px;
+  }
+}

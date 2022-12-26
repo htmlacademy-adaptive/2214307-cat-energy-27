@@ -101,7 +101,7 @@
   width: 30px;
   height: 30px;
   fill: #D3D3D3;
-  margin-top: 120px;
+
 }
 
 .cards--show {
@@ -123,13 +123,38 @@
     margin: 0;
   }
 
+  .cards--show {
+    margin-top: 37px;
+  }
+
+  .cards__title--show {
+    font-size: 20px;
+    line-height: 22px;
+    width: 134px;
+    margin-top: 49px;
+  }
+
+  .cards__description {
+    width: 165px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
   .cards__button {
     margin: 0 auto;
+    margin-top: 33px;
+    width: 90px;
+    font-size: 16px;
+
   }
 }
 
 @media (min-width: $desktop-width) {
   .cards__button {
     padding: 10px 92px;
+  }
+
+  .cards__title--show {
+    line-height: 21px;
   }
 }
