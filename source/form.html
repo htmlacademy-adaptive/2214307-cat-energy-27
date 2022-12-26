@@ -47,55 +47,54 @@
           <form class="program__form" action="#" method="get">
             <fieldset class="general">
               <div class="general__wrapper">
-              <ul class="general__list">
-                <!-- как выровнить формы как в макете? -->
-                <li class="general__item text-forms">
-                  <label class="text-forms__label" for="cat-name">имя:*</label>
-                  <input class="text-forms__field" type="text" id="cat-name" placeholder="введите имя" value="Барсик">
-                </li>
-                <li class="general__item text-forms">
-                  <label class="text-forms__label" for="kg">вес (кг):*</label>
-                  <input class="text-forms__field" type="text" id="kg" placeholder="введите имя" value="7">
-                </li>
-                <li class="general__item text-forms">
-                  <label class="text-forms__label" for="year">возраст (лет):</label>
-                  <input class="text-forms__field" type="text" id="year" placeholder="введите имя" value="7">
-                </li>
-              </ul>
-              <div class="effect">
-                <ul class="effect__list">
-                  <li class="effect__item chose">
-                    <input class="choose__button" type="radio" id="loss" name="weight-down" value="похудение" checked>
-                    <label class="choose__description" for="loss">похудение</label>
+                <ul class="general__list">
+                  <li class="general__item text-forms">
+                    <label class="text-forms__label" for="cat-name">имя:*</label>
+                    <input class="text-forms__field" type="text" id="cat-name" placeholder="введите имя" value="Барсик">
                   </li>
-                  <li>
-                    <input class="choose__button" type="radio" id="up" name="weight-up" value="набор массы">
-                    <label class="choose__description" for="up"> набор массы </label>
+                  <li class="general__item text-forms">
+                    <label class="text-forms__label" for="kg">вес (кг):*</label>
+                    <input class="text-forms__field" type="text" id="kg" placeholder="введите имя" value="7">
                   </li>
-                  <li class="effect__item chose">
-                    <input class="choose__button" type="radio" id="nothing" name="dont know"
-                      value="не знаю (Нужен ваш совет)">
-                    <label class="choose__description" for="nothing"> не знаю (Нужен ваш совет)</label>
+                  <li class="general__item text-forms">
+                    <label class="text-forms__label" for="year">возраст (лет):</label>
+                    <input class="text-forms__field" type="text" id="year" placeholder="введите имя" value="7">
                   </li>
                 </ul>
+                <div class="effect">
+                  <ul class="effect__list">
+                    <li class="effect__item chose">
+                      <input class="choose__button" type="radio" id="loss" name="weight-down" value="похудение" checked>
+                      <label class="choose__description" for="loss">похудение</label>
+                    </li>
+                    <li>
+                      <input class="choose__button" type="radio" id="up" name="weight-up" value="набор массы">
+                      <label class="choose__description" for="up"> набор массы </label>
+                    </li>
+                    <li class="effect__item chose">
+                      <input class="choose__button" type="radio" id="nothing" name="dont know"
+                        value="не знаю (Нужен ваш совет)">
+                      <label class="choose__description" for="nothing"> не знаю (Нужен ваш совет)</label>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
             </fieldset>
 
             <fieldset class="contacts">
               <legend class="contacts__title">Контактные данные (владельца кота)</legend>
               <div class="contacts__container">
-              <div class="contacts__wrapper">
-                <label class="contacts__description" for="email">e-mail:*</label>
-                <input class="contacts__field" type="text" id="email" placeholder="введите email"
-                  value="kuklachev@gmail.com">
+                <div class="contacts__wrapper">
+                  <label class="contacts__description" for="email">e-mail:*</label>
+                  <input class="contacts__field" type="text" id="email" placeholder="введите email"
+                    value="kuklachev@gmail.com">
+                </div>
+                <div class="contacts__wrapper">
+                  <label class="contacts__description" for="phone">телефон:* </label>
+                  <input class="contacts__field" type="text" id="phone" placeholder="введите email"
+                    value="8 (960) 900-60-90">
+                </div>
               </div>
-              <div class="contacts__wrapper">
-                <label class="contacts__description" for="phone">телефон:* </label>
-                <input class="contacts__field" type="text" id="phone" placeholder="введите email"
-                  value="8 (960) 900-60-90">
-              </div>
-            </div>
             </fieldset>
 
             <fieldset class="comment">
@@ -150,20 +149,15 @@
         <div class="inviting__adress">
           <h2 class="inviting__title">приглашаем к сотрудничеству дилеров!</h2>
           <p class="inviting___description">ул. Большая Конюшенная, д. 19/8
-            <span class="inviting___description--town">Санкт-Петербург</span>
-            <!-- невыходит дать отступ спану -->
+            <span class="inviting___description inviting___description--town">Санкт-Петербург</span>
           </p>
         </div>
       </div>
-    </section>
-    <section class="map">
-      <h2 class="visually-hidden">карта</h2>
-      <div class="container">
-        <h2 class="visually-hidden">карта</h2>
-        <iframe
+      <div class="map">
+        <h2 class="visually-hidden">Карта</h2>
+        <iframe class="map__wrapper"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003165!2d30.320858716173472!3d59.938719169054075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2s!4v1671567067690!5m2!1sru!2s"
-          width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </section>
 
