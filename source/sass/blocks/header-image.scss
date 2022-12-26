@@ -88,6 +88,7 @@
 @media (min-width: $desktop-width) {
   .header-image {
     margin-left: 80px;
+    min-height: 650px;
   }
 
   .header-image__title {
@@ -96,6 +97,7 @@
     font-size: 60px;
     line-height: 60px;
     color: #000000;
+    margin-top: 111px;
   }
 
   .header-image__description {
@@ -106,4 +108,4 @@
     color: #000000;
   }
 
-}
+  }

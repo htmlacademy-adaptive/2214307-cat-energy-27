@@ -24,8 +24,8 @@
   }
 
   .advertising__image {
-    min-width: 709px;
-    min-height: 609px;
+    width: 709px;
+    height: 609px;
     position: absolute;
     top: 163px;
     left: -60px;
@@ -38,12 +38,14 @@
     padding: 14px 26px;
     width: 192px;
     margin: 0;
-    position: absolute;
-    left: 100px;
-    top: 342px;
+    position: static;
   }
 
   .advertising__image {
+    position: absolute;
+    top: 31px;
+    right: 0;
+    left: 344px;
     width: 552px;
     height: 499px;
   }

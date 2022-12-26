@@ -59,5 +59,20 @@
 @media (min-width: $desktop-width) {
   .inviting {
     margin: 0;
+    position: relative;
+  }
+
+  .inviting__adress {
+    position: absolute;
+    right: 0;
+    top: 246px;
+    left: 44px;
+    width: 425px;
+    background-color: #ffffff;
+    padding: 56px 60px 56px 80px;
+  }
+
+  .inviting___description {
+    text-align: left;
   }
 }
