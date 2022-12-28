@@ -1,31 +1,36 @@
+.main-nav {
+  // position: relative;
+
+}
+
 .main-nav__list {
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 500;
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
+  margin-top: 8px;
+  width: 280px;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 1;
 
-.main-nav {
-  height: 38px;
-  display: none;
 }
 
 @media (min-width: $tablet-width) {
   .main-nav {
     display: flex;
     height: 36px;
-    width: 565px;
-
+    width: 527px;
+    align-items: center;
   }
 
   .main-nav__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    width: 560px;
+    position: static;
   }
+
 }
 
 
@@ -35,9 +40,13 @@
     justify-content: space-between;
     align-items: center;
     gap: 33px;
+    width: 587px;
+    background: none;
   }
 
   .main-nav {
     margin-top: 69px;
+    width: 590px;
   }
+
 }

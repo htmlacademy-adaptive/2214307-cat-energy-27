@@ -35,11 +35,32 @@
 
   .product__title {
     margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .product__item {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .product {
     margin: 0;
+  }
+
+  .product__item {
+    align-items: flex-start;
+    text-align: left;
+    margin: 0;
+  }
+
+  .product__list {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 121px;
+    margin-right: 8px;
   }
 }

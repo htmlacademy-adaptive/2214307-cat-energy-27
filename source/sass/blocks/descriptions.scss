@@ -35,6 +35,19 @@
 
   .descriptions__title {
     margin-bottom: 21px;
+    font-size: 20px;
+    line-height: 24px;
   }
 
+  .descriptions__item {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+}
+
+@media (min-width: $desktop-width) {
+  .descriptions__title {
+    line-height: 21px;
+  }
 }
