@@ -32,69 +32,40 @@
 .cards__wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
+}
+
+.cards__img {
+  margin: 0 auto;
 }
 
 .cards__img--chicken500 {
-  background-image: url("..//img/chicken500.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 68px;
-  height: 86px;
-  padding: 22px 28px 1px;
 }
 
 .cards__img--chicken1000 {
-  background-image: url("..//img/chicken1000.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 84px;
-  height: 100px;
-  padding: 11px 28px 1px;
 }
 
 .cards__img--fish500 {
-  background-image: url("..//img/fish500.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 68px;
-  height: 86px;
-  padding: 22px 28px 1px;
 }
 
 .cards__img--fish1000 {
-  background-image: url("..//img/fish1000.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 84px;
-  height: 100px;
-  padding: 11px 28px 1px;
 }
 
 .cards__img--grecha500 {
-  background-image: url("..//img/grecha500.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 68px;
-  height: 86px;
-  padding: 22px 28px 1px;
 }
 
 .cards__img--grecha1000 {
-  background-image: url("..//img/grecha1000.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 84px;
-  height: 100px;
-  padding: 11px 28px 1px;
 }
 
 .cards__img--rise500 {
-  background-image: url("..//img/rise500.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 72px;
-  height: 86px;
-  padding: 22px 28px 1px;
 }
 
 .cards__img--plus {
@@ -113,7 +84,6 @@
   width: 280px;
 }
 
-
 @media (min-width: $tablet-width) {
   .cards__wrapper {
     flex-direction: column;
@@ -121,6 +91,39 @@
 
   .cards {
     margin: 0;
+  }
+
+  .cards__little {
+    margin-top: 28px;
+
+  }
+
+  .cards__img--chicken500 {
+    width: 163px;
+  }
+
+  .cards__img--chicken1000 {
+    width: 168px;
+  }
+
+  .cards__img--fish500 {
+    width: 161px;
+  }
+
+  .cards__img--fish1000 {
+    width: 168px;
+  }
+
+  .cards__img--grecha500 {
+    width: 161px;
+  }
+
+  .cards__img--grecha1000 {
+    width: 168px;
+  }
+
+  .cards__img--rise500 {
+    width: 163px;
   }
 
   .cards--show {
