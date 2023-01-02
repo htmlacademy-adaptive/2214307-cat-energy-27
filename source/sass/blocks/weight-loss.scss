@@ -1,22 +1,113 @@
 .weight-loss {
-  background-color: #F2F2F2;
+  position: relative;
 }
 
 .weight-loss__title {
   color: #000000;
   font-size: 24px;
   line-height: 37px;
+  width: 137px;
+  margin: 0 79px 29px 91px;
 }
 
 .weight-loss__description {
   color: #444444;
   font-size: 14px;
   line-height: 18px;
+  margin-top: 29px;
 }
 
 .weight-loss__link {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 4px 0px;
+  padding: 4px 0;
+  width: 139px;
+  text-decoration: none;
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 38px;
+}
+
+.weight-loss::before {
+  position: absolute;
+  background-image: url("../img/little-cat.svg");
+  background-repeat: no-repeat;
+  content: "";
+  width: 50px;
+  height: 53px;
+  left: 26px;
+  top: 22px;
+}
+
+@media (min-width: $tablet-width) {
+  .weight-loss__title {
+    width: 206px;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+  }
+
+  .weight-loss__description {
+    font-size: 16px;
+    line-height: 24px;
+    width: 340px;
+    margin: 24px 52px 48px 0;
+  }
+
+  .weight-loss__link {
+    font-size: 20px;
+    line-height: 30px;
+    width: 165px;
+    margin: 0;
+  }
+
+  .weight-loss::before {
+    position: absolute;
+    background-image: url("../img/cat_back.svg");
+    background-repeat: no-repeat;
+    content: "";
+    width: 200px;
+    height: 211px;
+    left: 441px;
+    top: 65px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .weight-loss__title {
+    width: 206px;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    margin-left: 214px;
+  }
+
+  .weight-loss__description {
+    font-size: 16px;
+    line-height: 24px;
+    width: 457px;
+    margin: 73px 52px 48px 0;
+  }
+
+  .weight-loss__link {
+    font-size: 20px;
+    line-height: 30px;
+    width: 165px;
+    margin: 0;
+  }
+
+  .weight-loss::before {
+    width: 100px;
+    height: 106px;
+    left: 40px;
+    top: 46px;
+    background-size: contain;
+  }
 }

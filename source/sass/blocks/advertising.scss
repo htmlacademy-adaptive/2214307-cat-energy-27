@@ -1,0 +1,51 @@
+.advertising {
+  text-align: center;
+}
+
+.advertising__button {
+  padding: 7px 44px;
+  width: 192px;
+  margin: 0;
+}
+
+.advertising__image {
+  min-height: 270px;
+
+}
+
+@media (min-width: $tablet-width) {
+  .advertising__button {
+    padding: 14px 26px;
+    width: 192px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .advertising__image {
+    width: 709px;
+    height: 609px;
+    position: absolute;
+    top: 163px;
+    left: -60px;
+    z-index: -1;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advertising__button {
+    padding: 14px 26px;
+    width: 192px;
+    margin: 0;
+    position: static;
+  }
+
+  .advertising__image {
+    position: absolute;
+    top: 31px;
+    right: 0;
+    left: 450px;
+    width: 552px;
+    height: 499px;
+  }
+}

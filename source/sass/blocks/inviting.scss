@@ -1,11 +1,14 @@
 .inviting {
-  margin: 0 auto;
-  background-color: #F2F2F2;
-  padding: 26px 20px;
+  margin: 0;
+  margin-top: 26px;
+  background-color: #ffffff;
 }
 
-.adress {
+.inviting__adress {
   display: flex;
+  width: 280px;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .inviting__title {
@@ -25,4 +28,64 @@
   font-size: 14px;
   line-height: 20px;
   color: #444444;
+  text-align: left;
+}
+
+@media (min-width: $tablet-width) {
+  .inviting__adress {
+    width: 728px;
+  }
+
+  .inviting__adress--catalog {
+    width: 628px;
+    margin: 0 auto;
+  }
+
+  .inviting__title {
+    width: 171.82px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .inviting___description {
+    width: 159.76px;
+    text-align: right;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .inviting___description--town {
+    margin-top: 20px;
+    display: block;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .inviting {
+    margin: 0;
+    position: relative;
+  }
+
+  .inviting__adress {
+    position: absolute;
+    right: 0;
+    top: 246px;
+    left: 44px;
+    width: 425px;
+    background-color: #ffffff;
+    padding: 56px 60px 56px 80px;
+  }
+
+  .inviting__adress--catalog {
+    width: 405px;
+    top: 170px;
+    right: 706px;
+    left: 0;
+
+  }
+
+  .inviting___description {
+    text-align: left;
+  }
 }

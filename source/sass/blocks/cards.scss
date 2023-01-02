@@ -1,0 +1,167 @@
+.cards {
+  margin: 19px 0;
+}
+
+.cards__button {
+  padding: 10px 109px;
+  margin: 13px 0 14px 0;
+  width: 62px;
+}
+
+.cards__title--show {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.cards__description {
+  font-family: $ff-lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+}
+
+.cards__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.cards__img {
+  margin: 0 auto;
+}
+
+.cards__img--chicken500 {
+  width: 68px;
+}
+
+.cards__img--chicken1000 {
+  width: 84px;
+}
+
+.cards__img--fish500 {
+  width: 68px;
+}
+
+.cards__img--fish1000 {
+  width: 84px;
+}
+
+.cards__img--grecha500 {
+  width: 68px;
+}
+
+.cards__img--grecha1000 {
+  width: 84px;
+}
+
+.cards__img--rise500 {
+  width: 72px;
+}
+
+.cards__img--plus {
+  width: 30px;
+  height: 30px;
+  fill: #D3D3D3;
+
+}
+
+.cards--show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  margin-top: 36px;
+  width: 280px;
+}
+
+@media (min-width: $tablet-width) {
+  .cards__wrapper {
+    flex-direction: column;
+  }
+
+  .cards {
+    margin: 0;
+  }
+
+  .cards__little {
+    margin-top: 28px;
+
+  }
+
+  .cards__img--chicken500 {
+    width: 163px;
+  }
+
+  .cards__img--chicken1000 {
+    width: 164px;
+  }
+
+  .cards__img--fish500 {
+    width: 161px;
+  }
+
+  .cards__img--fish1000 {
+    width: 168px;
+  }
+
+  .cards__img--grecha500 {
+    width: 161px;
+  }
+
+  .cards__img--grecha1000 {
+    width: 168px;
+  }
+
+  .cards__img--rise500 {
+    width: 163px;
+  }
+
+  .cards--show {
+    margin-top: 37px;
+  }
+
+  .cards__title--show {
+    font-size: 20px;
+    line-height: 22px;
+    width: 134px;
+    margin-top: 49px;
+  }
+
+  .cards__description {
+    width: 165px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .cards__button {
+    margin: 0 auto;
+    margin-top: 33px;
+    width: 90px;
+    font-size: 16px;
+
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .cards__button {
+    padding: 10px 92px;
+  }
+
+  .cards__title--show {
+    line-height: 21px;
+  }
+
+  .cards__img--chicken500 {
+    margin-top: 7px;
+  }
+}

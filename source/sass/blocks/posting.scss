@@ -1,0 +1,42 @@
+.posting {
+  margin: 0;
+  padding: 0;
+  margin-top: 34px;
+  border: 0 none;
+}
+
+.posting__link {
+  width: 192px;
+  padding: 7px 44px;
+}
+
+@media (min-width: $tablet-width) {
+  .posting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 540px;
+    gap: 20px;
+  }
+
+  .posting__link {
+    width: 192px;
+    padding: 7px 45px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .posting__link {
+    width: 153px;
+    padding: 14px 156px;
+
+  }
+
+  .posting {
+    gap: 84px;
+    width: 751px;
+    margin-bottom: 20px;
+  }
+}

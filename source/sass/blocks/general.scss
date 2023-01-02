@@ -1,0 +1,46 @@
+.general {
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+}
+
+.general__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 280px;
+}
+
+.general__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .general__list {
+    width: 630px;
+  }
+
+  .general__item {
+    gap: 13px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .general__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 80px;
+    width: 1200px;
+  }
+
+  .general__list {
+    gap: 20px;
+  }
+}

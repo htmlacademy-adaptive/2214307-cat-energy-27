@@ -1,0 +1,17 @@
+.legend {
+  margin: 0 auto;
+  width: 167px;
+}
+
+.legend__text {
+  font-family: $ff-lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  justify-content: center;
+}
