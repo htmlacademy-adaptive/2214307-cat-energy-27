@@ -148,6 +148,13 @@
     width: 720px;
     background-image: url("../img/catright.png");
     z-index: -2;
+    background-size: contain;
+  }
+
+  @media(min-resolution: 2dppx) {
+    .main-header--cat::before{
+      background-image: url("..//img/catright_2x.png");
+    }
   }
 
   .main-header__container {

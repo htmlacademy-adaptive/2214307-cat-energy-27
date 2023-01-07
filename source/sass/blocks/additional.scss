@@ -68,20 +68,15 @@
     width: 896px;
   }
 
-  .additional__item {
+  .product__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
     margin: 0;
-    flex-direction: row;
-    width: 896px;
-    padding: 17px 0;
-    margin-bottom: 25px;
-
-  }
-
-  .additional__title {
-    margin: 76px 0 81px;
-  }
-
-  .additional__button {
-    padding: 8px 26px;
   }
 }
