@@ -55,11 +55,6 @@
     font-size: 16px;
     line-height: 24px;
     width: 708px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   .advantages__description {
@@ -69,7 +64,7 @@
   }
 
   .advantages__item {
-    width: 250px;
+    width: 245px;
     margin-bottom: 37px;
     display: flex;
     flex-direction: column;
@@ -109,15 +104,13 @@
     display: flex;
     margin: 0;
     margin-top: 32px;
-    width: 1200px;
-
   }
 
   .advantages__item {
     margin: 0;
     // margin-right: 94px;
     margin-top: 32px;
-    width: 250px;
+    width: 309px;
     min-height: 280px;
   }
 
@@ -130,13 +123,13 @@
   .advantages--water {
     background-image: url("..//img/2.png");
     background-repeat: no-repeat;
-    background-position-x: 85px;
+    background-position-x: 110px;
   }
 
   .advantages--food {
     background-image: url("..//img/3.png");
     background-repeat: no-repeat;
-    background-position-x: 110px;
+    background-position-x: 135px;
   }
 
   .advantages--changes {

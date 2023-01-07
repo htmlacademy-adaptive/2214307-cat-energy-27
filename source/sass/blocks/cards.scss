@@ -26,7 +26,8 @@
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color: #444444;
+  color:  #444444;
+
 }
 
 .cards__wrapper {
@@ -103,7 +104,7 @@
   }
 
   .cards__img--chicken1000 {
-    width: 168px;
+    width: 164px;
   }
 
   .cards__img--fish500 {
@@ -159,5 +160,9 @@
 
   .cards__title--show {
     line-height: 21px;
+  }
+
+  .cards__img--chicken500 {
+    margin-top: 7px;
   }
 }

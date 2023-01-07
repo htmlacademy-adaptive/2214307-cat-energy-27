@@ -56,6 +56,13 @@
     flex-direction: row;
     gap: 265px;
     position: relative;
+    background-position-y: -325px;
+  }
+
+  @media (min-resolution: 2dppx) {
+    .present__container {
+      background-image: url("..//img/catsecond_2x.png");
+    }
   }
 
   .present__container::after {
@@ -72,6 +79,7 @@
     flex-direction: column;
     gap: 46.41px;
     margin: 0;
+    background-position: center;
   }
 
   .present__container::after {
