@@ -31,32 +31,6 @@
   width: 226px;
 }
 
-.text-forms__label {
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: #444444;
-  white-space: nowrap;
-}
-
-.text-forms__field {
-  font-family: $main-font ;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: #444444;
-  width: 100%;
-}
-
-.text-forms__field::placeholder {
-  opacity: 0, 3;
-}
-
 @media (min-width: $tablet-width) {
   .program__title {
     font-size: 60px;
@@ -71,17 +45,6 @@
     margin-top: 54px;
   }
 
-  .text-forms__field {
-    width: 100%;
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  .text-forms__label {
-    white-space: nowrap;
-    font-size: 20px;
-    line-height: 30px;
-  }
 }
 
 @media (min-width: $desktop-width) {}

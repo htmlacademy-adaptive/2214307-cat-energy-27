@@ -37,12 +37,13 @@
 
 .weight-up::before {
   position: absolute;
-  background-image: url("../img/big-cat.svg");
+  background-image: url("../img/cat_fat.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   content: "";
   width: 67px;
   height: 50px;
-  left: 26px;
+  left: 24px;
   top: 22px;
 }
 

@@ -10,14 +10,14 @@
   padding: 25px 0 20px 0;
 }
 
-.cat-story__title {
+.cat__story--title {
   font-size: 36px;
   line-height: 40px;
   color: #000000;
   width: 230px;
 }
 
-.cat-story__description {
+.cat__story--description {
   font-size: 14px;
   line-height: 18px;
   color: #444444;
@@ -36,18 +36,22 @@
   color: #000000;
 }
 
-.food-costs {
+.cat__title--costs {
   margin: 0;
 }
 
 @media (min-width: $tablet-width) {
+  .cat {
+    background: none;
+  }
+
   .cat__wrapper {
     width: 708px;
     background-color: #ffffff;
     min-height: 490px;
   }
 
-  .cat-story__description {
+  .cat__story--description {
     width: 708px;
     margin-top: 63px;
     font-size: 16px;
@@ -58,9 +62,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 54px;
   }
 
-  .food-costs {
+  .cat__title--costs {
     text-align: right;
     width: 180px;
     font-size: 20px;
@@ -68,10 +73,14 @@
     margin: 0;
   }
 
-  .cat-story__title {
+  .cat__story--title {
     font-size: 60px;
     line-height: 60px;
     width: 390px;
+  }
+
+  .cat-slider {
+    background: #EAEAEA;
   }
 
 }
@@ -112,7 +121,7 @@
     margin-top: 55px;
   }
 
-  .cat-story__description {
+  .cat__story--description {
     width: 436px;
     margin: 0;
   }
@@ -129,7 +138,11 @@
     margin-top: 69px;
   }
 
-  .cat-story__title {
+  .cat__story--title {
     margin-bottom: 76px;
+  }
+
+  .cat-slider {
+    background: none;
   }
 }

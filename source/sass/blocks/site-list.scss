@@ -15,7 +15,6 @@
   text-align: center;
   padding: 22px 0 24px;
   border-top: 1px solid #E6E6E6;
-
 }
 
 @media (min-width: $tablet-width) {
@@ -29,6 +28,24 @@
   .site-list__link {
     font-size: 18px;
     line-height: 24px;
+    position: relative;
+  }
+
+  .site-list__link:hover {
+    opacity: 0.6;
+  }
+
+  .site-list__link:disabled {
+    opacity: 0.3;
+  }
+
+  .site-list__link--line::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    bottom: -4px;
+    background-color: #68B738;
   }
 }
 
@@ -41,6 +58,24 @@
 
   .site-list__link--main {
     color: #ffffff;
+  }
+
+  .site-list__link--line::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    bottom: -4px;
+    background-color: #000000;
+  }
+
+  .site-list__link--first::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    bottom: -4px;
+    background-color: #ffffff;
   }
 
   .site-list__item {

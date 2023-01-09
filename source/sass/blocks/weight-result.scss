@@ -1,0 +1,33 @@
+.weight-result__item {
+  margin: 0;
+}
+
+.weight-result__item--kilo {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.weight-result__item--description {
+  font-family: $ff-lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: center;
+  color: #444444;
+  margin: 0 auto;
+  margin-top: 7.53px;
+  width: 77px;
+}
+
+@media (min-width: $tablet-width) {
+  .weight-result__item--kilo {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
