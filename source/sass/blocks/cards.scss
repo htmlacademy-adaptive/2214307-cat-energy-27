@@ -26,7 +26,7 @@
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color:  #444444;
+  color: #444444;
 
 }
 
@@ -39,9 +39,10 @@
 
 .cards__img {
   margin: 0 auto;
+  margin-left: 20px;
 }
 
-.cards__img--chicken500 {
+/*.cards__img--chicken500 {
   width: 68px;
 }
 
@@ -67,7 +68,7 @@
 
 .cards__img--rise500 {
   width: 72px;
-}
+}*/
 
 .cards__img--plus {
   width: 30px;
@@ -149,7 +150,10 @@
     margin-top: 33px;
     width: 90px;
     font-size: 16px;
+  }
 
+  .cards__img {
+    margin:0 auto;
   }
 }
 
