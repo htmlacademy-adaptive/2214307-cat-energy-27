@@ -13,6 +13,7 @@ import squoosh from 'gulp-libsquoosh';
 import htmlmin from 'gulp-htmlmin';
 import webp from 'gulp-webp';
 
+
 // Styles
 export const styles = () => {
   return gulp.src('source/sass/style.scss', { sourcemaps: true })
@@ -69,19 +70,20 @@ const copyImages = () => {
 
 //optimize svg
 const svg = () =>
-  gulp.src(['source/img/*.svg'])
-    .pipe(svgo())
-    .pipe(gulp.dest('build/img'));
+gulp.src(['source/img/*.svg', '!source/img/icons/*.svg'])
+.pipe(svgo())
+.pipe(gulp.dest('build/img'));
 
     //create sprite
-    const sprite = () => {
+       const sprite = () => {
       return gulp.src('source/img/*.svg')
-        .pipe(svgstore({
-          inlineSvg: true
-        }))
-        .pipe(rename('sprite.svg'))
-        .pipe(gulp.dest('build/img'));
-    };
+      .pipe(svgo())
+      .pipe(svgstore({
+      inlineSvg: true
+      }))
+      .pipe(rename('sprite.svg'))
+      .pipe(gulp.dest('build/img'));
+      }
 
 // copy files to build
 const copy = (done) => {
