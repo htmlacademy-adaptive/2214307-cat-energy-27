@@ -16,11 +16,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 38px;
+  min-height: 38px;
   width: 280px;
-  // background-image: url("../img/logomob.svg");
-  // background-repeat: no-repeat;
-  // background-position: left;
 }
 
 .main-header__toggle {
@@ -111,8 +108,12 @@
     display: none;
   }
 
-  .main-nav__toggle {
-    display: none;
+  .main-header__logo:hover {
+    opacity: 0.6;
+  }
+
+  .main-header__logo:active {
+    opacity: 0.3;
   }
 }
 
@@ -134,7 +135,7 @@
     top: 0;
     right: 0;
     height: 694px;
-    width: 720px;
+    width: 50%;
     background-color: rgba(104, 183, 56, 0.85);
     z-index: -1;
   }
@@ -145,14 +146,16 @@
     top: 0;
     right: 0;
     height: 694px;
-    width: 720px;
+    width: 50%;
     background-image: url("../img/catright.png");
     z-index: -2;
-    background-size: contain;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
   }
 
-  @media(min-resolution: 2dppx) {
-    .main-header--cat::before{
+  @media (min-resolution: 2dppx) {
+    .main-header--cat::before {
       background-image: url("..//img/catright_2x.png");
     }
   }

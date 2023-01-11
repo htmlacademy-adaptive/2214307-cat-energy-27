@@ -55,6 +55,12 @@
     font-size: 16px;
     line-height: 24px;
     width: 708px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
   }
 
   .advantages__description {
@@ -64,7 +70,7 @@
   }
 
   .advantages__item {
-    width: 245px;
+    width: 250px;
     margin-bottom: 37px;
     display: flex;
     flex-direction: column;
@@ -104,32 +110,34 @@
     display: flex;
     margin: 0;
     margin-top: 32px;
+    width: 1200px;
+    flex-wrap: nowrap;
   }
 
   .advantages__item {
     margin: 0;
     // margin-right: 94px;
     margin-top: 32px;
-    width: 309px;
+    width: 250px;
     min-height: 280px;
   }
 
   .advantages--vitamins {
     background-image: url("..//img/1.png");
     background-repeat: no-repeat;
-    background-position-x: 125px;
+    background-position-x: 106px;
   }
 
   .advantages--water {
     background-image: url("..//img/2.png");
     background-repeat: no-repeat;
-    background-position-x: 110px;
+    background-position-x: 85px;
   }
 
   .advantages--food {
     background-image: url("..//img/3.png");
     background-repeat: no-repeat;
-    background-position-x: 135px;
+    background-position-x: 110px;
   }
 
   .advantages--changes {

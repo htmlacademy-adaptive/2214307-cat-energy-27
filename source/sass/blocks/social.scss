@@ -13,9 +13,33 @@
   border-bottom: 1px solid #D9D9D9;
 }
 
+.social__link {
+  color: #666666;
+}
+
+.social__link:hover {
+  color: #68B738;
+}
+
+.social__link:active {
+  opacity: 0.3;
+}
+
+.social__link--academy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (min-width: $tablet-width) {
   .social {
     margin: 0;
     border: none;
+  }
+
+  .social__link--academy {
+    display: flex;
+    justify-content: baseline;
+    gap: 23px;
   }
 }

@@ -12,6 +12,7 @@
   color: #FFFFFF;
   text-decoration: none;
   margin: 0;
+  cursor: pointer;
 }
 
 .button--grey {
@@ -24,9 +25,25 @@
   color: #444444;
 }
 
+.button--grey:hover {
+  background-color: #EBEBEB;
+}
+
+.button--grey:active {
+  color: rgba($color: #ffffff, $alpha: 0.3);
+}
+
 .button--green {
   background: #68b738;
-    }
+}
+
+.button--green:hover {
+  background-color: #5EAA2F;
+}
+
+.button:active {
+  color: rgba($color: #ffffff, $alpha: 0.3);
+}
 
 @media (min-width: $tablet-width) {
   .button--grey {

@@ -1,3 +1,9 @@
+.catalog-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 @media (min-width: $tablet-width) {
   .catalog-list {
     grid-template-columns: 324px 324px;
@@ -7,8 +13,10 @@
     margin: 0;
     width: 708px;
     gap: 60px;
+    align-items: end;
   }
 }
+
 
 @media (min-width: $desktop-width) {
   .catalog-list {
