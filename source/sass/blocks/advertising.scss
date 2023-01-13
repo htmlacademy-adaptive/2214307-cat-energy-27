@@ -3,14 +3,15 @@
 }
 
 .advertising__button {
-  padding: 7px 44px;
+  padding: 12px 44px;
   width: 192px;
   margin: 0;
 }
 
 .advertising__image {
   min-height: 270px;
-
+  margin-top: 28px;
+  margin-left: -24px;
 }
 
 @media (min-width: $tablet-width) {

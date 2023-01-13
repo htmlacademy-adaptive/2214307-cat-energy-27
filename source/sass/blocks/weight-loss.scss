@@ -7,7 +7,7 @@
   font-size: 24px;
   line-height: 37px;
   width: 137px;
-  margin: 0 79px 29px 91px;
+  margin: -1px 49px 29px 71px;
 }
 
 .weight-loss__description {
@@ -33,17 +33,30 @@
   text-transform: uppercase;
   color: #000000;
   margin-top: 38px;
+  position: relative;
+}
+
+.weight-loss__link::before {
+  position: absolute;
+  background-image: url("../img/icons/archer.svg");
+  top: 6px;
+  left: 101px;
+  content: "";
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 20px;
+
 }
 
 .weight-loss::before {
   position: absolute;
-  background-image: url("../img/little-cat.svg");
+  background-image: url("../img/icons/little-cat.svg");
   background-repeat: no-repeat;
   content: "";
-  width: 50px;
-  height: 53px;
-  left: 26px;
-  top: 22px;
+  width: 52px;
+  height: 52px;
+  left: 22px;
+  top: 20px;
 }
 
 @media (min-width: $tablet-width) {
@@ -70,7 +83,7 @@
 
   .weight-loss::before {
     position: absolute;
-    background-image: url("../img/cat_back.svg");
+    background-image: url("../img/icons/cat_back.svg");
     background-repeat: no-repeat;
     content: "";
     width: 200px;

@@ -7,9 +7,10 @@
 .working__title {
   font-size: 36px;
   line-height: 40px;
-  color: black;
+  color: #000000;
   width: 260px;
   text-align: left;
+  text-transform: none;
 }
 
 @media (min-width: $tablet-width) {
@@ -18,9 +19,7 @@
     line-height: 60px;
     width: 430px;
   }
-
 }
-
 
 @media (min-width: $desktop-width) {
   .working__title {

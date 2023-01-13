@@ -1,14 +1,15 @@
 .inviting {
   margin: 0;
-  margin-top: 26px;
   background-color: #ffffff;
+  padding: 26px 0 0;
 }
 
 .inviting__adress {
   display: flex;
   width: 280px;
   justify-content: space-between;
-  margin: 0;
+  margin: 24px 0 0;
+  gap: 23px;
 }
 
 .inviting__title {
