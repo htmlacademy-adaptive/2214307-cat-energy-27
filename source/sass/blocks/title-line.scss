@@ -1,0 +1,32 @@
+.title-line {
+  font-weight: 400;
+  font-size: 24px;
+  color: #111111;
+  position: relative; // нужен для того чтоб перекрыть полосы
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 35px;
+  margin-top: 0;
+  background: #ffffff; // белый цвет, нужен для того чтоб перекрыть линии
+}
+
+.title-line::after,
+.title-line::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 100vw; // чтоб тянулось на всю ширину экрана
+  height: 3px;
+  margin-top: 2px;
+  background: #68b738;
+  z-index: -1;
+}
+
+.title-line::after {
+  left: 20px;
+}
+
+.title-line::before {
+  right: 0;
+}

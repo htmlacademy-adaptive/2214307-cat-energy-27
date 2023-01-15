@@ -37,6 +37,10 @@
 @media (min-width: $tablet-width) {
   .inviting__adress {
     width: 728px;
+    gap: 306px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 17px 0 45px;
   }
 
   .inviting__adress--catalog {
@@ -48,6 +52,7 @@
     width: 171.82px;
     font-size: 20px;
     line-height: 26px;
+    margin-left: 41px;
   }
 
   .inviting___description {
