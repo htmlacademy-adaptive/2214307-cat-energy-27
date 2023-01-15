@@ -54,13 +54,13 @@
   .advantages {
     font-size: 16px;
     line-height: 24px;
-    width: 708px;
+    width: 634px;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    margin-top: 52px;
   }
 
   .advantages__description {
@@ -71,7 +71,7 @@
 
   .advantages__item {
     width: 250px;
-    margin-bottom: 37px;
+    margin-bottom: 114px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -95,6 +95,11 @@
 
   .advantages--changes {
     background-image: url("../img/4.png");
+  }
+
+  .advantages__image {
+    width: 80px;
+    height: 80px;
   }
 
   .advantages__wrapper {

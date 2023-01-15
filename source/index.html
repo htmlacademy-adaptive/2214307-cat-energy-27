@@ -25,7 +25,7 @@
           <div class="main-header__container">
             <a class="main-header__logo" href="index.html">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/icons/logo-desktop.svg" >
+                <source media="(min-width: 1200px)" srcset="img/icons/logo-desktop.svg">
                 <source media="(min-width: 768px)" srcset="img/icons/logo-tablet.svg">
                 <img class="main-header__logo-image" src="img/icons/logo-mobile.svg" width="205" height="66"
                   alt="Кэт энерджи">
@@ -39,7 +39,8 @@
             <div class="main-nav__wrapper">
               <ul class="main-nav__list site-list">
                 <li class="site-list__item">
-                  <a class="site-list__link site-list__link--main site-list__link--line site-list__link--first" href="index.html">главная</a>
+                  <a class="site-list__link site-list__link--main site-list__link--line site-list__link--first"
+                    href="index.html">главная</a>
                 </li>
                 <li class="site-list__item">
                   <a class="site-list__link site-list__link--main" href="catalog.html">каталог продукции</a>
@@ -87,7 +88,7 @@
           </section>
           <section class="weight-up">
             <!-- <div class="container"> -->
-            <div class=" weight-working">
+            <div class=" weight-working weight-working--up">
               <h2 class="weight-up__title cat-title">набор массы</h2>
               <p class="weight-up__description cat-description">Заработать авторитет среди дворовых котов и даже
                 собак?
@@ -128,7 +129,7 @@
               </li>
               <li class="advantages__item advantages--changes cat-description">
                 <div class="advantages__image advantages__image--alarm"></div>
-                <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего
+                <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему <br>вашего
                   питомца!
                 </p>
               </li>
@@ -161,14 +162,27 @@
                     <dd class="days-list__item days-list__item--time">затрачено времени</dd>
                   </dl>
                 </div>
-                <h3 class="cat__title food-costs">Затраты на питание: <span class="cat__title--flex">15 000 РУБ</span>.
+                <h3 class="cat__title cat__title--costs ">Затраты на питание: <span class="cat__title--flex">15 000
+                    РУБ.</span>
                 </h3>
               </div>
             </div>
             <div class="cat-slider">
               <div class="cat-slider__wrapper">
                 <h2 class="visually-hidden">Котячий слайдер</h2>
-                <img class="cat-slider__img" src="img/cat-slider-mobile.jpg" alt="слайдер котиков">
+                <picture>
+                  <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/cat-slider-desktop.webp 1x, img/cat-slider-desktop_2x.webp 2x">
+                  <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/cat-slider-tablet.webp 1x, img/cat-slider-tablet_2x.webp 2x">
+                  <source type="image/webp" srcset="cat-slider-mobile.webp 1x, img/cat-slider-mobile_2x.webp 2x">
+                  <source media="(min-width: 1200px)"
+                    srcset="img/cat-slider-desktop.png  1x, img/cat-slider-desktop_2x.png 2x">
+                  <source media="(min-width: 768px)"
+                    srcset="img/cat-slider-tablet.png 1x, img/cat-slider-tablet_2x.png 2x">
+                  <img class="cat-slider__img" src="img/cat-slider-mobile.png" srcset="img/cat-slider-mobile_2x.png"
+                    width="280" height="256" alt="слайдер котиков">
+                </picture>
               </div>
             </div>
           </div>
@@ -177,7 +191,7 @@
       <section class="inviting">
         <div class="container">
           <div class="inviting__adress">
-            <h2 class="inviting__title">приглашаем к сотрудничеству дилеров!</h2>
+            <h2 class="inviting__title">приглашаем <br>к сотрудничеству дилеров!</h2>
             <p class="inviting___description">ул. Большая Конюшенная, д. 19/8
               <span class="inviting___description inviting___description--town">Санкт-Петербург</span>
             </p>
@@ -237,5 +251,3 @@
 </body>
 
 </html>
-
-

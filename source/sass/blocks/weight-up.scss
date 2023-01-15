@@ -64,7 +64,7 @@
     width: 206px;
     font-size: 36px;
     line-height: 36px;
-    margin: 0;
+    margin: 30px 0 0;
   }
 
   .weight-up__description {
@@ -89,7 +89,12 @@
     width: 268px;
     height: 200px;
     left: 413px;
-    top: 89px;
+    top: 121px;
+  }
+
+  .weight-up__link::before {
+    top: 13px;
+    left: 129px;
   }
 }
 

@@ -66,8 +66,9 @@
 
 @media (min-width: $tablet-width) {
   .header-image {
-    margin-left: 117px;
+    margin-left: 97px;
     min-height: 800px;
+    margin-top: 55px;
   }
 
   .header-image::after {
@@ -98,9 +99,7 @@
     text-align: left;
     width: 283px;
     color: #000000;
-    margin: 0;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin: 42px 0 51px;
   }
 }
 

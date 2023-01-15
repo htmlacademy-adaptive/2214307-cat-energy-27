@@ -9,7 +9,7 @@
   width: 280px;
   justify-content: space-between;
   margin: 24px 0 0;
-  gap: 23px;
+  gap: 2px
 }
 
 .inviting__title {
@@ -20,6 +20,8 @@
   line-height: 20px;
   text-transform: uppercase;
   color: #111111;
+  flex: 0 0 50%;
+  max-width: 160px;
 }
 
 .inviting___description {

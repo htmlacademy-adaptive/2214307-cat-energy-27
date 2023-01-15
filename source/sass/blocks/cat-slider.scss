@@ -1,3 +1,7 @@
+.cat-slider {
+  position: relative;
+}
+
 .cat-slider__wrapper {
   margin: 0;
   margin-top: -1px;
@@ -7,7 +11,16 @@
 @media (min-width: $tablet-width) {
   .cat-slider__wrapper {
     width: 768px;
-    min-height: 462px;
+    min-height: 461px;
+    margin-top: 65px;
 
+  }
+
+  .cat-slider__img {
+    width: 560px;
+    height: 510px;
+    position: absolute;
+    top: -148px;
+    left: 74px;
   }
 }

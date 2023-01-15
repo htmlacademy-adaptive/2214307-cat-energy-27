@@ -18,7 +18,9 @@
 
 @media (min-width: $tablet-width) {
   .results {
-    margin: 0;
+    margin: 0 0 0 19px;
+    gap: 80px;
+    width: 326px;
   }
 
 }
