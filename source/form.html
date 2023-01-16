@@ -78,18 +78,27 @@
                 </ul>
                 <div class="effect">
                   <ul class="effect__list">
-                    <li class="effect__item chose">
-                      <input class="choose__button" type="radio" id="loss" name="weight-down" value="похудение" checked>
-                      <label class="choose__description" for="loss">похудение</label>
+                    <li class="effect__item ">
+                      <input class="effect__button visually-hidden" type="radio" id="loss" name="weight-down"
+                        value="похудение" checked>
+
+                      <label class="effect__description" for="loss">
+                        <span class="effect__button--round"></span>
+                        похудение</label>
                     </li>
                     <li>
-                      <input class="choose__button" type="radio" id="up" name="weight-up" value="набор массы">
-                      <label class="choose__description" for="up"> набор массы </label>
+                      <input class="effect__button visually-hidden" type="radio" id="up" name="weight-up"
+                        value="набор массы">
+                      <label class="effect__description" for="up">
+                        <span class="effect__button--round"></span>
+                        набор массы </label>
                     </li>
-                    <li class="effect__item chose">
-                      <input class="choose__button" type="radio" id="nothing" name="dont know"
+                    <li class="effect__item ">
+                      <input class="effect__button visually-hidden" type="radio" id="nothing" name="dont know"
                         value="не знаю (Нужен ваш совет)">
-                      <label class="choose__description" for="nothing"> не знаю (Нужен ваш совет)</label>
+                      <label class="effect__description" for="nothing">
+                        <span class="effect__button--round"></span>
+                        не знаю (Нужен ваш совет)</label>
                     </li>
                   </ul>
                 </div>
@@ -97,7 +106,7 @@
             </fieldset>
 
             <fieldset class="contacts">
-              <legend class="contacts__title">Контактные данные (владельца кота)</legend>
+              <legend class="contacts__title title-line">Контактные данные (владельца кота)</legend>
               <div class="contacts__container">
                 <div class="contacts__wrapper">
                   <label class="contacts__description" for="email">e-mail:*</label>
@@ -124,22 +133,30 @@
               <div class="additional-form__wrapper">
                 <ul class="additional-form__list ">
                   <li class="additional-form__item ">
-                    <input class="additional-form__button" type="checkbox" id="sugar" name="sweetener"
+                    <input class="additional-form__button visually-hidden" type="checkbox" id="sugar" name="sweetener"
                       value="сахарозаменитель" checked>
-                    <label class="additional-form__description" for="sugar">сахарозаменитель</label>
+                    <label class="additional-form__description" for="sugar">
+                      <span class="additional__box"></span>
+                      сахарозаменитель</label>
                   </li>
                   <li class="additional-form__item ">
-                    <input class="additional-form__button" type="checkbox" id="water" name="h2o" value="питьевая вода">
-                    <label class="additional-form__description" for="water">питьевая вода</label>
+                    <input class="additional-form__button visually-hidden" type="checkbox" id="water" name="h2o" value="питьевая вода">
+                    <label class="additional-form__description" for="water">
+                      <span class="additional__box"></span>
+                      питьевая вода</label>
                   </li>
                   <li class="additional-form__item ">
-                    <input class="additional-form__button" type="checkbox" id="milk" name="milky" value="молоко">
-                    <label class="additional-form__description" for="milk">молоко</label>
+                    <input class="additional-form__button visually-hidden" type="checkbox" id="milk" name="milky" value="молоко">
+                    <label class="additional-form__description" for="milk">
+                      <span class="additional__box"></span>
+                      молоко</label>
                   </li>
                   <li class="additional-form__item ">
-                    <input class="additional-form__button" type="checkbox" id="vitamin" name="vitamins"
+                    <input class="additional-form__button visually-hidden" type="checkbox" id="vitamin" name="vitamins"
                       value="витамины">
-                    <label class="additional-form__description" for="vitamin">витамины</label>
+                    <label class="additional-form__description" for="vitamin">
+                      <span class="additional__box"></span>
+                      витамины</label>
                   </li>
                 </ul>
                 <div class="posting">
@@ -216,7 +233,7 @@
       </div>
     </footer>
   </div>
-  <script src="js/script.js"></script>
+  <script src="js/script.min.js"></script>
 </body>
 
 </html>

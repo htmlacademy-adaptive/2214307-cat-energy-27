@@ -37,12 +37,32 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #000000;
+  position: relative;
 }
 
 .additional-form__item {
   display: flex;
   align-items: center;
   width: 160px;
+}
+
+.additional-form__button[type="checkbox"]:checked+.additional-form__box {
+  position: absolute;
+  background-image: url(../img/icons/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.additional-form__box{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: #FFFFFF;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 }
 
 @media (min-width: $tablet-width) {

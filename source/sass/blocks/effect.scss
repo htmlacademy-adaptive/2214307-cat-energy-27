@@ -20,9 +20,53 @@
 
 .effect__item {
   width: 275.71px;
+
+}
+
+.effect__description {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #222222;
+  position: relative;
+  padding-left: 34px;
+}
+
+.effect__button--round {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -3px;
+  bottom: 0;
+  background: #fff;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #444444;
+  border-style: solid;
+}
+
+.effect__button--round::before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #68B738;
+  top: 8px;
+  left: 8px;
 }
 
 @media (min-width: $tablet-width) {
+  .effect__description {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
   .effect__item {
     width: 276px;
   }
