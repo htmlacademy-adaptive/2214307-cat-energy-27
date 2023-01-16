@@ -24,12 +24,19 @@
   gap: 13px;
 }
 
+.additional-form__button[type="checkbox"]:checked + .additional-form__box {
+  position: absolute;
+  background-image: url("../img/icons/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .additional-form__button {
   margin: 0;
 }
 
 .additional-form__description {
-  margin-left: 16px;
+  padding-left: 30px;
   font-family: $main-font;
   font-style: normal;
   font-weight: 400;
@@ -38,7 +45,7 @@
   text-transform: uppercase;
   color: #000000;
   position: relative;
-}
+  }
 
 .additional-form__item {
   display: flex;
@@ -46,23 +53,18 @@
   width: 160px;
 }
 
-.additional-form__button[type="checkbox"]:checked+.additional-form__box {
-  position: absolute;
-  background-image: url(../img/icons/check.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.additional-form__box{
+.additional-form__box {
   position: absolute;
   width: 20px;
   height: 20px;
-  border-radius: 4px;
-  background: #FFFFFF;
+  background: none;
   left: 0%;
   right: 0%;
   top: 0%;
   bottom: 0%;
+  border-color: #CDCDCD;
+  border-style: solid;
+  border-width: 1px;
 }
 
 @media (min-width: $tablet-width) {
