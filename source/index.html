@@ -75,7 +75,7 @@
       <div class="container">
         <div class="main-container__wrapper ">
           <section class="weight-loss">
-            <div class=" weight-working">
+            <div class=" weight-working weight-working--down">
               <h2 class="weight-loss__title cat-title">похудение</h2>
               <p class="weight-loss__description cat-description">Ваш кот весит больше собаки и почти утратил
                 способность
@@ -129,7 +129,7 @@
               </li>
               <li class="advantages__item advantages--changes cat-description">
                 <div class="advantages__image advantages__image--alarm"></div>
-                <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему <br>вашего
+                <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего
                   питомца!
                 </p>
               </li>
@@ -170,19 +170,25 @@
             <div class="cat-slider">
               <div class="cat-slider__wrapper">
                 <h2 class="visually-hidden">Котячий слайдер</h2>
-                <picture>
-                  <source type="image/webp" media="(min-width: 1200px)"
-                    srcset="img/cat-slider-desktop.webp 1x, img/cat-slider-desktop_2x.webp 2x">
-                  <source type="image/webp" media="(min-width: 768px)"
-                    srcset="img/cat-slider-tablet.webp 1x, img/cat-slider-tablet_2x.webp 2x">
-                  <source type="image/webp" srcset="cat-slider-mobile.webp 1x, img/cat-slider-mobile_2x.webp 2x">
-                  <source media="(min-width: 1200px)"
-                    srcset="img/cat-slider-desktop.png  1x, img/cat-slider-desktop_2x.png 2x">
-                  <source media="(min-width: 768px)"
-                    srcset="img/cat-slider-tablet.png 1x, img/cat-slider-tablet_2x.png 2x">
-                  <img class="cat-slider__img" src="img/cat-slider-mobile.png" srcset="img/cat-slider-mobile_2x.png"
-                    width="280" height="256" alt="слайдер котиков">
-                </picture>
+
+                <div class="cat-slider__picture cat-slider__picture--before">
+                  <picture>
+                    <source media="(min-width: 768px)" srcset="img/cat-fat-tablet.png 1x, img/cat-fat-tablet_2x.png 2x">
+                    <img class="cat-slider__img cat-slider__img--before" src="img/cat-fat-mobile.png"
+                      srcset="img/cat-fat-mobile_2x.png" width="280" height="232" alt="жирный кот">
+                  </picture>
+                </div>
+                <div class="cat-slider__picture cat-slider__picture--after">
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="img/cat-slim-tablet.png 1x, img/cat-slim-tablet_2x.png 2x">
+                    <source media="(min-width: 768px)" srcset="img/cat-slim-tablet.png 1x, img/cat-slim-tablet_2x.png 2x">
+                    <img class="cat-slider__img cat-slider__img--after" src="img/cat-slim-mobile.png"
+                      srcset="img/cat-slim-mobile_2x.png" width="243" height="232" alt="худосочный">
+                  </picture>
+                </div>
+
+
+
               </div>
             </div>
           </div>

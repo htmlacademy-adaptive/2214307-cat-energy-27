@@ -106,7 +106,7 @@
 @media (min-width: $desktop-width) {
   .header-image {
     margin-left: 80px;
-    min-height: 650px;
+    min-height: 576px;
   }
 
   .header-image__title {
@@ -115,7 +115,8 @@
     font-size: 60px;
     line-height: 60px;
     color: #000000;
-    margin-top: 111px;
+    margin-top: 23px;
+    margin-left: 38px;
   }
 
   .header-image__description {
@@ -124,6 +125,7 @@
     text-align: left;
     width: 283px;
     color: #000000;
+    margin: 41px 0 0 38px;
   }
 
 }

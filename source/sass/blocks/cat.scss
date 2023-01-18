@@ -45,6 +45,7 @@
 @media (min-width: $tablet-width) {
   .cat {
     background: none;
+    background-image: linear-gradient(#fff 0, #fff 60%, #f2f2f2 57%, #f2f2f2 100%);
   }
 
   .cat__title--flex {
@@ -56,6 +57,7 @@
     background-color: #ffffff;
     min-height: 490px;
     margin: -8px 0 0;
+    padding: 25px 0 0px;
   }
 
   .cat__story--description {
@@ -90,10 +92,6 @@
     width: 390px;
   }
 
-  .cat-slider {
-    background: #EAEAEA;
-  }
-
 }
 
 @media (min-width: $desktop-width) {
@@ -102,18 +100,6 @@
     position: relative;
     min-height: 550px;
     margin-top: 70px;
-  }
-
-  .cat::after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 88px;
-    min-height: 462px;
-    width: 100%;
-    background-color: #F2F2F2;
-    z-index: -1;
   }
 
   .cat__wrapper {

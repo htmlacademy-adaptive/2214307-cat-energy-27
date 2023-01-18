@@ -23,7 +23,15 @@
 @media (min-width: $desktop-width) {
   .weight-working {
     width: 457px;
-    padding: 77px 61px 55px 52px;
-    margin-right: 80px;
+  }
+
+  .weight-working--down {
+    padding: 77px 60px 55px 53px;
+    margin: 0 -2px 0;
+  }
+
+  .weight-working--up {
+    margin: 0 0 0 135px;
+    padding: 77px 62px 0 52px;
   }
 }
