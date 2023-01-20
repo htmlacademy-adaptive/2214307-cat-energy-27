@@ -78,11 +78,11 @@
   .inviting__adress {
     position: absolute;
     right: 0;
-    top: 246px;
-    left: 44px;
+    top: 105px;
+    left: 110px;
     width: 425px;
     background-color: #ffffff;
-    padding: 56px 60px 56px 80px;
+    padding: 56px 60px 44px 80px;
   }
 
   .inviting__adress--catalog {
@@ -95,5 +95,15 @@
 
   .inviting___description {
     text-align: left;
+  }
+
+  .inviting___description--text {
+    margin-left: -215px;
+    margin-top: 0;
+  }
+
+  .inviting__title {
+    margin-left: -2px;
+    margin-top: 4px;
   }
 }

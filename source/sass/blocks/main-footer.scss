@@ -40,6 +40,11 @@
 
 @media (min-width: $desktop-width) {
   .main-footer__social {
-    width: 1200px;
+    width: 1220px;
+  }
+
+  .main-footer__vector {
+    margin-top: 9px;
+    margin-left: -10px;
   }
 }

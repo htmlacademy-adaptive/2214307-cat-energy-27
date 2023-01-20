@@ -127,7 +127,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1225px;
+    width: 1227px;
+    margin: 33px -10px 0px;
   }
 
   .main-header__logo-image {
@@ -142,7 +143,7 @@
     position: absolute;
     content: "";
     top: 0;
-    right: -17px;
+    right: 0px;
     height: 694px;
     width: 50%;
     background-color: rgba(104, 183, 56, 0.85);
@@ -153,7 +154,7 @@
     position: absolute;
     content: "";
     top: 0;
-    right: -17px;
+    right: 0;
     height: 694px;
     width: 50%;
     background-image: url("../img/catright.png");

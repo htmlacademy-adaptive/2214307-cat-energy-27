@@ -64,3 +64,17 @@
     height: 82px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .days-list__item--time {
+    margin: 8.53px auto 0;
+  }
+
+  .days-list::after {
+    top: -16px;
+    left: -19px;
+    width: 164px;
+    height: 84px;
+  }
+}
+

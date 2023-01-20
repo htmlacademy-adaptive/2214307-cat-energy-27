@@ -64,3 +64,16 @@
     height: 75px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .weight-result__item--description {
+    margin: 9.53px auto 0;
+  }
+
+  .weight-result__item::after {
+    top: -17px;
+    left: -21px;
+    width: 170px;
+    height: 77px;
+  }
+}

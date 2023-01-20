@@ -18,9 +18,14 @@
 
 @media (min-width: $tablet-width) {
   .results {
-    margin: 0 0 0 19px;
+    margin: 0 0 0 20px;
     gap: 80px;
     width: 326px;
   }
+}
 
+@media (min-width: $desktop-width) {
+  .results {
+    margin: 0 0 0 10px;
+  }
 }

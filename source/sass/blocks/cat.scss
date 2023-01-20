@@ -99,7 +99,7 @@
     background: none;
     position: relative;
     min-height: 550px;
-    margin-top: 70px;
+    margin-top: 30px;
   }
 
   .cat__wrapper {
@@ -113,18 +113,20 @@
   }
 
   .cat__title {
-    display: flex;
-    width: 327px;
-    margin-top: 55px;
+    width: 326px;
+    margin-top: 38px;
+    flex-direction: row;
+    margin-left: -9px;
   }
 
   .cat__story--description {
-    width: 436px;
-    margin: 0;
+    width: 432px;
+    margin: 0 0 0 -10px;
   }
 
   .cat__title--flex {
-    margin-left: 63px;
+    margin-left: 65px;
+    margin-top: 1px;
   }
 
   .cat__wasted {
@@ -136,7 +138,8 @@
   }
 
   .cat__story--title {
-    margin-bottom: 76px;
+    margin-bottom: 146px;
+    margin-left: -10px;
   }
 
   .cat-slider {

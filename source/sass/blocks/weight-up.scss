@@ -89,7 +89,7 @@
     width: 268px;
     height: 200px;
     left: 413px;
-    top: 121px;
+    top: 91px;
   }
 
   .weight-up__link::before {
@@ -101,14 +101,22 @@
 @media (min-width: $desktop-width) {
   .weight-up__description {
     width: 457px;
-    margin: 73px 52px 48px 0;
+    margin: 73px 52px 23px 53px;
   }
 
   .weight-up::before {
-    width: 134px;
-    height: 100px;
-    left: 115px;
+    width: 136px;
+    height: 101px;
+    left: 123px;
     top: 45px;
     background-size: contain;
+  }
+
+  .weight-up__title {
+    margin: 0 214px 0;
+  }
+
+  .weight-up__link {
+    margin: 0 0 0 53px;
   }
 }
