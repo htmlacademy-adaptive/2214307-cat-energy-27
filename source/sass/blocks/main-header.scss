@@ -8,7 +8,11 @@
 
 .main-header__logo-image {
   margin-top: -11px;
+}
 
+.main-header__logo-catalog {
+  margin: -7px 0 0 0;
+  width: 203px;
 }
 
 .main-header__wrapper {
@@ -35,10 +39,14 @@
   position: relative;
 }
 
+.main-header__toggle--catalog {
+  top: -5px;
+}
+
 .main-header--closed .main-header__toggle::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: -3px;
   left: 0;
   width: 24px;
   height: 2px;
