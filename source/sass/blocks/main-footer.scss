@@ -26,13 +26,17 @@
   .main-footer__social {
     display: flex;
     margin: 0;
-    justify-content: space-between;
     width: 712px;
     padding: 38px 0 41px;
   }
 
   .main-footer__vector {
     margin-top: 5px;
+  }
+
+  .main-footer__vector--catalog {
+    width: 144px;
+    height: 46px;
   }
 
 }

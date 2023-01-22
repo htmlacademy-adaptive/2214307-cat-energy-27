@@ -13,8 +13,6 @@
   position: relative;
 }
 
-
-
 .present__container::before {
   background-image: url("../img/icons/gift.svg");
   background-repeat: no-repeat;
@@ -63,6 +61,8 @@
     gap: 265px;
     position: relative;
     background-position-y: -325px;
+    margin-top: 82.12px;
+    justify-content: flex-end;
   }
 
   @media (min-resolution: 2dppx) {
@@ -74,6 +74,16 @@
   .present__container::after {
     width: 707px;
     min-height: 202px;
+  }
+
+  .present__container::before {
+    top: 60px;
+    left: 81px;
+  }
+
+  .present__description {
+    margin: 3px 123px 0px;
+    text-align: left;
   }
 
 }
