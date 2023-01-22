@@ -91,15 +91,20 @@
 @media (min-width: $tablet-width) {
   .cards__wrapper {
     flex-direction: column;
+    position: relative;
   }
 
   .cards {
     margin: 0;
+    margin-bottom: 47px;
   }
 
   .cards__little {
     margin-top: 28px;
+  }
 
+  .cards__img {
+    margin: 0 auto;
   }
 
   .cards__img--chicken500 {
@@ -116,6 +121,7 @@
 
   .cards__img--fish1000 {
     width: 168px;
+
   }
 
   .cards__img--grecha500 {
@@ -128,35 +134,44 @@
 
   .cards__img--rise500 {
     width: 163px;
+    margin: 27px 0 0;
+  }
+
+  .cards__img--plus {
+    width: 64px;
+    height: 60px;
+    fill: #d3d3d3;
+    margin: 0;
+    margin-bottom: 24px;
   }
 
   .cards--show {
     margin-top: 37px;
+    width: 325px;
   }
 
   .cards__title--show {
     font-size: 20px;
     line-height: 22px;
     width: 134px;
-    margin-top: 49px;
+    margin-bottom: 26px;
   }
 
   .cards__description {
     width: 165px;
     font-size: 16px;
     line-height: 18px;
+    margin: -2px 0 87px;
   }
 
   .cards__button {
     margin: 0 auto;
-    margin-top: 33px;
-    width: 90px;
+    margin-top: 27px;
+    width: 65px;
     font-size: 16px;
+    padding: 11px 92px;
   }
 
-  .cards__img {
-    margin: 0 auto;
-  }
 }
 
 @media (min-width: $desktop-width) {

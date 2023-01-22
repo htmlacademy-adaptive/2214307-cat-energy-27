@@ -28,3 +28,17 @@
 .title-line::before {
   right: -73px;
 }
+
+
+@media (min-width: $tablet-width) {
+  .title-line {
+    font-weight: 400;
+    font-size: 36px;
+    color: #111;
+    position: relative;
+    display: inline-block;
+    padding-right: 0;
+    margin: 56px 3px 14px;
+    background: #ffffff;
+  }
+}
