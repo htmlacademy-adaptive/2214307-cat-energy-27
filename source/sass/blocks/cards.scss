@@ -3,8 +3,8 @@
 }
 
 .cards__button {
-  padding: 10px 109px;
-  margin: 13px 0 14px 0;
+  padding: 11px 109px;
+  margin: 21px 0 43px;
   width: 62px;
 }
 
@@ -17,6 +17,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #111111;
+  margin: 24px 0 -4px;
 }
 
 .cards__description {
@@ -34,6 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 
 }
 
@@ -42,38 +44,53 @@
   margin-left: 20px;
 }
 
-/*.cards__img--chicken500 {
-  width: 68px;
+.cards__img--chicken500 {
+  position: absolute;
+  top: 15px;
+  left: 16px;
 }
 
 .cards__img--chicken1000 {
-  width: 84px;
+  position: absolute;
+  top: 12px;
+  left: 8px;
 }
 
 .cards__img--fish500 {
-  width: 68px;
+  position: absolute;
+  top: 28px;
+  left: 16px;
 }
 
 .cards__img--fish1000 {
-  width: 84px;
+  position: absolute;
+  top: 12px;
+  left: 8px;
 }
 
 .cards__img--grecha500 {
-  width: 68px;
+  position: absolute;
+  top: 31px;
+  left: 16px;
 }
 
 .cards__img--grecha1000 {
-  width: 84px;
+  position: absolute;
+  top: 12px;
+  left: 8px;
 }
 
 .cards__img--rise500 {
-  width: 72px;
-}*/
+  position: absolute;
+  top: 25px;
+  left: 14px;
+}
 
 .cards__img--plus {
   width: 30px;
   height: 30px;
   fill: #D3D3D3;
+  margin-top: 7px;
 
 }
 
@@ -82,7 +99,6 @@
   flex-direction: column;
   align-items: center;
   margin: 0;
-  margin-top: 36px;
   width: 280px;
 }
 
@@ -153,7 +169,7 @@
   }
 
   .cards__img {
-    margin:0 auto;
+    margin: 0 auto;
   }
 }
 

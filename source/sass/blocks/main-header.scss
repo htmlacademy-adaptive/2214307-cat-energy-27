@@ -39,14 +39,22 @@
   position: relative;
 }
 
-.main-header__toggle--catalog {
-  top: -5px;
-}
 
 .main-header--closed .main-header__toggle::before {
   content: "";
   position: absolute;
   top: -3px;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background-color: #000000;
+  box-shadow: 0 8px 0 0 #000000, 0 16px 0 0 #000000;
+}
+
+.main-header--closed .main-header__toggle--catalog::before {
+  content: "";
+  position: absolute;
+  top: -5px;
   left: 0;
   width: 24px;
   height: 2px;

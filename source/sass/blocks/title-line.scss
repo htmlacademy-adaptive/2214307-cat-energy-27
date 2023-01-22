@@ -4,10 +4,8 @@
   color: #111111;
   position: relative; // нужен для того чтоб перекрыть полосы
   display: inline-block;
-  padding-right: 10px;
-  margin-bottom: 35px;
-  margin-top: 0;
-  margin-left: -50px;
+  padding-right: 21px;
+  margin: 0 0 14px;
   background: #ffffff; // белый цвет, нужен для того чтоб перекрыть линии
 }
 
@@ -28,5 +26,5 @@
 }
 
 .title-line::before {
-  right: 0;
+  right: -73px;
 }

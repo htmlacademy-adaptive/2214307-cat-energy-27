@@ -11,6 +11,10 @@
   gap: 32px;
 }
 
+.social__list--catalog {
+  margin: 15px auto 17px;
+}
+
 .social__item {
   margin-left: -5px;
   margin-top: 4px;
@@ -32,6 +36,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 287px;
+  margin-top: -6px;
+}
+
+.social__link--catalog {
+  margin: 0;
 }
 
 @media (min-width: $tablet-width) {

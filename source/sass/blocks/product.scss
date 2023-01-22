@@ -11,6 +11,8 @@
   line-height: 14px;
   color: #444444;
   margin: 13px 0 15px 0;
+  width: 280px;
+  justify-content: space-between;
 }
 
 .product__title {
@@ -21,6 +23,11 @@
   line-height: 16px;
   text-transform: uppercase;
   color: #222222;
+  margin: 0;
+}
+
+.product__item {
+  text-align: right;
   margin: 0;
 }
 
