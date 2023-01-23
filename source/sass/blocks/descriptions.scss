@@ -34,7 +34,7 @@
 
 @media (min-width: $tablet-width) {
   .descriptions {
-    margin-top: 40px;
+    margin-top: 31px;
     width: 250px;
   }
 
@@ -60,6 +60,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .descriptions {
+    margin-top: 40px;
+  }
+
   .descriptions__title {
     line-height: 21px;
     margin: 0 0 24px 53px;

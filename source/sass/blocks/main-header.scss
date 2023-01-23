@@ -15,6 +15,12 @@
   width: 203px;
 }
 
+.main-header__logo-image--form {
+  margin-top: -5px;
+  width: 202px;
+}
+
+
 .main-header__wrapper {
   margin: 0;
   margin-top: 11px;
@@ -27,6 +33,10 @@
   align-items: center;
   min-height: 38px;
   width: 280px;
+}
+
+.main-header__container--form {
+  margin-top: -3px;
 }
 
 .main-header__toggle {

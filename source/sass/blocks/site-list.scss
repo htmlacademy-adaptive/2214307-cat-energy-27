@@ -82,4 +82,8 @@
     margin: 0;
     width: 174px;
   }
+
+  .site-list__link--catalog .site-list__link--line::before {
+    bottom: -10px;
+  }
 }

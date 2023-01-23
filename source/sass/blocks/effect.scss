@@ -41,7 +41,7 @@
   right: 0;
   top: -3px;
   bottom: 0;
-  background: #fff;
+  background: #ffffff;
   height: 26px;
   width: 26px;
   border-radius: 50%;
@@ -50,7 +50,7 @@
   border-style: solid;
 }
 
-.effect__button--round::before {
+.effect__button[type="radio"]:checked + .effect__button--round::after {
   position: absolute;
   content: "";
   height: 10px;
