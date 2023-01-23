@@ -11,7 +11,7 @@
 .advertising__image {
   min-height: 270px;
   margin-top: 28px;
-  margin-left: -24px;
+  margin-left: -1px;
 }
 
 @media (min-width: $tablet-width) {
@@ -24,12 +24,13 @@
   }
 
   .advertising__image {
-    width: 709px;
+    width: 713px;
     height: 623px;
     position: absolute;
     top: 163px;
     left: -6px;
     z-index: -1;
+    margin-left: -42px;
   }
 }
 

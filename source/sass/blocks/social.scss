@@ -46,7 +46,12 @@
 
 .social__link--catalog {
   margin: 0;
+  width: 287px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
 
 @media (min-width: $tablet-width) {
   .social {
@@ -56,19 +61,24 @@
 
   .social__link--academy {
     display: flex;
-    justify-content: baseline;
-    gap: 16px;
-    margin-left: 10px;
+    justify-content: flex-start;
+    gap: 15px;
     margin-top: 3px;
+    margin-left: 9px;
+    width: 173px;
   }
 
   .social__list {
     gap: 0;
   }
 
+  .social__list--index {
+    margin-left: -9px;
+  }
+
   .social__list--catalog {
-    margin-left: 116px;
-    margin-top: 3px;
+    margin-left: -9px;
+    margin-top: 2px;
   }
 
   .social__item {
@@ -80,6 +90,9 @@
     gap: 18px;
     margin-top: 3px;
     justify-content: flex-end;
+    display: flex;
+    gap: 17px;
+    width: 173px;
   }
 }
 
@@ -95,7 +108,7 @@
   }
 
   .social__list--catalog {
-    margin-left: 0px;
-    margin-top: 3px;
-  }
+    margin-left: -11px;
+    margin-top: 4px;
+}
 }

@@ -64,8 +64,18 @@
             <p class="header-image__description">Занялся собой? Займись котом!</p>
           </div>
           <div class="advertising">
+            <picture>
+              <source type="image/webp" media="(min-width: 1200px)"
+              srcset="img/foodcat-desktop.webp 1x, img/foodcat-desktop_2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)"
+              srcset="img/foodcat-tablet.webp 1x, img/foodcat-tablet_2x.webp 2x">
+            <source type="image/webp" srcset="img/foodcat.webp 1x, img/foodcat_2x.webp 2x">
+
+            <source media="(min-width: 1200px)" srcset="img/foodcat-desktop.png 1x, img/foodcat-desktop_2x.png 2x">
+              <source media="(min-width: 768px)" srcset="img/foodcat-tablet.png 1x, img/foodcat-tablet_2x.png 2x">
             <img class="advertising__image" src="img/foodcat.png" width="280px" height="270px"
               srcset="img/foodcat_2x.png" alt="главное изображение">
+            </picture>
             <a class="button button--green advertising__button ">
               подобрать программу
             </a>
@@ -214,7 +224,7 @@
     </main>
     <footer class="main-footer">
       <div class="container">
-        <div class="main-footer__social ">
+        <div class="main-footer__social main-footer__social--index ">
           <svg class="main-footer__vector" width="130" height="46">
             <use xlink:href="img/sprite.svg#cat energy"></use>
           </svg>

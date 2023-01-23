@@ -4,6 +4,10 @@
   padding: 26px 0 0;
 }
 
+.inviting--catalog {
+  padding: 33px 0 0;
+}
+
 .inviting__adress {
   display: flex;
   width: 280px;
@@ -13,7 +17,7 @@
 }
 
 .inviting__adress--catalog {
-  margin: -12px 0 10px;
+  margin: -20px 0 10px;
 }
 
 .inviting__adress--form {
@@ -54,7 +58,7 @@
 
   .inviting__adress--catalog {
     width: 670px;
-    margin: 59px 0 43px;
+    margin: 52px 0 44px;
   }
 
   .inviting__title {
@@ -99,11 +103,22 @@
     top: 170px;
     right: 706px;
     left: 0;
-
+    position: absolute;
+    right: 0;
+    top: 105px;
+    left: 110px;
+    width: 425px;
+    background-color: #fff;
+    padding: 40px 61px 26px 81px;
+    margin: 23px 0 44px;
+    gap: 92px;
   }
 
   .inviting___description {
     text-align: left;
+    width: 142.76px;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .inviting___description--text {

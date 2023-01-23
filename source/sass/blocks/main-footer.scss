@@ -30,13 +30,22 @@
     padding: 38px 0 41px;
   }
 
-  .main-footer__vector {
-    margin-top: 5px;
+  .main-footer__social--index {
+    width: 718px;
+    justify-content: space-between;
+  }
+
+  .main-footer__social--catalog {
+    justify-content: space-between;
   }
 
   .main-footer__vector--catalog {
     width: 144px;
     height: 46px;
+  }
+
+  .main-footer__vector {
+    margin-top: 5px;
   }
 
 }
@@ -51,7 +60,7 @@
   .main-footer__social--catalog {
     width: 1217px;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 8px;
   }
 
   .main-footer__vector {
