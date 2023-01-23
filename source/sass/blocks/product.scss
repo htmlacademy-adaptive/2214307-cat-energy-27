@@ -71,10 +71,17 @@
   }
 
   .product__list {
-    width: 300px;
+    width: 337px;
     display: flex;
     justify-content: space-between;
-    gap: 121px;
-    margin-right: 40px;
+    gap: 94px;
+    margin-left: 166px;
+    margin-right: 23px;
+    margin-top: 21px;
+
+  }
+
+  .product__wrapper {
+    width: 632px;
   }
 }

@@ -70,8 +70,11 @@
   }
 
   .additional__list {
-    margin: 0;
-    width: 896px;
+    margin: 46px 0 0 0;
+    width: 900px;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
   }
 
   .product__title {
