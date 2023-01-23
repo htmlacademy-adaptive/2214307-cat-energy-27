@@ -175,15 +175,51 @@
 }
 
 @media (min-width: $desktop-width) {
-  .cards__button {
-    padding: 10px 92px;
-  }
-
   .cards__title--show {
     line-height: 21px;
   }
 
   .cards__img--chicken500 {
-    margin-top: 7px;
+    margin-top: 32px;
+    margin-right: 17px;
+  }
+
+  .cards__img--chicken1000 {
+    width: 177px;
+    margin: 0 0 6px -6px;
+  }
+
+  .cards__img--fish500 {
+    width: 161px;
+    margin: 0 14px 0 0;
+  }
+
+  .cards__img--fish1000 {
+    width: 172px;
+    margin: 0 9px 5px 0;
+  }
+
+  .cards__img--grecha500 {
+    width: 161px;
+    margin: 0 18px 1px 0;
+  }
+
+  .cards__img--grecha1000 {
+    width: 171px;
+    margin: 0 10px 6px 0;
+  }
+
+  .cards__img--rise500 {
+    width: 163px;
+    margin: 0 14px 1px 0;
+  }
+
+  .cards--show {
+    width: 223px;
+  }
+
+  .cards__button {
+    padding: 10px 51px;
+    margin: 29px 0 0 30px;
   }
 }

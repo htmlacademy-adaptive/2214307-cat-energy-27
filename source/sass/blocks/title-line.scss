@@ -42,3 +42,9 @@
     background: #ffffff;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .title-line {
+    margin: 55px -45px 14px;
+  }
+}
