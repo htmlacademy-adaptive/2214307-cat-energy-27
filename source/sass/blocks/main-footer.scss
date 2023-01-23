@@ -44,7 +44,14 @@
 
 @media (min-width: $desktop-width) {
   .main-footer__social {
-    width: 1220px;
+    width: 1216px;
+    justify-content: space-between;
+  }
+
+  .main-footer__social--catalog {
+    width: 1217px;
+    justify-content: space-between;
+    margin-top: 15px;
   }
 
   .main-footer__vector {

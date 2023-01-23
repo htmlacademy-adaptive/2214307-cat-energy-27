@@ -9,6 +9,11 @@
   background: #ffffff; // белый цвет, нужен для того чтоб перекрыть линии
 }
 
+.title-line--form {
+  padding: 0;
+  margin: 0;
+}
+
 .title-line::after,
 .title-line::before {
   content: "";
@@ -16,6 +21,18 @@
   top: 50%;
   width: 100vw; // чтоб тянулось на всю ширину экрана
   height: 3px;
+  margin-top: 2px;
+  background: #68b738;
+  z-index: -1;
+}
+
+.title-line--form::after,
+.title-line--form::before {
+  content: "";
+  position: absolute;
+  top: 26%;
+  width: 100vw;
+  height: 2px;
   margin-top: 2px;
   background: #68b738;
   z-index: -1;
@@ -29,6 +46,17 @@
   right: -73px;
 }
 
+.title-line--form::before {
+  right: -130px;
+}
+
+.title-line--comment {
+  margin: 0 0 38px;
+}
+
+.title-line--comment::before {
+  right: -180px;
+}
 
 @media (min-width: $tablet-width) {
   .title-line {

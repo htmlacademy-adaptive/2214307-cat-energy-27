@@ -105,4 +105,9 @@
     text-align: center;
     margin: 143px auto 0;
   }
+
+  .present__container::before {
+    top: 57px;
+    left: 86px;
+  }
 }

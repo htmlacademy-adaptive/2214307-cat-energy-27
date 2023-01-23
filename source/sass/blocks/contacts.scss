@@ -1,31 +1,29 @@
 .contacts {
-  border: 0 none;
+  border: 0;
   padding: 0;
-  margin: 0;
-  margin-top: 26px;
+  margin: 23px 0 0;
   width: 280px;
   overflow-x: hidden;
 }
 
 
 .contacts__title {
-  margin: 0;
+  margin: 0 0 36px 0;
   padding: 0;
-  margin-left: 20px;
-  margin-bottom: 35px;
   font-family: $main-font;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 26px;
   color: #000000;
+  width: 200px;
 }
 
 .contacts__wrapper {
   display: flex;
-  margin-bottom: 14.12px;
+  margin-bottom: 15px;
   align-items: center;
-  gap: 10px;
+
 }
 
 .contacts__description {
@@ -37,6 +35,7 @@
   text-transform: uppercase;
   color: #444444;
   white-space: nowrap;
+  padding-right: 10px;
 }
 
 .contacts__field {
@@ -48,6 +47,21 @@
   text-transform: uppercase;
   color: #444444;
   width: 100%;
+  padding: 12px 13px;
+  border: 1px solid #CDCDCD;
+  box-sizing: border-box;
+}
+
+.contacts__field--letter {
+  background-image: url("../img/icons/letter.svg");
+  background-repeat: no-repeat;
+  background-position: top 14px left 185px;
+}
+
+.contacts__field--phone {
+  background-image: url("../img/icons/phone.svg");
+  background-repeat: no-repeat;
+  background-position: top 13px left 170px;
 }
 
 

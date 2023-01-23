@@ -65,7 +65,7 @@
     content: "";
     height: 2px;
     width: 100%;
-    bottom: -4px;
+    bottom: -10px;
     background-color: #000000;
   }
 
@@ -81,9 +81,5 @@
   .site-list__item {
     margin: 0;
     width: 174px;
-  }
-
-  .site-list__link--catalog .site-list__link--line::before {
-    bottom: -10px;
   }
 }

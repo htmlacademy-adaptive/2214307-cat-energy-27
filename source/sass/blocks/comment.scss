@@ -1,8 +1,7 @@
 .comment {
   padding: 0;
-  margin: 0;
   border: 0 none;
-  margin-top: 26px;
+  margin: 9px -2px 0;
 }
 
 .comment__title {
@@ -22,9 +21,7 @@
   line-height: 18px;
   text-transform: uppercase;
   color: #444444;
-  margin-top: 37.73px;
-  width: 280px;
-  min-height: 150.52px;
+  padding: 9px 16px;
 }
 
 .comment__form::placeholder {

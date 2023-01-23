@@ -1,14 +1,14 @@
 .posting {
-  margin: 0;
+  margin: 42px 0 0;
   padding: 0;
-  margin-top: 34px;
   border: 0 none;
 }
 
 .posting__link {
-  padding: 7px 44px;
-  width: 280px;
-  border: none;
+  padding: 11px 0;
+  width: 281px;
+  border: 0;
+  margin: -5px 2px 21px;
 }
 
 @media (min-width: $tablet-width) {
