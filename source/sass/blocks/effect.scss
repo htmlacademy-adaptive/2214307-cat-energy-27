@@ -44,6 +44,15 @@
   width: 29px;
   border-radius: 50%;
   box-shadow: inset 0 0 0 1px #cdcdcd;
+  cursor: pointer;
+}
+
+.effect__button--round:hover {
+  box-shadow: inset 0 0 0 1px #BABABA
+}
+
+.effect__button--round:disabled {
+  opacity: 0.3;
 }
 
 .effect__button[type="radio"]:checked+.effect__button--round::after {
