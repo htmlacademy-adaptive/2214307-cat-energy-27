@@ -8,16 +8,16 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  margin: 0;
-  margin-bottom: 18px;
+  margin: 2px 0 15px;
   width: 80px;
+  text-transform: uppercase;
 }
 
 .descriptions__list {
   display: flex;
   margin: 0;
   justify-content: space-between;
-  margin-bottom: 4px;
+
 }
 
 .descriptions__item {
@@ -34,7 +34,7 @@
 
 @media (min-width: $tablet-width) {
   .descriptions {
-    margin-top: 34px;
+    margin-top: 31px;
     width: 250px;
   }
 
@@ -43,7 +43,7 @@
     margin-bottom: 21px;
     font-size: 20px;
     line-height: 24px;
-    width: 125px;
+    width: 135px;
     text-align: center;
 
   }
@@ -53,10 +53,25 @@
     line-height: 16px;
   }
 
+  .descriptions__list {
+    margin-bottom: 15px;
+  }
+
 }
 
 @media (min-width: $desktop-width) {
+  .descriptions {
+    margin-top: 40px;
+  }
+
   .descriptions__title {
     line-height: 21px;
+    margin: 0 0 24px 53px;
+  }
+
+  .descriptions__list {
+    margin-bottom: 15px;
+    width: 169px;
+    margin-left: 33px;
   }
 }

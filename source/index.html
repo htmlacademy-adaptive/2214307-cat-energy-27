@@ -5,6 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
+  <link rel="preload" href="fonts/oswald/oswaldregular.woff" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="fonts/oswald/oswaldregular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lato/Lato-Regular.woff" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lato/Lato-Regular.woff2" type="font/woff2" crossorigin="anonymous">
   <link href="css/style.min.css" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
@@ -21,9 +25,9 @@
           <div class="main-header__container">
             <a class="main-header__logo" href="index.html">
               <picture>
-                <source media="(min-width: 1200px)" srcset="img/icons/logo-desktop.svg" >
+                <source media="(min-width: 1200px)" srcset="img/icons/logo-desktop.svg">
                 <source media="(min-width: 768px)" srcset="img/icons/logo-tablet.svg">
-                <img class="page-header__logo-image" src="img/icons/logo-mobile.svg" width="192" height="66"
+                <img class="main-header__logo-image" src="img/icons/logo-mobile.svg" width="205" height="66"
                   alt="Кэт энерджи">
               </picture>
             </a>
@@ -35,7 +39,8 @@
             <div class="main-nav__wrapper">
               <ul class="main-nav__list site-list">
                 <li class="site-list__item">
-                  <a class="site-list__link site-list__link--main site-list__link--line site-list__link--first" href="index.html">главная</a>
+                  <a class="site-list__link site-list__link--main site-list__link--line site-list__link--first"
+                    href="index.html">главная</a>
                 </li>
                 <li class="site-list__item">
                   <a class="site-list__link site-list__link--main" href="catalog.html">каталог продукции</a>
@@ -59,8 +64,18 @@
             <p class="header-image__description">Занялся собой? Займись котом!</p>
           </div>
           <div class="advertising">
+            <picture>
+              <source type="image/webp" media="(min-width: 1200px)"
+              srcset="img/foodcat-desktop.webp 1x, img/foodcat-desktop_2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)"
+              srcset="img/foodcat-tablet.webp 1x, img/foodcat-tablet_2x.webp 2x">
+            <source type="image/webp" srcset="img/foodcat.webp 1x, img/foodcat_2x.webp 2x">
+
+            <source media="(min-width: 1200px)" srcset="img/foodcat-desktop.png 1x, img/foodcat-desktop_2x.png 2x">
+              <source media="(min-width: 768px)" srcset="img/foodcat-tablet.png 1x, img/foodcat-tablet_2x.png 2x">
             <img class="advertising__image" src="img/foodcat.png" width="280px" height="270px"
               srcset="img/foodcat_2x.png" alt="главное изображение">
+            </picture>
             <a class="button button--green advertising__button ">
               подобрать программу
             </a>
@@ -70,7 +85,7 @@
       <div class="container">
         <div class="main-container__wrapper ">
           <section class="weight-loss">
-            <div class=" weight-working">
+            <div class=" weight-working weight-working--down">
               <h2 class="weight-loss__title cat-title">похудение</h2>
               <p class="weight-loss__description cat-description">Ваш кот весит больше собаки и почти утратил
                 способность
@@ -83,7 +98,7 @@
           </section>
           <section class="weight-up">
             <!-- <div class="container"> -->
-            <div class=" weight-working">
+            <div class=" weight-working weight-working--up">
               <h2 class="weight-up__title cat-title">набор массы</h2>
               <p class="weight-up__description cat-description">Заработать авторитет среди дворовых котов и даже
                 собак?
@@ -149,7 +164,7 @@
               <div class="cat__wasted">
                 <div class="results">
                   <dl class="results__list weight-result">
-                    <dt class="weight-result__item weight-result__item--kilo ">5кг</dt>
+                    <dt class="weight-result__item weight-result__item--kilo ">5 кг</dt>
                     <dd class="weight-result__item weight-result__item--description ">снижение веса</dd>
                   </dl>
                   <dl class="results__list days-list">
@@ -157,14 +172,33 @@
                     <dd class="days-list__item days-list__item--time">затрачено времени</dd>
                   </dl>
                 </div>
-                <h3 class="cat__title food-costs">Затраты на питание: <span class="cat__title--flex">15 000 РУБ</span>.
+                <h3 class="cat__title cat__title--costs ">Затраты на питание: <span class="cat__title--flex">15 000
+                    РУБ.</span>
                 </h3>
               </div>
             </div>
             <div class="cat-slider">
               <div class="cat-slider__wrapper">
                 <h2 class="visually-hidden">Котячий слайдер</h2>
-                <img class="cat-slider__img" src="img/cat-slider-mobile.jpg" alt="слайдер котиков">
+
+                <div class="cat-slider__picture cat-slider__picture--before">
+                  <picture>
+                    <source media="(min-width: 768px)" srcset="img/cat-fat-tablet.png 1x, img/cat-fat-tablet_2x.png 2x">
+                    <img class="cat-slider__img cat-slider__img--before" src="img/cat-fat-mobile.png"
+                      srcset="img/cat-fat-mobile_2x.png" width="280" height="232" alt="жирный кот">
+                  </picture>
+                </div>
+                <div class="cat-slider__picture cat-slider__picture--after">
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="img/cat-slim-tablet.png 1x, img/cat-slim-tablet_2x.png 2x">
+                    <source media="(min-width: 768px)" srcset="img/cat-slim-tablet.png 1x, img/cat-slim-tablet_2x.png 2x">
+                    <img class="cat-slider__img cat-slider__img--after" src="img/cat-slim-mobile.png"
+                      srcset="img/cat-slim-mobile_2x.png" width="243" height="232" alt="худосочный">
+                  </picture>
+                </div>
+
+
+
               </div>
             </div>
           </div>
@@ -173,8 +207,8 @@
       <section class="inviting">
         <div class="container">
           <div class="inviting__adress">
-            <h2 class="inviting__title">приглашаем к сотрудничеству дилеров!</h2>
-            <p class="inviting___description">ул. Большая Конюшенная, д. 19/8
+            <h2 class="inviting__title">приглашаем <br>к сотрудничеству дилеров!</h2>
+            <p class="inviting___description inviting___description--text">ул. Большая Конюшенная, д. 19/8
               <span class="inviting___description inviting___description--town">Санкт-Петербург</span>
             </p>
           </div>
@@ -190,8 +224,8 @@
     </main>
     <footer class="main-footer">
       <div class="container">
-        <div class="main-footer__social ">
-          <svg class="main-footer__vector" width="101" height="18">
+        <div class="main-footer__social main-footer__social--index ">
+          <svg class="main-footer__vector" width="130" height="46">
             <use xlink:href="img/sprite.svg#cat energy"></use>
           </svg>
           <ul class="social__list social">
@@ -218,10 +252,10 @@
             </li>
           </ul>
           <a class="social__link social__link--academy" href="https://htmlacademy.ru/study">
-            <svg width="112" height="15">
+            <svg width="113" height="18">
               <use xlink:href="img/sprite.svg#HTML Academy"></use>
             </svg>
-            <svg width="27" height="34">
+            <svg width="40" height="40">
               <use xlink:href="img/sprite.svg#htmlacademy"></use>
             </svg>
           </a>
@@ -229,9 +263,7 @@
       </div>
     </footer>
   </div>
-  <script src="js/script.js"></script>
+  <script src="js/script.min.js"></script>
 </body>
 
 </html>
-
-

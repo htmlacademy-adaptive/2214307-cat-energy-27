@@ -5,6 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
+  <link rel="preload" href="fonts/oswald/oswaldregular.woff" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="fonts/oswald/oswaldregular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lato/Lato-Regular.woff" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lato/Lato-Regular.woff2" type="font/woff2" crossorigin="anonymous">
   <link href="css/style.min.css" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
@@ -17,17 +21,17 @@
   <div class="page-container">
     <header class="main-header main-header--closed main-header--nojs">
       <div class="container">
-        <div class="main-header__wrapper">
+        <div class="main-header__wrapper--catalog main-header__wrapper">
           <div class="main-header__container">
             <a class="main-header__logo" href="#">
               <picture>
                 <source media="(min-width: 1300px)" srcset="img/icons/logo-desktop.svg">
                 <source media="(min-width: 768px)" srcset="img/icons/logo-tablet.svg">
-                <img class="page-header__logo-image" src="img/icons/logo-mobile.svg" width="192" height="66"
+                <img class="main-header__logo-catalog" src="img/icons/logo-mobile.svg" width="192" height="66"
                   alt="Кэт энерджи">
               </picture>
             </a>
-            <button class="main-header__toggle" type="button">
+            <button class="main-header__toggle main-header__toggle--catalog" type="button">
               <span class="visually-hidden">Открыть меню</span>
             </button>
           </div>
@@ -38,7 +42,7 @@
                   <a class="site-list__link" href="index.html">главная</a>
                 </li>
                 <li class="site-list__item">
-                  <a class="site-list__link site-list__link--line" href="catalog.html">каталог продукции</a>
+                  <a class="site-list__link site-list__link--line site-list__link--catalog" href="catalog.html">каталог продукции</a>
                 </li>
                 <li class="site-list__item">
                   <a class="site-list__link" href="form.html">подбор программы</a>
@@ -60,7 +64,7 @@
 
                 <picture>
                   <source type="image/webp" media="(min-width: 1200px)"
-                    srcset="img/chicken500-desktop.webp 1x, img/chicken-desktop_2x.webp 2x">
+                    srcset="img/chicken500-desktop.webp 1x, img/chicken500-desktop_2x.webp 2x">
                   <source type="image/webp" media="(min-width: 768px)"
                     srcset="img/chicken500-tablet.webp 1x, img/chicken500-tablet_2x.webp 2x">
                   <source type="image/webp" srcset="img/chicken500.webp 1x, img/chicken500_2x.webp 2x">
@@ -205,7 +209,7 @@
                     srcset="img/grecha500_2x.jpg" width="68" height="78" alt="гречка 500г">
                 </picture>
                 <div class="descriptions">
-                  <h2 class="descriptions__title">Cat Energy PRO 500 г</h2>
+                  <h2 class="descriptions__title">Cat Energy Slim 500 г</h2>
                   <dl class="descriptions__list">
                     <dt class="descriptions__item">Масса</dt>
                     <dd class="descriptions__item">500 г</dd>
@@ -238,7 +242,7 @@
                     width="84" height="100" alt="гречка 1000г">
                 </picture>
                 <div class="descriptions">
-                  <h2 class="descriptions__title">Cat Energy PRO 1000 г</h2>
+                  <h2 class="descriptions__title">Cat Energy Slim 1000 г</h2>
                   <dl class="descriptions__list">
                     <dt class="descriptions__item">Масса</dt>
                     <dd class="descriptions__item">1000 г</dd>
@@ -270,7 +274,7 @@
                     srcset="img/rise500_2x.jpg" width="72" height="84" alt="рис 500г">
                 </picture>
                 <div class="descriptions">
-                  <h2 class="descriptions__title">Cat Energy PRO 500 г</h2>
+                  <h2 class="descriptions__title">Cat Energy Slim 500 г</h2>
                   <dl class="descriptions__list">
                     <dt class="descriptions__item">Масса</dt>
                     <dd class="descriptions__item">500 г</dd>
@@ -294,7 +298,7 @@
               </svg>
               <h3 class="cards__title--show">Показать еще 100500 товаров</h3>
               <p class="cards__description">На самом деле вкусов гораздо больше!</p>
-              <a class="button cards__button button--grey" href="#">
+              <a class="button button--grey" href="#">
                 показать все
               </a>
             </li>
@@ -304,7 +308,7 @@
 
       <section class="additional">
         <div class="container">
-          <h2 class="additional__title">Дополнительные товары</h2>
+          <h2 class="additional__title title-line ">Дополнительные товары</h2>
           <div class="additional__wrapper">
             <ul class="additional__list">
               <li class="additional__item product">
@@ -351,7 +355,7 @@
             <div class="present">
               <h2 class="visually-hidden">подарок</h2>
               <div class="present__container">
-                <p class="present__description">Закажите все и получите чехол для кота в подарок!</p>
+                <p class="present__description">Закажите все<br> и получите чехол для<br> кота в подарок!</p>
               </div>
             </div>
           </div>
@@ -359,11 +363,11 @@
   </div>
   </main>
 
-  <section class="inviting">
+  <section class="inviting inviting--catalog ">
     <div class="container">
       <div class="inviting__adress inviting__adress--catalog">
-        <h2 class="inviting__title">приглашаем к сотрудничеству дилеров!</h2>
-        <p class="inviting___description">ул. Большая Конюшенная, д. 19/8
+        <h2 class="inviting__title">приглашаем<br> к сотрудничеству дилеров!</h2>
+        <p class="inviting___description inviting___description--catalog">ул. Большая Конюшенная, д. 19/8
           <span class="inviting___description inviting___description--town">Санкт-Петербург</span>
         </p>
       </div>
@@ -379,11 +383,11 @@
 
   <footer class="main-footer">
     <div class="container">
-      <div class="main-footer__social ">
-        <svg class="main-footer__vector" width="101" height="18">
+      <div class="main-footer__social main-footer__social--catalog">
+        <svg class="main-footer__vector main-footer__vector--catalog" width="130" height="46">
           <use xlink:href="img/sprite.svg#cat energy"></use>
         </svg>
-        <ul class="social__list social">
+        <ul class="social__list social social__list--catalog">
           <li class="social__item">
             <a class="social__link" href="https://vk.com/htmlacademy">
               <svg width="27" height="17">
@@ -406,11 +410,11 @@
             </a>
           </li>
         </ul>
-        <a class="social__link social__link--academy" href="https://htmlacademy.ru/study">
+        <a class="social__link social__link--catalog" href="https://htmlacademy.ru/study">
           <svg width="112" height="15">
             <use xlink:href="img/sprite.svg#HTML Academy"></use>
           </svg>
-          <svg width="27" height="34">
+          <svg width="40" height="40">
             <use xlink:href="img/sprite.svg#htmlacademy"></use>
           </svg>
         </a>
@@ -418,7 +422,7 @@
     </div>
   </footer>
 </div>
-<script src="js/script.js"></script>
+<script src="js/script.min.js"></script>
 </body>
 
 </html>

@@ -5,19 +5,23 @@
   font-size: 36px;
   line-height: 36px;
   color: #000000;
+  margin: 32px 0px 0px 0px;
 }
+
 
 @media (min-width: $tablet-width) {
   .catalog-items__title {
-    margin-bottom: 82px;
-    margin-top: 65px;
+    margin-bottom: 103px;
+    margin-top: 69px;
+    font-size: 60px;
   }
 }
 
 
 @media (min-width: $desktop-width) {
   .catalog-items__title {
-    margin-bottom: 84px;
-    margin-top: 74px;
+    margin-bottom: 92px;
+    margin-top: 55px;
+    margin-left: -10px;
   }
 }

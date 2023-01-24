@@ -1,0 +1,78 @@
+.title-line {
+  font-weight: 400;
+  font-size: 24px;
+  color: #111111;
+  position: relative; // нужен для того чтоб перекрыть полосы
+  display: inline-block;
+  padding-right: 21px;
+  margin: 0 0 14px;
+  background: #ffffff; // белый цвет, нужен для того чтоб перекрыть линии
+}
+
+.title-line--form {
+  padding: 0;
+  margin: 0;
+}
+
+.title-line::after,
+.title-line::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 100vw; // чтоб тянулось на всю ширину экрана
+  height: 3px;
+  margin-top: 2px;
+  background: #68b738;
+  z-index: -1;
+}
+
+.title-line--form::after,
+.title-line--form::before {
+  content: "";
+  position: absolute;
+  top: 26%;
+  width: 100vw;
+  height: 2px;
+  margin-top: 2px;
+  background: #68b738;
+  z-index: -1;
+}
+
+.title-line::after {
+  left: 20px;
+}
+
+.title-line::before {
+  right: -73px;
+}
+
+.title-line--form::before {
+  right: -130px;
+}
+
+.title-line--comment {
+  margin: 0 0 38px;
+}
+
+.title-line--comment::before {
+  right: -180px;
+}
+
+@media (min-width: $tablet-width) {
+  .title-line {
+    font-weight: 400;
+    font-size: 36px;
+    color: #111;
+    position: relative;
+    display: inline-block;
+    padding-right: 0;
+    margin: 51px 3px 14px;
+    background: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .title-line {
+    margin: 55px -45px 14px;
+  }
+}

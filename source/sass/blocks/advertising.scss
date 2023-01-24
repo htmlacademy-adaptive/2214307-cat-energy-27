@@ -3,19 +3,20 @@
 }
 
 .advertising__button {
-  padding: 7px 44px;
+  padding: 12px 44px;
   width: 192px;
   margin: 0;
 }
 
 .advertising__image {
   min-height: 270px;
-
+  margin-top: 28px;
+  margin-left: -1px;
 }
 
 @media (min-width: $tablet-width) {
   .advertising__button {
-    padding: 14px 26px;
+    padding: 15px 28px;
     width: 192px;
     margin: 0;
     font-size: 20px;
@@ -23,29 +24,30 @@
   }
 
   .advertising__image {
-    width: 709px;
-    height: 609px;
+    width: 713px;
+    height: 623px;
     position: absolute;
     top: 163px;
-    left: -60px;
+    left: -6px;
     z-index: -1;
+    margin-left: -42px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .advertising__button {
-    padding: 14px 26px;
+    padding: 18px 27px;
     width: 192px;
-    margin: 0;
+    margin: 50px 28px 0;
     position: static;
   }
 
   .advertising__image {
     position: absolute;
-    top: 31px;
+    top: -83px;
     right: 0;
-    left: calc(50% - 230px);
-    width: 552px;
-    height: 499px;
+    left: calc(50% - 147px);
+    width: 524px;
+    height: 493px;
   }
 }

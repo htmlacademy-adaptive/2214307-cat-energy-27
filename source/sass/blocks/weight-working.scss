@@ -10,13 +10,28 @@
   .weight-working {
     width: 594px;
     padding: 77px 62px 53px 52px;
+    margin: 10px 0 29px;
+  }
+
+  .weight-working--up {
+    margin: 0 0 50px 0;
+    padding: 47px 62px 53px 52px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .weight-working {
     width: 457px;
-    padding: 77px 61px 55px 52px;
-    margin-right: 80px;
   }
+
+  .weight-working--down {
+    padding: 77px 61px 55px 52px;
+    margin: 0 -10px;
+  }
+
+  .weight-working--up {
+    margin: 0 0 0 90px;
+    padding: 77px 8px 55px 0;
+    width: 562px;
+}
 }

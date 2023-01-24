@@ -3,8 +3,8 @@
 }
 
 .cards__button {
-  padding: 10px 109px;
-  margin: 13px 0 14px 0;
+  padding: 11px 109px;
+  margin: 21px 0 43px;
   width: 62px;
 }
 
@@ -17,6 +17,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #111111;
+  margin: 24px 0 -4px;
 }
 
 .cards__description {
@@ -34,6 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 
 }
 
@@ -42,38 +44,39 @@
   margin-left: 20px;
 }
 
-/*.cards__img--chicken500 {
-  width: 68px;
+.cards__img--chicken500 {
+  margin: 14px 0 0 35px;
 }
 
 .cards__img--chicken1000 {
-  width: 84px;
+  margin: 12px 0 -10px 27px;
 }
 
 .cards__img--fish500 {
-  width: 68px;
+  margin: 9px 0 -24px 35px;
 }
 
 .cards__img--fish1000 {
-  width: 84px;
+  margin: 12px 0 -10px 27px;
 }
 
 .cards__img--grecha500 {
-  width: 68px;
+  margin: 18px 0 -16px 35px;
 }
 
 .cards__img--grecha1000 {
-  width: 84px;
+  margin: 12px 0 -10px 27px;
 }
 
 .cards__img--rise500 {
-  width: 72px;
-}*/
+  margin: 12px 0 -20px 34px;
+}
 
 .cards__img--plus {
   width: 30px;
   height: 30px;
   fill: #D3D3D3;
+  margin-top: 7px;
 
 }
 
@@ -82,22 +85,26 @@
   flex-direction: column;
   align-items: center;
   margin: 0;
-  margin-top: 36px;
   width: 280px;
 }
 
 @media (min-width: $tablet-width) {
   .cards__wrapper {
     flex-direction: column;
+    position: relative;
   }
 
   .cards {
     margin: 0;
+    margin-bottom: 46px;
   }
 
   .cards__little {
     margin-top: 28px;
+  }
 
+  .cards__img {
+    margin: 0 auto;
   }
 
   .cards__img--chicken500 {
@@ -114,6 +121,7 @@
 
   .cards__img--fish1000 {
     width: 168px;
+
   }
 
   .cards__img--grecha500 {
@@ -126,47 +134,96 @@
 
   .cards__img--rise500 {
     width: 163px;
+    margin: 27px 0 0;
+  }
+
+  .cards__img--plus {
+    width: 64px;
+    height: 60px;
+    fill: #d3d3d3;
+    margin: 0;
+    margin-bottom: 24px;
   }
 
   .cards--show {
     margin-top: 37px;
+    width: 325px;
   }
 
   .cards__title--show {
     font-size: 20px;
     line-height: 22px;
     width: 134px;
-    margin-top: 49px;
+    margin-bottom: 29px;
   }
 
   .cards__description {
     width: 165px;
     font-size: 16px;
     line-height: 18px;
+    margin: -9px 0 94px;
   }
 
   .cards__button {
     margin: 0 auto;
-    margin-top: 33px;
-    width: 90px;
+    margin-top: 29px;
+    width: 65px;
     font-size: 16px;
+    padding: 11px 92px;
   }
 
-  .cards__img {
-    margin:0 auto;
-  }
 }
 
 @media (min-width: $desktop-width) {
-  .cards__button {
-    padding: 10px 92px;
-  }
-
   .cards__title--show {
     line-height: 21px;
   }
 
   .cards__img--chicken500 {
-    margin-top: 7px;
+    margin-top: 32px;
+    margin-right: 17px;
+  }
+
+  .cards__img--chicken1000 {
+    width: 177px;
+    margin: 0 0 6px -6px;
+  }
+
+  .cards__img--fish500 {
+    width: 161px;
+    margin: 0 14px 0 0;
+  }
+
+  .cards__img--fish1000 {
+    width: 172px;
+    margin: 0 9px 5px 0;
+  }
+
+  .cards__img--grecha500 {
+    width: 161px;
+    margin: 0 18px 1px 0;
+  }
+
+  .cards__img--grecha1000 {
+    width: 171px;
+    margin: 0 10px 6px 0;
+  }
+
+  .cards__img--rise500 {
+    width: 163px;
+    margin: 0 14px 1px 0;
+  }
+
+  .cards--show {
+    width: 223px;
+  }
+
+  .cards__button {
+    padding: 10px 51px;
+    margin: 29px 0 0 30px;
+  }
+
+  .cards__description {
+    margin: -4px 0 87px;
   }
 }

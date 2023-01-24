@@ -2,7 +2,7 @@
   font-family: $main-font;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
   justify-content: center;
   display: flex;
@@ -17,12 +17,12 @@
 
 .button--grey {
   background-color: #F2F2F2;
-  margin: 21px 0 25px 0;
-  width: 91px;
   font-size: 16px;
   line-height: 20px;
-  padding: 10px 98px;
   color: #444444;
+  padding: 10px 90px;
+  margin: 8px 0 43px;
+  width: 100px;
 }
 
 .button--grey:hover {
@@ -48,9 +48,9 @@
 @media (min-width: $tablet-width) {
   .button--grey {
     width: 107px;
-    padding: 10px 85px;
-    margin: 0;
+    padding: 9px 71px;
     color: #444444;
+    margin: -4px 0 2px;
   }
 
 }
@@ -58,7 +58,7 @@
 @media (min-width: $desktop-width) {
   .button--grey {
     width: 107px;
-    padding: 10px 85px;
+    padding: 10px 31px;
     margin: 0;
   }
 }

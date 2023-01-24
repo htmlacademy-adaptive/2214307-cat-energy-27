@@ -1,7 +1,7 @@
 .catalog-list {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 59px 0 0;
 }
 
 @media (min-width: $tablet-width) {
@@ -21,12 +21,12 @@
 @media (min-width: $desktop-width) {
   .catalog-list {
     display: grid;
-    grid-template-columns: 245px 245px 245px 245px;
+    grid-template-columns: 244px 240px 249px 237px;
     list-style-type: none;
     padding: 0;
     margin: 0;
     width: 245px;
-    grid-row-gap: 63px;
-    grid-column-gap: 80px;
+    grid-row-gap: 58px;
+    grid-column-gap: 81px;
   }
 }

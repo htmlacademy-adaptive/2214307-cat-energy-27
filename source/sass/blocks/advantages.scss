@@ -5,7 +5,7 @@
   list-style-type: none;
   width: 276px;
   padding: 0;
-  margin-top: 32px;
+  margin-top: 40px;
 }
 
 .advantages__description {
@@ -21,7 +21,7 @@
 }
 
 .advantages__image {
-  width: 60px;
+  width: 61px;
   height: 60px;
   background-color: #68B738;
 }
@@ -54,13 +54,13 @@
   .advantages {
     font-size: 16px;
     line-height: 24px;
-    width: 708px;
+    width: 634px;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    margin-top: 52px;
   }
 
   .advantages__description {
@@ -71,30 +71,36 @@
 
   .advantages__item {
     width: 250px;
-    margin-bottom: 37px;
+    margin-bottom: 70px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 31px;
-    background-position-x: 130px;
+    background-position-x: 127px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: initial;
+    min-height: 227px;
   }
 
   .advantages--vitamins {
-    background-image: url("../img/1.png");
+    background-image: url("../img/icons/1.svg");
   }
 
   .advantages--water {
-    background-image: url("../img/2.png");
+    background-image: url("../img/icons/2.svg");
   }
 
   .advantages--food {
-    background-image: url("../img/3.png");
+    background-image: url("../img/icons/3.svg");
   }
 
   .advantages--changes {
-    background-image: url("../img/4.png");
+    background-image: url("../img/icons/4.svg");
+  }
+
+  .advantages__image {
+    width: 80px;
+    height: 80px;
   }
 
   .advantages__wrapper {
@@ -110,39 +116,46 @@
     display: flex;
     margin: 0;
     margin-top: 32px;
-    width: 1200px;
+    width: 1207px;
     flex-wrap: nowrap;
   }
 
   .advantages__item {
-    margin: 0;
-    // margin-right: 94px;
-    margin-top: 32px;
+    margin: 40px -8px 0;
     width: 250px;
     min-height: 280px;
   }
 
   .advantages--vitamins {
-    background-image: url("..//img/1.png");
+    background-image: url("../img/icons/1.svg");
     background-repeat: no-repeat;
-    background-position-x: 106px;
+    background-position-x: 124px;
+    background-position-y: 0;
+    background-size: initial;
+
   }
 
   .advantages--water {
-    background-image: url("..//img/2.png");
+    background-image: url("../img/icons/2.svg");
     background-repeat: no-repeat;
-    background-position-x: 85px;
+    background-position-x: 123px;
+    background-position-y: -2px;
+    background-size: initial;
   }
 
   .advantages--food {
-    background-image: url("..//img/3.png");
+    background-image: url("../img/icons/3.svg");
     background-repeat: no-repeat;
-    background-position-x: 110px;
+    background-position-x: 124px;
+    background-position-y: 0;
+    background-size: initial;
   }
 
   .advantages--changes {
-    background-image: url("..//img/4.png");
+    background-image: url("../img/icons/4.svg");
     background-repeat: no-repeat;
-    background-position-x: 125px;
+    background-position-x: 124px;
+    background-position-y: 0;
+    background-size: initial;
   }
 }

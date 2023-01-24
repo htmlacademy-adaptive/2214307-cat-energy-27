@@ -19,7 +19,7 @@
   display: block;
   position: absolute;
   left: 0;
-  top: 0;
+  top: -1px;
   height: 302px;
   width: 100%;
   background-image: url("..//img/cat-background.png");
@@ -58,15 +58,17 @@
   color: #ffffff;
   text-align: center;
   margin: 0;
-  margin-top: 25px;
+  margin-top: 24px;
   width: 198px;
+  text-transform: uppercase;
 }
 
 
 @media (min-width: $tablet-width) {
   .header-image {
-    margin-left: 117px;
+    margin-left: 97px;
     min-height: 800px;
+    margin-top: 55px;
   }
 
   .header-image::after {
@@ -97,16 +99,14 @@
     text-align: left;
     width: 283px;
     color: #000000;
-    margin: 0;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin: 42px 0 51px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .header-image {
     margin-left: 80px;
-    min-height: 650px;
+    min-height: 576px;
   }
 
   .header-image__title {
@@ -115,7 +115,8 @@
     font-size: 60px;
     line-height: 60px;
     color: #000000;
-    margin-top: 111px;
+    margin-top: 23px;
+    margin-left: 30px;
   }
 
   .header-image__description {
@@ -124,6 +125,7 @@
     text-align: left;
     width: 283px;
     color: #000000;
+    margin: 40px 0 0 30px;
   }
 
 }

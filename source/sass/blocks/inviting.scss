@@ -1,14 +1,28 @@
 .inviting {
   margin: 0;
-  margin-top: 26px;
   background-color: #ffffff;
+  padding: 26px 0 0;
+}
+
+.inviting--catalog {
+  padding: 33px 0 0;
 }
 
 .inviting__adress {
   display: flex;
   width: 280px;
   justify-content: space-between;
-  margin: 0;
+  margin: -10px 0 11px;
+  gap: 1px;
+}
+
+.inviting__adress--catalog {
+  margin: -20px 0 10px;
+}
+
+.inviting__adress--form {
+  margin: 19px 0 11px;
+  gap: 0;
 }
 
 .inviting__title {
@@ -19,6 +33,8 @@
   line-height: 20px;
   text-transform: uppercase;
   color: #111111;
+  flex: 0 0 50%;
+  max-width: 160px;
 }
 
 .inviting___description {
@@ -34,17 +50,22 @@
 @media (min-width: $tablet-width) {
   .inviting__adress {
     width: 728px;
+    gap: 306px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 17px 0 45px;
   }
 
   .inviting__adress--catalog {
-    width: 628px;
-    margin: 0 auto;
+    width: 670px;
+    margin: 52px 0 44px;
   }
 
   .inviting__title {
     width: 171.82px;
     font-size: 20px;
     line-height: 26px;
+    margin-left: 41px;
   }
 
   .inviting___description {
@@ -70,11 +91,11 @@
   .inviting__adress {
     position: absolute;
     right: 0;
-    top: 246px;
-    left: 44px;
+    top: 105px;
+    left: 110px;
     width: 425px;
     background-color: #ffffff;
-    padding: 56px 60px 56px 80px;
+    padding: 56px 60px 44px 80px;
   }
 
   .inviting__adress--catalog {
@@ -82,10 +103,31 @@
     top: 170px;
     right: 706px;
     left: 0;
-
+    position: absolute;
+    right: 0;
+    top: 105px;
+    left: 110px;
+    width: 425px;
+    background-color: #fff;
+    padding: 40px 61px 26px 81px;
+    margin: 23px 0 44px;
+    gap: 92px;
   }
 
   .inviting___description {
     text-align: left;
+    width: 142.76px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .inviting___description--text {
+    margin-left: -215px;
+    margin-top: 0;
+  }
+
+  .inviting__title {
+    margin-left: -2px;
+    margin-top: 4px;
   }
 }
