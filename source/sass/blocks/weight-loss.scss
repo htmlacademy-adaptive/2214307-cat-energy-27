@@ -34,6 +34,11 @@
   color: #000000;
   margin-top: 38px;
   position: relative;
+  cursor: pointer;
+}
+
+.weight-loss__link:active {
+  opacity: 0.3;
 }
 
 .weight-loss__link::before {

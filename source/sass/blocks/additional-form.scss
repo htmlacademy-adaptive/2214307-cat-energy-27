@@ -63,6 +63,15 @@
   border-color: #cdcdcd;
   border-style: solid;
   border-width: 1px;
+  cursor: pointer;
+}
+
+.additional-form__box:hover {
+  border-color: #BABABA;
+}
+
+.additional-form__box:disabled {
+  opacity: 0.3;
 }
 
 @media (min-width: $tablet-width) {
