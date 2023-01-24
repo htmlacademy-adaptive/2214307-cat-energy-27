@@ -21,23 +21,25 @@
   }
 
   .posting__link {
-    width: 192px;
-    padding: 7px 45px;
+    width: 332px;
+    padding: 16px 0;
     font-size: 20px;
     line-height: 20px;
+    margin: 16px 41px 21px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .posting__link {
-    width: 153px;
-    padding: 14px 156px;
-
+    width: 790px;
+    padding: 15px 61px;
+    margin: 25px -10px 21px;
   }
 
   .posting {
-    gap: 84px;
-    width: 751px;
-    margin-bottom: 20px;
+    gap: 81px;
+    width: 830px;
+    margin-bottom: 0;
+    padding-bottom: 62px;
   }
 }

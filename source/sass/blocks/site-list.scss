@@ -47,6 +47,15 @@
     bottom: -9px;
     background-color: #68B738;
   }
+
+  .site-list__link--line-form::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    bottom: -7px;
+    background-color: #68b738;
+  }
 }
 
 @media (min-width: $desktop-width) {

@@ -69,10 +69,33 @@
     margin: 51px 3px 14px;
     background: #ffffff;
   }
+
+  .title-line--comment {
+    padding: 0 39px 0 38px;
+  }
+
+  .title-line--addition {
+    margin: 0;
+    padding: 0 42px 0 40px;
+  }
+
+  .title-line--addition::after,
+  .title-line--addition::before {
+    top: 54%;
+  }
+
+  .title-line--form::after,
+  .title-line--form::before {
+    top: 56%;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .title-line {
     margin: 55px -45px 14px;
+  }
+
+  .title-line--addition {
+    margin: 0 -50px;
   }
 }

@@ -94,6 +94,11 @@
     gap: 17px;
     width: 173px;
   }
+
+  .social__link--form {
+    margin-top: 8px;
+    margin-left: 9px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -107,8 +112,16 @@
     width: 171px;
   }
 
+  .social__link--form {
+    gap: 20px;
+  }
+
   .social__list--catalog {
     margin-left: -11px;
     margin-top: 4px;
-}
+  }
+
+  .social__list--form {
+    margin: 4px 0 0 0;
+  }
 }

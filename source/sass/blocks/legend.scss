@@ -15,3 +15,22 @@
   color: #000000;
   justify-content: center;
 }
+
+@media (min-width: $tablet-width) {
+  .legend {
+    margin: -11px -23px 0 0;
+    width: 211px;
+  }
+
+  .legend__text {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .legend {
+    margin: 0 3px 0 0;
+    width: 295px;
+  }
+}
