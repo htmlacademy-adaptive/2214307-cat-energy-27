@@ -48,6 +48,11 @@
 }
 
 @media (min-width: $tablet-width) {
+  .inviting--form {
+    padding: 0;
+    margin-top: 75px;
+  }
+
   .inviting__adress {
     width: 728px;
     gap: 306px;
@@ -99,12 +104,10 @@
   }
 
   .inviting__adress--catalog {
-    width: 405px;
     top: 170px;
     right: 706px;
     left: 0;
     position: absolute;
-    right: 0;
     top: 105px;
     left: 110px;
     width: 425px;
@@ -116,7 +119,7 @@
 
   .inviting___description {
     text-align: left;
-    width: 142.76px;
+    width: 121px;
     font-size: 16px;
     line-height: 20px;
   }
@@ -126,8 +129,27 @@
     margin-top: 0;
   }
 
+  .inviting___description--town {
+    margin-top: 0;
+  }
+
+  .inviting___description--street {
+    width: 165px;
+  }
+
+  .inviting___description--index {
+    margin-top: 19px;
+    width: 165px;
+  }
+
   .inviting__title {
     margin-left: -2px;
     margin-top: 4px;
+  }
+
+  .inviting__adress--form {
+    padding: 39px 60px 26px 82px;
+    margin: -10px 0 45px;
+    gap: 90px;
   }
 }
