@@ -1,4 +1,4 @@
-.social__list {
+.social-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,16 +6,16 @@
   padding: 20px 0;
   margin: 15px auto 22px;
   border: 0 none;
-  border-top: 1px solid #D9D9D9;
-  border-bottom: 1px solid #D9D9D9;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
   gap: 32px;
 }
 
-.social__list--catalog {
+.social-list--catalog {
   margin: 15px auto 17px;
 }
 
-.social__list--form {
+.social-list--form {
   margin: 4px auto 15px;
 }
 
@@ -24,59 +24,21 @@
   margin-top: 4px;
 }
 
-.social__link {
-  color: #666666;
-}
-
-.social__link:hover {
-  color: #68B738;
-}
-
-.social__link:active {
-  opacity: 0.3;
-}
-
-.social__link--academy {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 287px;
-  margin-top: -6px;
-}
-
-.social__link--catalog {
-  margin: 0;
-  width: 287px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
 @media (min-width: $tablet-width) {
   .social {
     margin: 0;
     border: none;
   }
 
-  .social__link--academy {
-    display: flex;
-    justify-content: flex-start;
-    gap: 15px;
-    margin-top: 3px;
-    margin-left: 9px;
-    width: 173px;
-  }
-
-  .social__list {
+  .social-list {
     gap: 0;
   }
 
-  .social__list--index {
+  .social-list--index {
     margin-left: -9px;
   }
 
-  .social__list--catalog {
+  .social-list--catalog {
     margin-left: -9px;
     margin-top: 2px;
   }
@@ -85,44 +47,10 @@
     margin-left: 28px;
     margin-top: 5px;
   }
-
-  .social__link--catalog {
-    gap: 18px;
-    margin-top: 3px;
-    justify-content: flex-end;
-    display: flex;
-    gap: 17px;
-    width: 173px;
-  }
-
-  .social__link--form {
-    margin-top: 8px;
-    margin-left: 9px;
-  }
 }
 
 @media (min-width: $desktop-width) {
-  .social__link--academy {
-    margin-top: 11px;
-    width: 167px;
-  }
-
-  .social__link--catalog {
-    margin-top: 11px;
-    width: 173px;
-    gap: 22px;
-  }
-
-  .social__link--form {
-    gap: 20px;
-  }
-
-  .social__list--catalog {
-    margin-left: -11px;
-    margin-top: 4px;
-  }
-
-  .social__list--form {
+  .social-list--form {
     margin: 4px 0 0 0;
   }
 }

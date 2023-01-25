@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
   <link href="css/style.min.css" rel="stylesheet">
-  <link rel="preload" href="fonts/oswald/oswaldregular.woff" type="font/woff" crossorigin="anonymous">
-  <link rel="preload" href="fonts/oswald/oswaldregular.woff2" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="fonts/lato/Lato-Regular.woff" type="font/woff" crossorigin="anonymous">
-  <link rel="preload" href="fonts/lato/Lato-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/oswald/oswaldregular.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="fonts/oswald/oswaldregular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lato/Lato-Regular.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lato/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
   <link rel="apple-touch-icon" href="img/favicons/apple.png">
@@ -82,21 +82,21 @@
                       <label class="effect__description" for="loss">
                         <input class="effect__button visually-hidden" type="radio" id="loss" name="weight"
                           value="похудение" checked>
-                        <span class="effect__button--round"></span>
+                        <span class="effect__round"></span>
                         похудение</label>
                     </li>
                     <li class="effect__item">
                       <label class="effect__description" for="up">
                         <input class="effect__button visually-hidden" type="radio" id="up" name="weight"
                           value="набор массы">
-                        <span class="effect__button--round"></span>
+                        <span class="effect__round"></span>
                         набор массы </label>
                     </li>
                     <li class="effect__item ">
                       <label class="effect__description" for="nothing">
                         <input class="effect__button visually-hidden" type="radio" id="nothing" name="weight"
                           value="не знаю (Нужен ваш совет)">
-                        <span class="effect__button--round"></span>
+                        <span class="effect__round"></span>
                         не знаю (Нужен ваш совет)</label>
                     </li>
                   </ul>
@@ -125,10 +125,8 @@
               <label for="habits">
                 <textarea class="comment__form" name="telling" id="habits" cols="39" rows="7"
                   placeholder="расскажите обо всех повадках кота"></textarea>
-
               </label>
             </fieldset>
-
             <fieldset class="additional-form">
               <legend class="additional-form__title title-line title-line--addition">Дополнительно</legend>
               <div class="additional-form__wrapper">
@@ -171,6 +169,7 @@
                     </small>
                   </p>
                 </div>
+              </div>
             </fieldset>
           </form>
 
@@ -201,7 +200,7 @@
           <svg class="main-footer__vector main-footer__vector--catalog" width="130" height="46">
             <use xlink:href="img/sprite.svg#cat energy"></use>
           </svg>
-          <ul class="social__list social social__list--form">
+          <ul class="social-list social social-list--form">
             <li class="social__item">
               <a class="social__link" href="https://vk.com/htmlacademy">
                 <svg width="27" height="17">
@@ -224,7 +223,7 @@
               </a>
             </li>
           </ul>
-          <a class="social__link  social__link--catalog social__link--form" href="https://htmlacademy.ru/study">
+          <a class="main-footer__link main-footer__link--catalog main-footer__link--form" href="https://htmlacademy.ru/study">
             <svg width="112" height="15">
               <use xlink:href="img/sprite.svg#HTML Academy"></use>
             </svg>

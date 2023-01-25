@@ -72,8 +72,8 @@
 
               <source media="(min-width: 1200px)" srcset="img/foodcat-desktop.png 1x, img/foodcat-desktop_2x.png 2x">
               <source media="(min-width: 768px)" srcset="img/foodcat-tablet.png 1x, img/foodcat-tablet_2x.png 2x">
-              <img class="advertising__image" src="img/foodcat.png" width="280" height="270"
-                srcset="img/foodcat_2x.png" alt="главное изображение">
+              <img class="advertising__image" src="img/foodcat.png" width="280" height="270" srcset="img/foodcat_2x.png"
+                alt="главное изображение">
             </picture>
             <a class="button button--green advertising__button ">
               подобрать программу
@@ -116,26 +116,26 @@
             <h2 class="working__title cat-title">Как это работает</h2>
             <ul class="working__list advantages">
 
-              <li class="advantages__item advantages--vitamins cat-description ">
+              <li class="advantages__item advantages__item--vitamins cat-description ">
                 <div class="advantages__image advantages__image--tree"></div>
                 <p class="advantages__description">Функциональное питание содержит только полезные питательные
                   вещества.
                 </p>
               </li>
-              <li class="advantages__item advantages--water cat-description">
+              <li class="advantages__item advantages__item--water cat-description">
                 <div class="advantages__image advantages__image--water"></div>
                 <p class="advantages__description">Выпускается в виде порошка, который нужно лишь залить кипятком и
                   готово.
                 </p>
               </li>
 
-              <li class="advantages__item advantages--food cat-description">
+              <li class="advantages__item advantages__item--food cat-description">
                 <div class="advantages__image advantages__image--knife"></div>
                 <p class="advantages__description">Замените один-два приема обычной еды на наше функциональное
                   питание.
                 </p>
               </li>
-              <li class="advantages__item advantages--changes cat-description">
+              <li class="advantages__item advantages__item--changes cat-description">
                 <div class="advantages__image advantages__image--alarm"></div>
                 <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего
                   питомца!
@@ -151,9 +151,9 @@
         <div class="container">
           <div class="cat__container">
             <div class="cat__wrapper">
-              <article class="cat__story">
-                <h2 class="cat__story--title cat-title">Живой пример</h2>
-                <p class="cat__story--description cat-description">Борис сбросил 5 кг за 2 месяца, просто заменив свой
+              <article class="cat-story">
+                <h2 class="cat-story__title cat-title">Живой пример</h2>
+                <p class="cat-story__description cat-description">Борис сбросил 5 кг за 2 месяца, просто заменив свой
                   обычный
                   корм на Cat Energy
                   Slim. Отличный результат без
@@ -170,7 +170,8 @@
                     <dd class="days-list__item days-list__item--time">затрачено времени</dd>
                   </dl>
                 </div>
-                <h3 class="cat__title cat__title--costs ">Затраты на питание: <span class="cat__title--flex">15 000
+                <h3 class="cat__title cat__title--costs ">Затраты на питание:
+                  <span class="cat__cost">15 000
                     РУБ.</span>
                 </h3>
               </div>
@@ -196,9 +197,6 @@
                       srcset="img/cat-slim-mobile_2x.png" width="243" height="232" alt="худосочный">
                   </picture>
                 </div>
-
-
-
               </div>
             </div>
           </div>
@@ -222,7 +220,6 @@
             style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </section>
-
     </main>
     <footer class="main-footer">
       <div class="container">
@@ -230,7 +227,7 @@
           <svg class="main-footer__vector" width="130" height="46">
             <use xlink:href="img/sprite.svg#cat energy"></use>
           </svg>
-          <ul class="social__list social">
+          <ul class="social-list social">
             <li class="social__item">
               <a class="social__link" href="https://vk.com/htmlacademy">
                 <svg width="27" height="17">
@@ -253,7 +250,7 @@
               </a>
             </li>
           </ul>
-          <a class="social__link social__link--academy" href="https://htmlacademy.ru/study">
+          <a class="main-footer__link main-footer__link--academy" href="https://htmlacademy.ru/study">
             <svg width="113" height="18">
               <use xlink:href="img/sprite.svg#HTML Academy"></use>
             </svg>

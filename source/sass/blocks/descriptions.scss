@@ -17,7 +17,6 @@
   display: flex;
   margin: 0;
   justify-content: space-between;
-
 }
 
 .descriptions__item {
@@ -29,7 +28,6 @@
   text-align: center;
   color: #444444;
   margin: 0;
-
 }
 
 @media (min-width: $tablet-width) {
@@ -45,7 +43,6 @@
     line-height: 24px;
     width: 135px;
     text-align: center;
-
   }
 
   .descriptions__item {
@@ -56,7 +53,6 @@
   .descriptions__list {
     margin-bottom: 15px;
   }
-
 }
 
 @media (min-width: $desktop-width) {
