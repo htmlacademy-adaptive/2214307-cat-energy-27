@@ -9,14 +9,14 @@
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   margin: 0;
   cursor: pointer;
 }
 
 .button--grey {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   font-size: 16px;
   line-height: 20px;
   color: #444444;
@@ -26,7 +26,7 @@
 }
 
 .button--grey:hover {
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 .button--grey:active {
@@ -38,7 +38,7 @@
 }
 
 .button--green:hover {
-  background-color: #5EAA2F;
+  background-color: #5eaa2f;
 }
 
 .button:active {
@@ -52,7 +52,6 @@
     color: #444444;
     margin: -4px 0 2px;
   }
-
 }
 
 @media (min-width: $desktop-width) {

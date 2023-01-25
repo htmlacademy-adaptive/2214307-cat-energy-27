@@ -33,7 +33,6 @@
   line-height: 16px;
   text-align: center;
   color: #444444;
-
 }
 
 .cards__wrapper {
@@ -41,7 +40,6 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
-
 }
 
 .cards__img {
@@ -80,9 +78,8 @@
 .cards__img--plus {
   width: 30px;
   height: 30px;
-  fill: #D3D3D3;
+  fill: #d3d3d3;
   margin-top: 7px;
-
 }
 
 .cards--show {
@@ -126,7 +123,6 @@
 
   .cards__img--fish1000 {
     width: 168px;
-
   }
 
   .cards__img--grecha500 {
@@ -176,7 +172,6 @@
     font-size: 16px;
     padding: 11px 92px;
   }
-
 }
 
 @media (min-width: $desktop-width) {
