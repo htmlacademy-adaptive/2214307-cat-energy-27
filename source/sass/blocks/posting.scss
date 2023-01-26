@@ -31,9 +31,10 @@
 
 @media (min-width: $desktop-width) {
   .posting__link {
-    width: 790px;
+    width: 568px;
     padding: 15px 61px;
-    margin: 25px -10px 21px;
+    margin: 25px 0 21px;
+    flex-shrink: 0;
   }
 
   .posting {

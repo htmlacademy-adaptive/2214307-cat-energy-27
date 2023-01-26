@@ -1,5 +1,7 @@
 .cards {
-  margin: 19px 0;
+  padding: 19px 0px 22px;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .cards__link {
@@ -9,7 +11,7 @@
 
 .cards__button {
   padding: 11px 109px;
-  margin: 21px 0 43px;
+  margin: 21px 0 0;
   width: 62px;
 }
 
@@ -22,7 +24,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #111111;
-  margin: 24px 0 -4px;
+  margin: 21px 0 -4px;
 }
 
 .cards__description {
@@ -80,6 +82,8 @@
   height: 30px;
   fill: #d3d3d3;
   margin-top: 7px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .cards--show {
@@ -87,7 +91,8 @@
   flex-direction: column;
   align-items: center;
   margin: 0;
-  width: 280px;
+  // border-top: 1px solid #000000;
+  // border-bottom: 1px solid #000000;
 }
 
 @media (min-width: $tablet-width) {
@@ -148,7 +153,6 @@
 
   .cards--show {
     margin-top: 37px;
-    width: 325px;
   }
 
   .cards__title--show {
@@ -214,13 +218,9 @@
     margin: 0 14px 1px 0;
   }
 
-  .cards--show {
-    width: 223px;
-  }
-
   .cards__button {
     padding: 10px 51px;
-    margin: 29px 0 0 30px;
+    margin: 29px 0 0 0;
   }
 
   .cards__description {

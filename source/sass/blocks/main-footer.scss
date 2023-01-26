@@ -115,9 +115,10 @@
   }
 
   .main-footer__link--catalog {
-    margin-top: 11px;
     width: 173px;
     gap: 22px;
+    margin-top: 10px;
+    margin-right: -7px;
   }
 
   .main-footer__link--form {
@@ -137,7 +138,7 @@
   }
 
   .main-footer__social--form {
-    width: 1217px;
+    width: 100%;
     justify-content: space-between;
     margin-top: 8px;
     padding: 38px 0 52px;
@@ -145,6 +146,6 @@
 
   .main-footer__vector {
     margin-top: 9px;
-    margin-left: -10px;
+    margin-left: 0;
   }
 }

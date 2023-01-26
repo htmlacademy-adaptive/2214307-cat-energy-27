@@ -62,11 +62,11 @@
 
 @media (min-width: $desktop-width) {
   .comment {
-    margin: 49px -2px 0;
+    margin: 49px 0 0;
   }
 
   .comment__form {
     width: 1200px;
-    margin: 61px 0 0 -8px;
+    margin: 61px 0 0 0;
   }
 }
