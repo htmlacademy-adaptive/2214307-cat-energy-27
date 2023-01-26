@@ -49,33 +49,33 @@
   margin-left: 20px;
 }
 
-.cards__img--chicken500 {
-  margin: 14px 0 0 35px;
-}
+// .cards__img--chicken500 {
+//   margin: 14px 0 0 35px;
+// }
 
-.cards__img--chicken1000 {
-  margin: 12px 0 -10px 27px;
-}
+// .cards__img--chicken1000 {
+//   margin: 12px 0 -10px 27px;
+// }
 
-.cards__img--fish500 {
-  margin: 9px 0 -24px 35px;
-}
+// .cards__img--fish500 {
+//   margin: 9px 0 -24px 35px;
+// }
 
-.cards__img--fish1000 {
-  margin: 12px 0 -10px 27px;
-}
+// .cards__img--fish1000 {
+//   margin: 12px 0 -10px 27px;
+// }
 
-.cards__img--grecha500 {
-  margin: 18px 0 -16px 35px;
-}
+// .cards__img--grecha500 {
+//   margin: 18px 0 -16px 35px;
+// }
 
-.cards__img--grecha1000 {
-  margin: 12px 0 -10px 27px;
-}
+// .cards__img--grecha1000 {
+//   margin: 12px 0 -10px 27px;
+// }
 
-.cards__img--rise500 {
-  margin: 12px 0 -20px 34px;
-}
+// .cards__img--rise500 {
+//   margin: 12px 0 -20px 34px;
+// }
 
 .cards__img--plus {
   width: 30px;
@@ -104,13 +104,21 @@
   .cards {
     margin: 0;
     border: 0;
-    background: linear-gradient(0deg,#f2f2f2 75.8%,#fff 75.8%);
+    background: linear-gradient(0deg, #f2f2f2 84%, #fff 84%);
     min-height: 511px;
     align-self: flex-end;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 19px 0 37px;
+    padding: 0 0 37px;
+    box-sizing: border-box;
+  }
+
+  .cards--show {
+    background: transparent;
+    margin-top: 2px;
+    border: 2px solid #f2f2f2;
+    min-height: 426px;
   }
 
   .cards__little {
@@ -119,35 +127,7 @@
 
   .cards__img {
     margin: 0 auto;
-  }
-
-  .cards__img--chicken500 {
     width: 163px;
-  }
-
-  .cards__img--chicken1000 {
-    width: 164px;
-  }
-
-  .cards__img--fish500 {
-    width: 161px;
-  }
-
-  .cards__img--fish1000 {
-    width: 168px;
-  }
-
-  .cards__img--grecha500 {
-    width: 161px;
-  }
-
-  .cards__img--grecha1000 {
-    width: 168px;
-  }
-
-  .cards__img--rise500 {
-    width: 163px;
-    margin: 27px 0 0;
   }
 
   .cards__img--plus {
@@ -158,22 +138,19 @@
     margin-bottom: 24px;
   }
 
-  .cards--show {
-    margin-top: 37px;
-  }
-
   .cards__title--show {
     font-size: 20px;
     line-height: 22px;
     width: 134px;
-    margin-bottom: 29px;
+    margin-bottom: 31px;
+    margin-top: 21px;
   }
 
   .cards__description {
     width: 165px;
     font-size: 16px;
     line-height: 18px;
-    margin: -9px 0 94px;
+    margin: -9px 0 88px;
   }
 
   .cards__button {
