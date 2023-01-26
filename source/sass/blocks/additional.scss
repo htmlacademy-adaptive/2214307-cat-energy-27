@@ -7,11 +7,14 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  margin-top: 36px;
+  margin-top: 22px;
 }
 
 .additional__item {
-  margin-top: 32px;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  padding-top: 13px;
+  padding-bottom: 18px;
 }
 
 .additional__title {
@@ -48,7 +51,6 @@
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    margin: 0 0 29px;
   }
 
   .additional__button {
@@ -94,7 +96,7 @@
 
   .additional__item {
     grid-template-columns: 1fr 244px;
-    margin-bottom: 33px;
+
   }
 
   .additional__button {
