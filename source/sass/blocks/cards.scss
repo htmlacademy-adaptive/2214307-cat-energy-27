@@ -161,13 +161,16 @@
 }
 
 @media (min-width: $desktop-width) {
+  .cards{
+    padding: 0 0 40px;
+  }
+
   .cards__title--show {
     line-height: 21px;
   }
 
   .cards__img--chicken500 {
-    margin-top: 32px;
-    margin-right: 17px;
+
   }
 
   .cards__img--chicken1000 {
@@ -202,7 +205,7 @@
 
   .cards__button {
     padding: 10px 51px;
-    margin: 29px 0 0 0;
+    margin: 29px auto 0;
   }
 
   .cards__description {
