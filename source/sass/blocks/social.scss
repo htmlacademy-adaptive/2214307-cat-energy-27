@@ -24,6 +24,18 @@
   margin-top: 4px;
 }
 
+.social__link {
+  color: #666666;
+}
+
+.social__link:hover {
+  color: #68b738;
+}
+
+.social__link:active {
+  opacity: 0.3;
+}
+
 @media (min-width: $tablet-width) {
   .social {
     margin: 0;
