@@ -51,18 +51,22 @@
   }
 
   .descriptions__list {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 9px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .descriptions {
     margin-top: 40px;
+    width: 100%;
   }
 
   .descriptions__title {
     line-height: 21px;
-    margin: 0 0 24px 53px;
+    margin: 0 auto;
+    margin-bottom: 23px;
   }
 
   .descriptions__list {

@@ -11,7 +11,6 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-    width: 708px;
     gap: 59px 60px;
     align-items: end;
   }
@@ -21,11 +20,10 @@
 @media (min-width: $desktop-width) {
   .catalog-list {
     display: grid;
-    grid-template-columns: 244px 240px 249px 237px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     list-style-type: none;
     padding: 0;
     margin: 0;
-    width: 245px;
     grid-row-gap: 58px;
     grid-column-gap: 81px;
   }
