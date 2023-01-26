@@ -11,10 +11,13 @@
 }
 
 .additional__item {
-  border-bottom: 1px solid #ebebeb;
-  border-top: 1px solid #ebebeb;
+  border-top: 1px solid #cdcdcd;
   padding-top: 13px;
   padding-bottom: 18px;
+
+  &:last-child {
+    border-bottom: 1px solid #cdcdcd;
+  }
 }
 
 .additional__title {
@@ -27,6 +30,7 @@
   color: #000000;
   margin: 0;
   width: 226px;
+  margin-bottom: 16px;
 }
 
 .additional__button {
@@ -44,13 +48,17 @@
 
   .additional__list {
     margin-top: 80px;
-    padding: 0 38px;
   }
 
   .additional__item {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+    padding-bottom: 18px;
+    border-left: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    padding-left: 38px;
+    padding-right: 38px;
   }
 
   .additional__button {
