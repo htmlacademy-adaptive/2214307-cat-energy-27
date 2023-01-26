@@ -108,6 +108,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .main-header {
+    border-bottom: 0;
+  }
+
   .main-header--closed .site-list {
     display: flex;
   }
@@ -116,16 +120,12 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: 33px 0 0;
+    margin: 0;
   }
 
   .main-header__wrapper--catalog {
     margin: 0;
     margin-top: 6px;
-  }
-
-  .main-header__wrapper--form {
-    margin: 8px 0 0;
   }
 
   .main-header__toggle::before {

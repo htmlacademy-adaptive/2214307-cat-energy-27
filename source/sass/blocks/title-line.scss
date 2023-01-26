@@ -101,7 +101,7 @@
   }
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: $tablet-width - 1) {
   .title-line::before {
     display: none;
   }
