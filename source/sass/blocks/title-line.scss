@@ -58,6 +58,7 @@
   right: -180px;
 }
 
+
 @media (min-width: $tablet-width) {
   .title-line {
     font-weight: 400;
@@ -97,5 +98,11 @@
 
   .title-line--addition {
     margin: 0 -50px;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .title-line::before {
+    display: none;
   }
 }
