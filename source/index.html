@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html class="page no-js" lang="ru">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
-  <link rel="preload" href="fonts/oswald/oswaldregular.woff" type="font/woff" crossorigin="anonymous">
-  <link rel="preload" href="fonts/oswald/oswaldregular.woff2" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="fonts/lato/Lato-Regular.woff" type="font/woff" crossorigin="anonymous">
-  <link rel="preload" href="fonts/lato/Lato-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/oswald/oswaldregular.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="fonts/oswald/oswaldregular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lato/Lato-Regular.woff" as="font" type="font/woff" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lato/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link href="css/style.min.css" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
@@ -58,26 +58,28 @@
     <main class="main-container">
       <section class="header-image">
         <div class="container">
-          <div class="header-image__wrapper">
-            <h1 class="header-image__title">Функциональное питание для котов</h1>
-            <p class="header-image__description">Занялся собой? Займись котом!</p>
-          </div>
-          <div class="advertising">
-            <picture>
-              <source type="image/webp" media="(min-width: 1200px)"
-                srcset="img/foodcat-desktop.webp 1x, img/foodcat-desktop_2x.webp 2x">
-              <source type="image/webp" media="(min-width: 768px)"
-                srcset="img/foodcat-tablet.webp 1x, img/foodcat-tablet_2x.webp 2x">
-              <source type="image/webp" srcset="img/foodcat.webp 1x, img/foodcat_2x.webp 2x">
+          <div class="header-image__container">
+            <div class="header-image__wrapper">
+              <h1 class="header-image__title">Функциональное питание для котов</h1>
+              <p class="header-image__description">Занялся собой? Займись котом!</p>
+            </div>
+            <div class="advertising">
+              <picture>
+                <source type="image/webp" media="(min-width: 1200px)"
+                  srcset="img/foodcat-desktop.webp 1x, img/foodcat-desktop_2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)"
+                  srcset="img/foodcat-tablet.webp 1x, img/foodcat-tablet_2x.webp 2x">
+                <source type="image/webp" srcset="img/foodcat.webp 1x, img/foodcat_2x.webp 2x">
 
-              <source media="(min-width: 1200px)" srcset="img/foodcat-desktop.png 1x, img/foodcat-desktop_2x.png 2x">
-              <source media="(min-width: 768px)" srcset="img/foodcat-tablet.png 1x, img/foodcat-tablet_2x.png 2x">
-              <img class="advertising__image" src="img/foodcat.png" width="280px" height="270px"
-                srcset="img/foodcat_2x.png" alt="главное изображение">
-            </picture>
-            <a class="button button--green advertising__button ">
-              подобрать программу
-            </a>
+                <source media="(min-width: 1200px)" srcset="img/foodcat-desktop.png 1x, img/foodcat-desktop_2x.png 2x">
+                <source media="(min-width: 768px)" srcset="img/foodcat-tablet.png 1x, img/foodcat-tablet_2x.png 2x">
+                <img class="advertising__image" src="img/foodcat.png" width="280" height="270"
+                  srcset="img/foodcat_2x.png" alt="главное изображение">
+              </picture>
+              <a class="button button--green advertising__button ">
+                подобрать программу
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -116,44 +118,42 @@
             <h2 class="working__title cat-title">Как это работает</h2>
             <ul class="working__list advantages">
 
-              <li class="advantages__item advantages--vitamins cat-description ">
+              <li class="advantages__item advantages__item--vitamins cat-description ">
                 <div class="advantages__image advantages__image--tree"></div>
                 <p class="advantages__description">Функциональное питание содержит только полезные питательные
                   вещества.
                 </p>
               </li>
-              <li class="advantages__item advantages--water cat-description">
+              <li class="advantages__item advantages__item--water cat-description">
                 <div class="advantages__image advantages__image--water"></div>
                 <p class="advantages__description">Выпускается в виде порошка, который нужно лишь залить кипятком и
                   готово.
                 </p>
               </li>
 
-              <li class="advantages__item advantages--food cat-description">
+              <li class="advantages__item advantages__item--food cat-description">
                 <div class="advantages__image advantages__image--knife"></div>
                 <p class="advantages__description">Замените один-два приема обычной еды на наше функциональное
                   питание.
                 </p>
               </li>
-              <li class="advantages__item advantages--changes cat-description">
+              <li class="advantages__item advantages__item--changes cat-description">
                 <div class="advantages__image advantages__image--alarm"></div>
                 <p class="advantages__description">Уже через месяц наслаждайтесь изменениями к лучшему вашего
                   питомца!
                 </p>
               </li>
-
             </ul>
           </div>
         </div>
-
       </section>
       <section class="cat">
         <div class="container">
           <div class="cat__container">
             <div class="cat__wrapper">
-              <article class="cat__story">
-                <h2 class="cat__story--title cat-title">Живой пример</h2>
-                <p class="cat__story--description cat-description">Борис сбросил 5 кг за 2 месяца, просто заменив свой
+              <article class="cat-story">
+                <h2 class="cat-story__title cat-title">Живой пример</h2>
+                <p class="cat-story__description cat-description">Борис сбросил 5 кг за 2 месяца, просто заменив свой
                   обычный
                   корм на Cat Energy
                   Slim. Отличный результат без
@@ -170,7 +170,8 @@
                     <dd class="days-list__item days-list__item--time">затрачено времени</dd>
                   </dl>
                 </div>
-                <h3 class="cat__title cat__title--costs ">Затраты на питание: <span class="cat__title--flex">15 000
+                <h3 class="cat__title cat__title--costs ">Затраты на питание:
+                  <span class="cat__cost">15 000
                     РУБ.</span>
                 </h3>
               </div>
@@ -196,9 +197,6 @@
                       srcset="img/cat-slim-mobile_2x.png" width="243" height="232" alt="худосочный">
                   </picture>
                 </div>
-
-
-
               </div>
             </div>
           </div>
@@ -222,38 +220,39 @@
             style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </section>
-
     </main>
     <footer class="main-footer">
       <div class="container">
         <div class="main-footer__social main-footer__social--index ">
-          <svg class="main-footer__vector" width="130" height="46">
+          <svg class="main-footer__vector main-footer__vector--catalog" width="130" height="46">
             <use xlink:href="img/sprite.svg#cat energy"></use>
           </svg>
-          <ul class="social__list social">
+          <ul class="social-list social">
             <li class="social__item">
-              <a class="social__link" href="https://vk.com/htmlacademy">
+              <a class="social__link" href="https://vk.com/htmlacademy" aria-label="мы вконтакте">
                 <svg width="27" height="17">
                   <use xlink:href="img/sprite.svg#vk"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
-              <a class="social__link" href="https://www.youtube.com/channel/UChUxTMjJGo-JDRY8pNTGL2g">
+              <a class="social__link" href="https://www.youtube.com/channel/UChUxTMjJGo-JDRY8pNTGL2g"
+                aria-label="мы в ютубе">
                 <svg width="24" height="19">
                   <use xlink:href="img/sprite.svg#ytb"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
-              <a class="social__link" href="https://t.me/htmlacademy">
+              <a class="social__link" href="https://t.me/htmlacademy" aria-label="мы в телеграмме">
                 <svg width="20" height="18">
                   <use xlink:href="img/sprite.svg#tg"></use>
                 </svg>
               </a>
             </li>
           </ul>
-          <a class="social__link social__link--academy" href="https://htmlacademy.ru/study">
+          <a class="main-footer__link main-footer__link--catalog main-footer__link--academy" href="https://htmlacademy.ru/study"
+            aria-label="сайт академии">
             <svg width="113" height="18">
               <use xlink:href="img/sprite.svg#HTML Academy"></use>
             </svg>

@@ -6,6 +6,7 @@
   padding: 12px 44px;
   width: 192px;
   margin: 0;
+  font-size: 14px;
 }
 
 .advertising__image {
@@ -28,7 +29,7 @@
     height: 623px;
     position: absolute;
     top: 163px;
-    left: -6px;
+    left: 71px;
     z-index: -1;
     margin-left: -42px;
   }
@@ -44,9 +45,9 @@
 
   .advertising__image {
     position: absolute;
-    top: -83px;
+    top: -76px;
     right: 0;
-    left: calc(50% - 147px);
+    left: calc(50% - 104px);
     width: 524px;
     height: 493px;
   }

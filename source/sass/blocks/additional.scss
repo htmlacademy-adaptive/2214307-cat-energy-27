@@ -1,17 +1,23 @@
 .additional {
   margin: 7px 0 35px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .additional__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  margin-top: 36px;
+  margin-top: 22px;
 }
 
 .additional__item {
-  margin-top: 32px;
+  border-top: 1px solid #cdcdcd;
+  padding-top: 13px;
+  padding-bottom: 18px;
+
+  &:last-child {
+    border-bottom: 1px solid #cdcdcd;
+  }
 }
 
 .additional__title {
@@ -24,6 +30,7 @@
   color: #000000;
   margin: 0;
   width: 226px;
+  margin-bottom: 16px;
 }
 
 .additional__button {
@@ -34,21 +41,24 @@
 @media (min-width: $tablet-width) {
   .additional__title {
     width: 408px;
-    margin-left: 37px;
+    margin-top: 66px;
     font-size: 36px;
     line-height: 36px;
   }
 
   .additional__list {
-    margin-top: 80px;
-    padding: 0 38px;
+    margin-top: 64px;
   }
 
   .additional__item {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    margin: 0 0 29px;
+    padding-bottom: 18px;
+    border-left: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    padding-left: 38px;
+    padding-right: 38px;
   }
 
   .additional__button {
@@ -62,16 +72,25 @@
 
 @media (min-width: $desktop-width) {
   .additional {
-    margin: 16px 0 35px;
+    margin: 16px 0 51px;
+  }
+
+  .additional__title {
+    margin-left: -40px;
+    padding-left: 40px;
+    text-align: left;
+    margin-top: 60px;
+    width: 374px;
+    margin-bottom: 0;
   }
 
   .additional__wrapper {
     display: grid;
-    grid-template-columns: 895px 245px;
-    width: 1218px;
+    grid-template-columns: 896px 245px;
+    width: 100%;
     justify-content: space-between;
-    align-items: center;
-    margin-left: -9px;
+    align-items: flex-end;
+    margin-left: 0;
   }
 
   .additional__list {
@@ -80,21 +99,12 @@
     padding: 0;
   }
 
-  .product__title {
-    font-family: $main-font;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #222222;
-    margin: 0;
-  }
-
   .additional__item {
     grid-template-columns: 1fr 244px;
-    margin-bottom: 33px;
+    padding-left: 0;
+    padding-right: 1px;
+    border-left: 0;
+    border-right: 0;
   }
 
   .additional__button {

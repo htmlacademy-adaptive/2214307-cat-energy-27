@@ -4,14 +4,14 @@
   justify-content: center;
   text-align: center;
   width: 280px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 28px 0 22px;
 }
 
 .main-footer {
   margin: 0;
   flex-shrink: 0;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .main-footer__vector:hover {
@@ -22,12 +22,63 @@
   opacity: 0.6;
 }
 
+.main-footer__link {
+  color: #666666;
+}
+
+.main-footer__link:hover {
+  color: #68b738;
+}
+
+.main-footer__link:active {
+  opacity: 0.3;
+}
+
+.main-footer__link--academy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 287px;
+  margin-top: -6px;
+}
+
+.main-footer__link--catalog {
+  margin: 0;
+  width: 287px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 @media (min-width: $tablet-width) {
   .main-footer__social {
     display: flex;
     margin: 0;
     width: 712px;
     padding: 38px 0 41px;
+  }
+
+  .main-footer__link--academy {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 3px;
+    margin-left: 9px;
+    width: 173px;
+  }
+
+  .main-footer__link--catalog {
+    gap: 18px;
+    margin-top: 3px;
+    justify-content: flex-end;
+    display: flex;
+    gap: 17px;
+    width: 173px;
+  }
+
+  .main-footer__link--form {
+    margin-top: 8px;
+    margin-left: 9px;
   }
 
   .main-footer__social--index {
@@ -49,7 +100,6 @@
   .main-footer__vector {
     margin-top: 5px;
   }
-
 }
 
 
@@ -59,6 +109,27 @@
     justify-content: space-between;
   }
 
+  .main-footer__link--academy {
+    margin-top: 11px;
+    width: 167px;
+  }
+
+  .main-footer__link--catalog {
+    width: 173px;
+    gap: 22px;
+    margin-top: 10px;
+    margin-right: -7px;
+  }
+
+  .main-footer__link--form {
+    gap: 20px;
+  }
+
+  .social-list--catalog {
+    margin-left: -11px;
+    margin-top: 4px;
+  }
+
   .main-footer__social--catalog {
     width: 1217px;
     justify-content: space-between;
@@ -66,8 +137,13 @@
     padding: 38px 0 50px;
   }
 
+  .main-footer__social--index {
+    padding-top: 47px;
+    padding-bottom: 53px;
+  }
+
   .main-footer__social--form {
-    width: 1217px;
+    width: 100%;
     justify-content: space-between;
     margin-top: 8px;
     padding: 38px 0 52px;
@@ -75,6 +151,6 @@
 
   .main-footer__vector {
     margin-top: 9px;
-    margin-left: -10px;
+    margin-left: 0;
   }
 }

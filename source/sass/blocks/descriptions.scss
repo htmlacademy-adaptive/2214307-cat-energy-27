@@ -17,7 +17,6 @@
   display: flex;
   margin: 0;
   justify-content: space-between;
-
 }
 
 .descriptions__item {
@@ -29,7 +28,6 @@
   text-align: center;
   color: #444444;
   margin: 0;
-
 }
 
 @media (min-width: $tablet-width) {
@@ -45,7 +43,6 @@
     line-height: 24px;
     width: 135px;
     text-align: center;
-
   }
 
   .descriptions__item {
@@ -54,24 +51,29 @@
   }
 
   .descriptions__list {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 9px;
   }
-
 }
 
 @media (min-width: $desktop-width) {
   .descriptions {
-    margin-top: 40px;
+    margin-top: 43px;
+    width: 100%;
   }
 
   .descriptions__title {
     line-height: 21px;
-    margin: 0 0 24px 53px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+    padding-left: 11px;
   }
 
   .descriptions__list {
-    margin-bottom: 15px;
-    width: 169px;
-    margin-left: 33px;
+    margin-bottom: 5px;
+    width: 162px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

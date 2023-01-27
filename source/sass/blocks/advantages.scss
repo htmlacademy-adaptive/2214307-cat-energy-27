@@ -23,7 +23,7 @@
 .advantages__image {
   width: 61px;
   height: 60px;
-  background-color: #68B738;
+  background-color: #68b738;
 }
 
 .advantages__image--tree {
@@ -82,19 +82,19 @@
     min-height: 227px;
   }
 
-  .advantages--vitamins {
+  .advantages__item--vitamins {
     background-image: url("../img/icons/1.svg");
   }
 
-  .advantages--water {
+  .advantages__item--water {
     background-image: url("../img/icons/2.svg");
   }
 
-  .advantages--food {
+  .advantages__item--food {
     background-image: url("../img/icons/3.svg");
   }
 
-  .advantages--changes {
+  .advantages__item--changes {
     background-image: url("../img/icons/4.svg");
   }
 
@@ -116,26 +116,25 @@
     display: flex;
     margin: 0;
     margin-top: 32px;
-    width: 1207px;
+    width: 100%;
     flex-wrap: nowrap;
   }
 
   .advantages__item {
-    margin: 40px -8px 0;
+    margin: 40px 0 0;
     width: 250px;
     min-height: 280px;
   }
 
-  .advantages--vitamins {
+  .advantages__item--vitamins {
     background-image: url("../img/icons/1.svg");
     background-repeat: no-repeat;
     background-position-x: 124px;
     background-position-y: 0;
     background-size: initial;
-
   }
 
-  .advantages--water {
+  .advantages__item--water {
     background-image: url("../img/icons/2.svg");
     background-repeat: no-repeat;
     background-position-x: 123px;
@@ -143,7 +142,7 @@
     background-size: initial;
   }
 
-  .advantages--food {
+  .advantages__item--food {
     background-image: url("../img/icons/3.svg");
     background-repeat: no-repeat;
     background-position-x: 124px;
@@ -151,7 +150,7 @@
     background-size: initial;
   }
 
-  .advantages--changes {
+  .advantages__item--changes {
     background-image: url("../img/icons/4.svg");
     background-repeat: no-repeat;
     background-position-x: 124px;

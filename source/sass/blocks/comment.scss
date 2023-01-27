@@ -22,6 +22,7 @@
   text-transform: uppercase;
   color: #444444;
   padding: 9px 16px;
+  border: 1px solid #e7e7e7;
 }
 
 .comment__form::placeholder {
@@ -61,11 +62,11 @@
 
 @media (min-width: $desktop-width) {
   .comment {
-    margin: 49px -2px 0
+    margin: 49px 0 0;
   }
 
   .comment__form {
     width: 1200px;
-    margin: 61px 0 0 -8px;
+    margin: 61px 0 0 0;
   }
 }

@@ -21,15 +21,15 @@
   margin-top: -4px;
   min-height: 38px;
   padding: 1px 17px;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
 }
 
 .text-forms__field:hover {
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
 }
 
 .text-forms__field:focus {
-  border: 2px solid #444444;
+  box-shadow: 2px solid #444444;
 }
 
 .text-forms__field::placeholder {

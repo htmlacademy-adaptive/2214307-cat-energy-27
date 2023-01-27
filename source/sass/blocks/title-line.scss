@@ -58,11 +58,12 @@
   right: -180px;
 }
 
+
 @media (min-width: $tablet-width) {
   .title-line {
     font-weight: 400;
     font-size: 36px;
-    color: #111;
+    color: #111111;
     position: relative;
     display: inline-block;
     padding-right: 0;
@@ -92,10 +93,16 @@
 
 @media (min-width: $desktop-width) {
   .title-line {
-    margin: 55px -45px 14px;
+    margin: 55px -40px 14px;
   }
 
   .title-line--addition {
-    margin: 0 -50px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: $tablet-width - 1) {
+  .title-line::before {
+    display: none;
   }
 }

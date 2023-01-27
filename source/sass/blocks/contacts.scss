@@ -46,16 +46,16 @@
   color: #444444;
   width: 100%;
   padding: 12px 13px;
-  border: 1px solid #E7E7E7;
+  border: 1px solid #e7e7e7;
   box-sizing: border-box;
 }
 
 .contacts__field:hover {
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
 }
 
 .contacts__field:focus {
-  border: 2px solid #444444;
+  box-shadow: 2px solid #444444;
 }
 
 .contacts__field--letter {
@@ -116,7 +116,7 @@
 
 @media (min-width: $desktop-width) {
   .contacts {
-    margin: 72px -9px 0;
+    margin: 72px 0 0;
   }
 
   .contacts__container {

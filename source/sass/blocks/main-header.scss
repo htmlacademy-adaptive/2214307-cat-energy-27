@@ -4,6 +4,7 @@
   color: #000000;
   background-color: #ffffff;
   position: relative;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .main-header__logo-image {
@@ -20,10 +21,10 @@
   width: 202px;
 }
 
-
 .main-header__wrapper {
   margin: 0;
-  margin-top: 11px;
+  padding-top: 10px;
+  padding-bottom: 6px;
   width: 280px;
 }
 
@@ -106,7 +107,16 @@
   display: none;
 }
 
+.main-header--nojs .main-nav__list {
+  position: static;
+  display: block;
+}
+
 @media (min-width: $tablet-width) {
+  .main-header {
+    border-bottom: 0;
+  }
+
   .main-header--closed .site-list {
     display: flex;
   }
@@ -115,16 +125,12 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: 33px 0 0;
+    margin: 0;
   }
 
   .main-header__wrapper--catalog {
     margin: 0;
-    margin-top: 6px;
-  }
-
-  .main-header__wrapper--form {
-    margin: 8px 0 0;
+    padding-top: 7px;
   }
 
   .main-header__toggle::before {
@@ -135,9 +141,6 @@
     height: 51.68px;
     display: block;
     width: 176px;
-    // background-image: url("../img/logo-tablet.png");
-    // background-repeat: no-repeat;
-    // background-position: left;
   }
 
   .main-header-logo {
@@ -163,7 +166,8 @@
     justify-content: space-between;
     align-items: center;
     width: 1227px;
-    margin: 33px -10px 0px;
+    margin: 33px 0 0;
+    padding: 0;
   }
 
   .main-header__logo-image {
@@ -182,7 +186,7 @@
     position: absolute;
     content: "";
     top: 0;
-    right: 0px;
+    right: 0;
     height: 694px;
     width: 50%;
     background-color: rgba(104, 183, 56, 0.85);
@@ -210,11 +214,9 @@
   }
 
   .main-header__container {
-    // background-image: url("..//img/logosun.png");
     height: 59px;
     width: 202px;
     margin-top: 53px;
-
   }
 
   .main-nav__toggle {

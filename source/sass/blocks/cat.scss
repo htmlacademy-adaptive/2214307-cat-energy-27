@@ -1,10 +1,9 @@
 .cat {
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
 }
 
 .cat__title--costs {
-  margin: 0;
-  margin-top: 7px;
+  margin: 21px 0 0;
 }
 
 .cat__wrapper {
@@ -45,11 +44,11 @@
 @media (min-width: $tablet-width) {
   .cat {
     background: none;
-    background-image: linear-gradient(#fff 0, #fff 60%, #f2f2f2 57%, #f2f2f2 100%);
+    background-image: linear-gradient(#fff 0,#fff 56.7%,#f2f2f2 56.6%,#f2f2f2 100%);
   }
 
-  .cat__title--flex {
-    margin-top: 9px;
+  .cat__cost {
+    margin-top: 8px;
   }
 
   .cat__wrapper {
@@ -57,14 +56,7 @@
     background-color: #ffffff;
     min-height: 490px;
     margin: -8px 0 0;
-    padding: 25px 0 0px;
-  }
-
-  .cat__story--description {
-    width: 708px;
-    margin-top: 63px;
-    font-size: 16px;
-    line-height: 24px;
+    padding: 25px 0 0;
   }
 
   .cat__wasted {
@@ -79,19 +71,12 @@
     width: 180px;
     font-size: 20px;
     line-height: 20px;
-    margin: 0px 3px 0;
+    margin: 0 3px 0;
     min-height: 70px;
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
   }
-
-
-  .cat__story--title {
-    font-size: 60px;
-    line-height: 60px;
-    width: 390px;
-  }
-
 }
 
 @media (min-width: $desktop-width) {
@@ -114,17 +99,12 @@
 
   .cat__title {
     width: 326px;
-    margin-top: 41px;
+    margin-top: 46px;
     flex-direction: row;
-    margin-left: -9px;
+    margin-left: 0;
   }
 
-  .cat__story--description {
-    width: 432px;
-    margin: 0 0 0 -10px;
-  }
-
-  .cat__title--flex {
+  .cat__cost {
     margin-left: 65px;
     margin-top: 1px;
   }
@@ -135,11 +115,6 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 69px;
-  }
-
-  .cat__story--title {
-    margin-bottom: 146px;
-    margin-left: -10px;
   }
 
   .cat-slider {

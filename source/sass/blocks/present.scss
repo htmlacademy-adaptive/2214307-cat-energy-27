@@ -3,7 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgba(104, 183, 56, 0.85);
-  margin-top: 56.12px;
+  margin-top: 34px;
   width: 280px;
   min-height: 289.88px;
   display: flex;
@@ -23,7 +23,6 @@
   position: absolute;
   top: 59px;
   left: 101px;
-
 }
 
 .present__container::after {
@@ -61,7 +60,7 @@
     gap: 265px;
     position: relative;
     background-position-y: -325px;
-    margin-top: 82.12px;
+    margin-top: 66px;
     justify-content: flex-end;
   }
 
@@ -85,7 +84,6 @@
     margin: 8px 123px 0;
     text-align: left;
   }
-
 }
 
 @media (min-width: $desktop-width) {
