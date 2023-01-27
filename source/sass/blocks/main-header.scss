@@ -107,6 +107,11 @@
   display: none;
 }
 
+.main-header--nojs .main-nav__list {
+  position: static;
+  display: block;
+}
+
 @media (min-width: $tablet-width) {
   .main-header {
     border-bottom: 0;
