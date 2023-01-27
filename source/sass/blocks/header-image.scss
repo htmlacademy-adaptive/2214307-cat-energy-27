@@ -63,9 +63,12 @@
 
 @media (min-width: $tablet-width) {
   .header-image {
-    margin-left: 97px;
     min-height: 800px;
-    margin-top: 55px;
+    margin-top: 48px;
+  }
+
+  .header-image__container {
+    margin-left: 88px;
   }
 
   .header-image::after {

@@ -22,9 +22,14 @@
 
 @media (min-width: $tablet-width) {
   .results {
-    margin: 0 0 0 20px;
-    gap: 80px;
-    width: 326px;
+    margin: 0;
+    gap: 43px;
+    width: 366px;
+  }
+
+  .results__list {
+    width: 161px;
+    padding-top: 16px;
   }
 }
 

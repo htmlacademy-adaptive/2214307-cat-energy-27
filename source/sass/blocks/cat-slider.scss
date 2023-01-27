@@ -63,11 +63,12 @@
     position: absolute;
     content: "";
     top: -65px;
-    left: 334px;
+    left: 50%;
     background-image: url("../img/icons/slider.svg");
     background-repeat: no-repeat;
     width: 42px;
     height: 512px;
+    transform: translateX(-116%);
   }
 
   .cat-slider__picture {

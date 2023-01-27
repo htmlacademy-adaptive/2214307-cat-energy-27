@@ -37,20 +37,10 @@
   }
 
   .days-list__item--time {
-    margin: 13.53px auto 0;
-    width: 126px;
+    margin: 10.53px auto -6px;
+    width: 142px;
     font-size: 14px;
-  }
-
-  .days-list::after {
-    background-image: url("../img/icons/border-tablet.svg");
-    background-repeat: no-repeat;
-    content: "";
-    position: absolute;
-    top: -14px;
-    left: -17px;
-    width: 162px;
-    height: 82px;
+    background: #ffffff;
   }
 }
 

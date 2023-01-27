@@ -31,26 +31,16 @@
 }
 
 @media (min-width: $tablet-width) {
+  .weight-result__item--description {
+    margin: 10.53px auto -6px;
+    width: 114px;
+    font-size: 14px;
+    background: #ffffff;
+  }
+
   .weight-result__item--kilo {
     font-size: 30px;
     line-height: 37px;
-  }
-
-  .weight-result__item--description {
-    font-size: 14px;
-    margin: 13.53px auto 0;
-    width: 101px;
-  }
-
-  .weight-result__item::after {
-    background-image: url("../img/icons/border-long-tablet.svg");
-    background-repeat: no-repeat;
-    content: "";
-    position: absolute;
-    top: -14px;
-    left: -19px;
-    width: 169px;
-    height: 75px;
   }
 }
 
