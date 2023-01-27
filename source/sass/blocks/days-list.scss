@@ -46,7 +46,7 @@
 
 @media (min-width: $desktop-width) {
   .days-list__item--time {
-    margin: 8.53px auto 0;
+    margin: 8.53px auto -6px;
   }
 
   .days-list::after {

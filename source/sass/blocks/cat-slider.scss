@@ -104,6 +104,10 @@
 }
 
 @media (min-width: $desktop-width) {
+  .cat-slider {
+    width: 100%;
+  }
+
   .cat-slider__picture {
     min-height: 555px;
     width: 46%;
@@ -127,6 +131,6 @@
 
   .cat-slider__wrapper::after {
     top: 1px;
-    left: 478px;
+    left: 491px;
   }
 }

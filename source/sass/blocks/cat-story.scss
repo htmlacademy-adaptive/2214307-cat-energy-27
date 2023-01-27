@@ -32,11 +32,10 @@
 @media (min-width: $desktop-width) {
   .cat-story__description {
     width: 432px;
-    margin: 0 0 0 -10px;
+    margin: 0;
   }
 
   .cat-story__title {
     margin-bottom: 146px;
-    margin-left: -10px;
   }
 }
