@@ -59,7 +59,7 @@
 
 @media (min-width: $desktop-width) {
   .descriptions {
-    margin-top: 40px;
+    margin-top: 43px;
     width: 100%;
   }
 
@@ -67,11 +67,12 @@
     line-height: 21px;
     margin: 0 auto;
     margin-bottom: 23px;
+    padding-left: 11px;
   }
 
   .descriptions__list {
-    margin-bottom: 4px;
-    width: 169px;
+    margin-bottom: 5px;
+    width: 162px;
     margin-left: auto;
     margin-right: auto;
   }

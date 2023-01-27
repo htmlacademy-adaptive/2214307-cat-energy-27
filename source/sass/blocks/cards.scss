@@ -163,17 +163,16 @@
 
 @media (min-width: $desktop-width) {
   .cards {
-    padding: 0 0 40px;
+    padding: 0 0 41px;
   }
 
   .cards__title--show {
     line-height: 21px;
+    margin-bottom: 26px;
   }
 
-  .cards__img--chicken500 {}
-
   .cards__img--chicken1000 {
-    width: 177px;
+    width: 171px;
   }
 
   .cards__img--fish500 {
