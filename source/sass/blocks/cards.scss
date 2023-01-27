@@ -47,6 +47,7 @@
 .cards__img {
   margin: 0 auto;
   margin-left: 20px;
+  background: none;
 }
 
 .cards__img--chicken500 {
@@ -161,7 +162,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .cards{
+  .cards {
     padding: 0 0 40px;
   }
 
@@ -169,9 +170,7 @@
     line-height: 21px;
   }
 
-  .cards__img--chicken500 {
-
-  }
+  .cards__img--chicken500 {}
 
   .cards__img--chicken1000 {
     width: 177px;
