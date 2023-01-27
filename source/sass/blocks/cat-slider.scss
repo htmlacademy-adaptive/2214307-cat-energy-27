@@ -55,7 +55,8 @@
 
 @media (min-width: $tablet-width) {
   .cat-slider__wrapper {
-    width: 768px;
+    margin: 0;
+    width: 100%;
     min-height: 461px;
   }
 
@@ -68,12 +69,12 @@
     background-repeat: no-repeat;
     width: 42px;
     height: 512px;
-    transform: translateX(-116%);
+    transform: translateX(-46%);
   }
 
   .cat-slider__picture {
     min-height: 547px;
-    width: 46%;
+    width: 50%;
     overflow: hidden;
     position: relative;
     top: -67px;
