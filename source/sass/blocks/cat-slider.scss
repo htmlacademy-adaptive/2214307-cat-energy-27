@@ -41,16 +41,17 @@
   min-width: 265px;
 }
 
-// // .cat-slider__wrapper::after {
-//   position: absolute;
-//   content: "";
-//   top: -65px;
-//   left: 334px;
-//   background-image: url("../img/icons/slider.svg");
-//   background-repeat: no-repeat;
-//   width: 42px;
-//   height: 512px;
-// // }
+.cat-slider__wrapper::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  background-image: url("../img/icons/slider-mob.svg");
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 258px;
+  transform: translateX(-50%);
+}
 
 @media (min-width: $tablet-width) {
   .cat-slider__wrapper {
